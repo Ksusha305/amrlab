@@ -8,7 +8,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 const Homep = () => {
   return (
-    <div> 
+    <div className='homegl'> 
         <AnimatePresence>
             <motion.div {...headTextAnimation}>
                 <h1 className='head-text'>
