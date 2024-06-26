@@ -15,6 +15,13 @@ const Homep = () => {
                     АМР <br className="xl: block hidden" />ЛАБ
                 </h1>
             </motion.div>
+            <motion.img
+                animate={{ x: 1300}}
+                transition={{ duration: 1.5 }}
+                src='./bolt(1).png' 
+                alt='logo'
+                className='image' 
+            /> 
             <div className='opisan'>  
                 <motion.div {...headContentAnimation} className='flex flex-col gap-5'>
                     <p className='opicanie'>
