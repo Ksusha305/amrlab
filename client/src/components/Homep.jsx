@@ -16,11 +16,11 @@ const Homep = () => {
                 </h1>
             </motion.div>
             <motion.img
-                animate={{ x: 1300}}
-                transition={{ duration: 1.5 }}
-                src='./bolt(1).png' 
+               animate={{ x: 1300}}
+               transition={{ duration: 1.5 }}
+                src="./bolt (1).png" 
                 alt='logo'
-                className='image' 
+                className='image'
             /> 
             <div className='opisan'>  
                 <motion.div {...headContentAnimation} className='flex flex-col gap-5'>
