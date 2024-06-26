@@ -18,7 +18,7 @@ const Homep = () => {
             <motion.img
                 animate={{ x: 1300}}
                 transition={{ duration: 1.5 }}
-                src='./bolt(1).png' 
+                src='./bolt (1).png' 
                 alt='logo'
                 className='image' 
             /> 
