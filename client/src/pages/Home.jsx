@@ -47,6 +47,9 @@ const Home = () => {
         <a href="https://www.instagram.com/yourusername" target="_blank">
           <img src="../public/in.svg" alt="Instagram Icon"/>
         </a> 
+        <a href="https://www.instagram.com/yourusername" target="_blank">
+          <img src="../public/11.svg" alt="Instagram Icon"/>
+        </a> 
         </div>
       
     </div> 
