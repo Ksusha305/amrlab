@@ -2,9 +2,14 @@ import React from 'react'
 
 const Razrab = () => {
   return (
-    <div className='Razrab'>
-      <div className='dbbs'><h1 className='head-text1'>Разработки<h3>.</h3></h1><div className='linerazrab'><br></br></div></div>   
-      <div>jjууууууууjjj</div>
+    <div className='razrab'>
+      <div> 
+        <img className='char' src="../public/char.png" alt="Facebook Icon"></img>
+      </div>
+      <div className='razrabtext'>
+        <div className='fonrazrab1'></div>
+        <div className='fonrazrab2'></div>
+      </div>
     </div>
   )
 }

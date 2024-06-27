@@ -2,8 +2,17 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='About'>
-      <div className='dbbs'><h1 className='head-text1'>О нас<h3>.</h3></h1><div className='lineabout'><br></br></div></div>  
+      <div className='about'> 
+      <div className='izolen1'>
+        <div className='izolen'>
+          <b className='textbout'>С уходом иностранных компаний с рынка, остро встал вопрос нехватки средств и устройств автоматизации производственных процессов. Автоматически управляемая тележка (AGV) является одной из ключевых направлений в области автоматизации промышленных, сельскохозяйственных, складских и пр. комплексов.</b>
+      </div>
+      </div>
+        <div className='shestabout'>
+          <img className='shestaboutt' src="../public/shest.png" alt="Facebook Icon"></img>
+      </div>
+
+      {/* <div className='dbbs'><h1 className='head-text1'>О нас<h3>.</h3></h1><div className='lineabout'><br></br></div></div>  
       <div className='kr'>
         <div className='colomnleft'>
           <b className='nt'>Проблемы людей</b>
@@ -17,7 +26,7 @@ const About = () => {
 <b className='nt'>Решения</b>
 <div className='textaboutgl'>Данный проект решает проблемы автоматизации промышленных комплексов таких как: складские (робот кладовщик, робот уборщик, робот транспортер т.д.), сельскохозяйственные (подталкиватель корма для КРС, робот уборщик и т.д.), производственные (робот транспортер, робот сварщик, и т.д.) и многие другие. С помощью автоматических механизмов (роботов), а в частности AGV тележек, возможно, полностью заменить рабочий труд, тем самым снизить издержки.</div>
     </div>
-    </div>
+    </div> */}
     </div>
   )
 }

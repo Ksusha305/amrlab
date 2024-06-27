@@ -49,12 +49,12 @@ html {
   display: flex;
   align-items: center;
   height: 1000px;
-  background-color: rgb(17,17,17);
+  background-color: rgb(8,8,8);
   margin-left: calc(50px + 16 * (100vw / 1280));
 }
 .section {
   height: 100%;
-  background-color: rgb(17,17,17);
+  background-color: rgb(8,8,8);
   padding-top: 70px;
  /* margin-left: calc(50px + 16 * (100vw / 1280));*/
 }
@@ -154,9 +154,25 @@ html {
 }
 
 .razrab {
-  height: 1300px;
+  height: 1024px;
   padding: 0;
 
+}
+
+.razrabtext {
+  width: 600px;
+}
+
+.fonrazrab1 {
+  background-image: url(../public/ruka.png);
+  width: 510px;
+  height: 1100px;
+}
+
+.fonrazrab2 {
+  background-image: url(../public/fchar.png);
+  width: 226px;
+  height: 216px;
 }
 
 
@@ -330,7 +346,7 @@ input[type="file"] {
   position: fixed;
 }
 #root {
-  background: rgb(17,17,17);
+  background: rgb(8,8,8);
 }
 
 
@@ -503,8 +519,54 @@ div:focus {
   border: 1px solid blues;
 }
 
-.About {
+
+.about {
+  width: 100%;
   height: 1300px;
-  padding: 0 ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vstavka {
+  width: 600px;
+  margin-left: 10%;
+  border-style: solid;
+  border-color: #ebecf3;
+  border-width: 5px;
+  text-align: center;
+  background: rgb(17, 17, 17);
+  padding: 30px;
+}
+
+.textbout {
+  text-align: center;
+  color: #ebecf3;
+  font-size: 35px;
+  font-family: Nunito Sans;
+}
+
+.char {
+  width: 400px;
+  height: 430px;
+}
+
+.izolen {
+  width: 1260px;
+  height: 1000px;
+  background-image: url(../public/fona.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 227px;
+}
+
+.shestabout {
+    width: 800px;
+    height: 850px;
+}
+
+.shestaboutt {
+
+
 }
 

@@ -53,64 +53,6 @@ const Home = () => {
         </div>
       
     </div> 
-    <div className='header2'>
-      <div  className='dd'>
-        <div className='fonhead'>
-          <div className="link" onClick={() => {
-            homeRef.current?.scrollIntoView({
-              behavior: "smooth"
-            })
-          }}>
-            Главная
-            </div>
-              <div className='linehead'>
-                <br></br>
-              </div>  
-          </div>
-        </div>
-        <div  className='dd'>
-          <div className='fonhead'>
-            <div className="link" onClick={() => {
-              aboutRef.current?.scrollIntoView({
-                behavior: "smooth"
-              })
-            }}>
-              О нас
-            </div> 
-            <div className='linehead'>
-                <br></br>
-            </div>   
-          </div>
-        </div>
-        <div  className='dd'>
-          <div className='fonhead'>
-            <div className="link" onClick={() => {
-              razrabRef.current?.scrollIntoView({
-                behavior: "smooth"
-              })
-            }}>
-              Разработки
-            </div>
-            <div className='linehead'>
-                <br></br>
-            </div>  
-          </div>
-        </div>    
-        <div  className='dd'>
-          <div className='fonhead'>
-            <div className="link" onClick={() => {
-              contactRef.current?.scrollIntoView({
-                behavior: "smooth"
-              })
-            }}>
-              Контакты
-            </div>
-            <div className='linehead'>
-                <br></br>
-            </div>  
-          </div>
-        </div>
-      </div>
       {snap.intro && (
         <section className='home' >
           <div className='home_content1' id='home_content1' ref={homeRef} >
