@@ -16,9 +16,15 @@ const Homep = () => {
                 </h1>
             </motion.div>
             <motion.img
+<<<<<<< HEAD
                animate={{ x: 1300}}
                transition={{ duration: 1.5 }}
                 src="./bolt (1).png" 
+=======
+                animate={{ x: 1300}}
+                transition={{ duration: 1.5 }}
+                src='./bolt (1).png' 
+>>>>>>> 65e15e406527d6aab0047337f4e2dad05a677ddc
                 alt='logo'
                 className='image'
             /> 
