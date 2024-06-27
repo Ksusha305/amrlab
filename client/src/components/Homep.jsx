@@ -12,16 +12,16 @@ const Homep = () => {
         <AnimatePresence>
             <motion.div {...headTextAnimation}>
                 <h1 className='head-text'>
-                    АМР <br className="xl: block hidden" />ЛАБ
+                    ЧТО- <br className="xl: block hidden" />ТО
                 </h1>
             </motion.div>
-            <motion.img
+            {/* <motion.img
                 animate={{ x: 1300}}
                 transition={{ duration: 1.5 }}
                 src='./bolt (1).png' 
                 alt='logo'
                 className='image'
-            /> 
+            />  */}
             <div className='opisan'>  
                 <motion.div {...headContentAnimation} className='flex flex-col gap-5'>
                     <p className='opicanie'>

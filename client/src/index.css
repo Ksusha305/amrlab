@@ -327,6 +327,8 @@ input[type="file"] {
 .image {
    width: 75px;
    height: 79px;
+   display: flex;
+  margin-left: 15px;
 }
 
 .headerContent {
@@ -570,3 +572,9 @@ div:focus {
 
 }
 
+.head_logo_text {
+  @apply xl:text-[10rem] text-[10rem] xl:leading-[10rem] leading-[10rem] font-black;
+  font-size: 43px;
+  color: rgb(235,236,243);
+  margin-left: 50px;
+}

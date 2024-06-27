@@ -10,6 +10,7 @@ import { useRef } from 'react';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Razrab from '../components/Razrab';
+import AnimatedLetter from '../components/AnimatedLetter';
 const Home = () => {
   const homeRef = useRef();
   const aboutRef =useRef();
@@ -30,14 +31,72 @@ const Home = () => {
   return (
     <AnimatePresence>
       <div animate="animate" initial="initial" className='header'>
-      <motion.img
-        animate={{ x: 1300}}
-        transition={{ duration: 1.5 }}
-        src='./ma.png' 
-        alt='logo'
-        className='image' 
-      /> 
-      <div class="social-icons">
+        <h2 className='head_logo_text'>
+          <AnimatedLetter text="АМР ЛАБ" />
+        </h2>
+        <motion.img src='ma.png' 
+                alt='logo'
+                className='image'/>
+      </div>
+      {/* <div className='header2'>
+      <div  className='dd'>
+        <div className='fonhead'>
+          <div className="link" onClick={() => {
+            homeRef.current?.scrollIntoView({
+              behavior: "smooth"
+            })
+          }}>
+            Главная
+            </div>
+              <div className='linehead'>
+                <br></br>
+              </div>  
+          </div>
+        </div>
+        <div  className='dd'>
+          <div className='fonhead'>
+            <div className="link" onClick={() => {
+              aboutRef.current?.scrollIntoView({
+                behavior: "smooth"
+              })
+            }}>
+              О нас
+            </div> 
+            <div className='linehead'>
+                <br></br>
+            </div>   
+          </div>
+        </div>
+        <div  className='dd'>
+          <div className='fonhead'>
+            <div className="link" onClick={() => {
+              razrabRef.current?.scrollIntoView({
+                behavior: "smooth"
+              })
+            }}>
+              Разработки
+            </div>
+            <div className='linehead'>
+                <br></br>
+            </div>  
+          </div>
+        </div>    
+        <div  className='dd'>
+          <div className='fonhead'>
+            <div className="link" onClick={() => {
+              contactRef.current?.scrollIntoView({
+                behavior: "smooth"
+              })
+            }}>
+              Контакты
+            </div>
+            <div className='linehead'>
+                <br></br>
+            </div>  
+          </div>
+        </div>
+      </div> */}
+      {/* <div class="social-icons">
         <a href="https://www.facebook.com/yourusername" target="_blank">
           <img className='icon' src="../public/face.svg" alt="Facebook Icon"/>
         </a>
@@ -50,9 +109,9 @@ const Home = () => {
         <a href="https://www.instagram.com/yourusername" target="_blank">
           <img src="../public/11.svg" alt="Instagram Icon"/>
         </a> 
-        </div>
+        </div> */}
       
-    </div> 
+    {/* </div>  закрывание прошлого верхнего, щас другой и другое закрытие*/}
       {snap.intro && (
         <section className='home' >
           <div className='home_content1' id='home_content1' ref={homeRef} >
