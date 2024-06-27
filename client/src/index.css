@@ -156,21 +156,25 @@ html {
 .razrab {
   height: 1024px;
   padding: 0;
+  display: flex;
 
 }
 
 .razrabtext {
-  width: 600px;
+  width: 72%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .fonrazrab1 {
-  background-image: url(../public/ruka.png);
+  background-image: url(../public/ruca.png);
   width: 510px;
   height: 1100px;
 }
 
 .fonrazrab2 {
-  background-image: url(../public/fchar.png);
+  background-image: url(../public/charr.png);
   width: 226px;
   height: 216px;
 }
@@ -563,7 +567,7 @@ div:focus {
 }
 
 .shestabout {
-    width: 800px;
+    width: 780px;
     height: 850px;
 }
 
@@ -572,9 +576,3 @@ div:focus {
 
 }
 
-.head_logo_text {
-  @apply xl:text-[10rem] text-[10rem] xl:leading-[10rem] leading-[10rem] font-black;
-  font-size: 43px;
-  color: rgb(235,236,243);
-  margin-left: 50px;
-}
