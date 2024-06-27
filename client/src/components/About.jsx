@@ -9,7 +9,7 @@ const About = () => {
       </div>
       </div>
         <div className='shestabout'>
-          <img className='shestaboutt' src="../public/shest.png" alt="Facebook Icon"></img>
+          <img className='shestaboutt' src="../public/shect.png" alt="Facebook Icon"></img>
       </div>
 
       {/* <div className='dbbs'><h1 className='head-text1'>О нас<h3>.</h3></h1><div className='lineabout'><br></br></div></div>  
