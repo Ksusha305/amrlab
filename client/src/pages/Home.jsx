@@ -1,9 +1,11 @@
-import { motion, AnimatePresence} from 'framer-motion';
+import { motion, AnimatePresence, useAnimate, easeOut} from 'framer-motion';
 import { useSnapshot } from 'valtio';
 import state from '../store';
+import { useEffect } from 'react';
 import { 
   headContainerAnimation,
-  slideAnimation  
+  slideAnimation,  
+  transition
  } from '../config/motion';
 import Homep from '../components/Homep'; 
 import { useRef } from 'react';
@@ -12,32 +14,40 @@ import Contact from '../components/Contact';
 import Razrab from '../components/Razrab';
 import AnimatedLetter from '../components/AnimatedLetter';
 const Home = () => {
+  const [scope, animate] = useAnimate();
   const homeRef = useRef();
   const aboutRef =useRef();
   const contactRef = useRef();
   const razrabRef =useRef();
-  const container = {
-    initial: { opacity: 0 },
-    animate: { opacity: 1, transition: { staggerChildren: 0.5 } }
+  const variants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 }
   };
-  $maxWidth: 1280;
-  
-  
-  const child = {
-    initial: { opacity: 0, x: 50 },
-    animate: { opacity: 1, x: 0 }
-  };  
+  async function myAnim(){
+    await animate(scope.current, {duration: 1})
+    await animate(scope.current, { rotate: 90}, {duration:  0.3})
+    await animate(scope.current, { y: 280}, {duration: 1})
+    await animate(scope.current, { rotate: 0}, {duration:  0.3})
+  }
  const snap = useSnapshot(state);
+  useEffect(() => {
+    myAnim();
+  }, []);
   return (
     <AnimatePresence>
       <div animate="animate" initial="initial" className='header'>
         <h2 className='head_logo_text'>
           <AnimatedLetter text="АМР ЛАБ" />
         </h2>
-        <motion.img src='ma.png' 
-                alt='logo'
-                className='image'/>
       </div>
+        <motion.img 
+           ref={scope}
+           initial= "hidden"
+            src='ma.png' 
+            alt='logo'
+            className='image'
+            
+        />
       {/* <div className='header2'>
       <div  className='dd'>
         <div className='fonhead'>

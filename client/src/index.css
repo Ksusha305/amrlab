@@ -332,7 +332,7 @@ input[type="file"] {
    width: 75px;
    height: 79px;
    display: flex;
-  margin-left: 15px;
+  margin-left: 250px;
 }
 
 .headerContent {
@@ -346,7 +346,8 @@ input[type="file"] {
   display: flex;
   align-items: center;
   background: rgba(17,17, 17, 0.3);
-  backdrop-filter: blur(13px);
+  background: transparent;
+  /* backdrop-filter: blur(13px); */
   height: calc(64px + 16 * (100vw / 1280));
   width: 100%;
   position: fixed;
@@ -576,3 +577,9 @@ div:focus {
 
 }
 
+.head_logo_text {
+  @apply xl:text-[10rem] text-[10rem] xl:leading-[10rem] leading-[10rem] font-black;
+  font-size: 43px;
+  color: rgb(235,236,243);       
+  margin-left: 30px;
+}
