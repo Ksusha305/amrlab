@@ -1,30 +1,18 @@
 import React from 'react'
+import {motion} from "framer-motion"
 const Razrab = () => {
   return (
-<<<<<<< HEAD
-    <div className='razrab'/>
-=======
     <div className='razrab'>
-        <img className='char' src="../public/ruk.png" alt="Facebook Icon"></img>
-          <div className='fonrazrabgl'>
-            <div className='fonrazrab1'></div>
-          </div>
+      <motion.img 
+            
+            src='ma.png'
+            alt='logo'
+            className='image3'  
+        />
+        <img className='char' src="../public/ruk.png" />
+        <h2 className='about1'>Алгоритм<strong className='txcol'>.</strong></h2>
+        
     </div>
-
-
->>>>>>> 4f5e9cf00b763e2e9ad384f8e260c766e1eb0760
-    //     <img className='char' src="../public/char.png" alt="Facebook Icon"></img>
-    //     <div className='razrabtext'>
-    //       <div className='fonrazrabgl'>
-    //         <div className='fonrazrab1'></div>
-    //         <div className='fonrazrab2'></div>
-    //       </div>
-    //   </div>
-    // </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 4f5e9cf00b763e2e9ad384f8e260c766e1eb0760
   )
 }
 

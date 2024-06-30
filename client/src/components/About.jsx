@@ -68,46 +68,92 @@ const About = () => {
         /> */}
         <div className='pl'>
           <div className='dxj'>
-            <div className='lnaz'>название</div>
+            <div className='lnaz'>Характеристики</div>
             <div className='lineabo'>
-              <div className='columnleft'>
-                <div className='textcolumn'>
-                    <div className='treygleft'></div>
-                    <div>
-                      <div>
-                        dd
-                      </div>
-                      <div>
-                        ff
-                      </div>
+              <motion.div 
+              // initial={{opacity: 0}}
+              // whileInView={{opacity: 1}}
+              // transition={{duration: 1}}
+              className='columnleft'
+              >
+              {/* <img src="../public/threejs.png"/>   */}
+                <motion.div 
+                initial={{scale: 0}}
+                whileInView={{opacity: 1, scale: 1}}
+                transition={{duration: 1 }}
+                className='textcolumn'>
+                  <div className='treygleft'/>
+                  <div>
+                    <div className='ub1'>
+                        -Привод: электрический
                     </div>
+                      <div className='ub1'>
+                        -Управление шасси: автономный контроллер
+                      </div>
+                      <div className='ub1'>
+                        -Настройка: встроенный интерфейс
+                      </div>
+                      <div className='ub1'>
+                        -Протокол связи: WI-Fi
+                      </div>
+                      <div className='ub1'>
+                        -Скорость: 1km/час
+                      </div>
                   </div>
-                </div>
+                  </motion.div>
+                </motion.div>
                 <div className='columnright'>
-                <div className='textcolumn'>
+                <motion.div 
+                initial={{scale: 0}}
+                whileInView={{opacity: 1, scale: 1}}
+                transition={{duration: 1 }}
+                className='textcolumn'>
                     <div className='treygright'></div>
                     <div>
-                      <div>
-                        eee
-                      </div>
-                      <div>
-                        eee
-                      </div>
+                      <h2 className='ub1'>
+                        -Настройка движения: локальные метки 
+                      </h2>
+                      <h2 className='ub1'>
+                        -Управление: автоматическое по датчикам
+                      </h2>
+                      <h2 className='ub1'>
+                        -Безопасность: датчики, аварийная остановка
+                      </h2>
+                      <h2 className='ub1'>
+                        -Питание: 24В 100A/час (встр. аккамуляторы)
+                      </h2>
+                      <h2 className='ub1'>
+                        -Система зарядки от сети: 220В, 50Гц
+                      </h2>
                     </div>
-                </div>
+                </motion.div>
                 </div>
                 <div className='columnleft'>
-                <div className='textcolumn'>
+                <motion.div 
+                initial={{scale: 0}}
+                whileInView={{opacity: 1, scale: 1}}
+                transition={{duration: 1 }}
+                className='textcolumn'>
                     <div className='treygleft'></div>
                     <div>
-                      <div>
-                        dd
-                      </div>
-                      <div>
-                        ff
-                      </div>
+                      <h2 className='ub1'>
+                        -Автономность: зависит от условий
+                      </h2>
+                      <h2 className='ub1'>
+                          -Продолжительность работы: 8 часов
+                      </h2>
+                      <h2 className='ub1'>
+                          -Время зарядки: не более 10 часов
+                      </h2>
+                      <h2 className='ub1'>
+                          -Габарит: не более 2500х1500х1500 мм
+                      </h2>
+                      <h2 className='ub1'>
+                          -Режимы: ручной, автоматический 
+                      </h2>
+                      
                     </div>
-                  </div>
+                  </motion.div>
                 </div>
               </div>
             </div>
