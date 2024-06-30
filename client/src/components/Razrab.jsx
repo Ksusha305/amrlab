@@ -8,6 +8,17 @@ const Razrab = () => {
             <div className='fonrazrab1'></div>
           </div>
     </div>
+
+
+    //     <img className='char' src="../public/char.png" alt="Facebook Icon"></img>
+    //     <div className='razrabtext'>
+    //       <div className='fonrazrabgl'>
+    //         <div className='fonrazrab1'></div>
+    //         <div className='fonrazrab2'></div>
+    //       </div>
+    //   </div>
+    // </div>
+
   )
 }
 
