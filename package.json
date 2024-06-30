@@ -1,0 +1,19 @@
+{
+  "name": "amrlab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build && cp build/index.html build/404.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "homepage": "https://Ksusha305.github.io/amrlab",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

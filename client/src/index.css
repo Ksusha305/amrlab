@@ -411,6 +411,14 @@ input[type="file"] {
 }
 
 .image {
+<<<<<<< HEAD
+=======
+   width: 75px;
+   height: 79px;
+   display: flex;
+  margin-left: 250px;
+  margin-top: 15px;
+>>>>>>> 4f5e9cf00b763e2e9ad384f8e260c766e1eb0760
   width: 75px;
   height: 79px;
   opacity: 1;
@@ -433,6 +441,14 @@ input[type="file"] {
   opacity: 1;
   margin-left: 195px;
   margin-top: -1270px;
+<<<<<<< HEAD
+=======
+   width: 75px;
+   height: 79px;
+   display: flex;
+  margin-left: 250px;
+  margin-top: 15px;
+>>>>>>> 4f5e9cf00b763e2e9ad384f8e260c766e1eb0760
 }
 
 .headerContent {
@@ -695,6 +711,16 @@ div:focus {
 .head_logo_text {
   @apply xl:text-[10rem] text-[10rem] xl:leading-[10rem] leading-[10rem] font-black;
   font-size: 30px;
+<<<<<<< HEAD
+=======
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none;
+  font-size: 43px;
+>>>>>>> 4f5e9cf00b763e2e9ad384f8e260c766e1eb0760
   color: rgb(235,236,243);       
   margin-left: 30px;
 }
