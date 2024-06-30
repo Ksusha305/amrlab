@@ -440,13 +440,11 @@ input[type="file"] {
   opacity: 1;
   margin-left: 195px;
   margin-top: -1270px;
-=========
    width: 75px;
    height: 79px;
    display: flex;
   margin-left: 250px;
   margin-top: 15px;
->>>>>>>>> Temporary merge branch 2
 }
 
 .headerContent {
@@ -703,9 +701,7 @@ div:focus {
  
 .head_logo_text {
   @apply xl:text-[10rem] text-[10rem] xl:leading-[10rem] leading-[10rem] font-black;
-<<<<<<<<< Temporary merge branch 1
   font-size: 30px;
-=========
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
    -khtml-user-select: none; /* Konqueror HTML */
@@ -713,7 +709,6 @@ div:focus {
       -ms-user-select: none; /* Internet Explorer/Edge */
           user-select: none;
   font-size: 43px;
->>>>>>>>> Temporary merge branch 2
   color: rgb(235,236,243);       
   margin-left: 30px;
 
