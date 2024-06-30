@@ -59,7 +59,7 @@ html {
   height: 2000px;
   background-color: rgb(8, 8, 8);
   padding-top: 30px;
-  margin-left: 50px;
+  margin-left: 70px;
   display: block;
 }
 .section1 {
@@ -411,14 +411,11 @@ input[type="file"] {
 }
 
 .image {
-<<<<<<< HEAD
-=======
    width: 75px;
    height: 79px;
    display: flex;
   margin-left: 250px;
   margin-top: 15px;
->>>>>>> 4f5e9cf00b763e2e9ad384f8e260c766e1eb0760
   width: 75px;
   height: 79px;
   opacity: 1;
@@ -441,14 +438,6 @@ input[type="file"] {
   opacity: 1;
   margin-left: 195px;
   margin-top: -1270px;
-<<<<<<< HEAD
-=======
-   width: 75px;
-   height: 79px;
-   display: flex;
-  margin-left: 250px;
-  margin-top: 15px;
->>>>>>> 4f5e9cf00b763e2e9ad384f8e260c766e1eb0760
 }
 
 .headerContent {
@@ -711,8 +700,6 @@ div:focus {
 .head_logo_text {
   @apply xl:text-[10rem] text-[10rem] xl:leading-[10rem] leading-[10rem] font-black;
   font-size: 30px;
-<<<<<<< HEAD
-=======
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
    -khtml-user-select: none; /* Konqueror HTML */
@@ -720,7 +707,6 @@ div:focus {
       -ms-user-select: none; /* Internet Explorer/Edge */
           user-select: none;
   font-size: 43px;
->>>>>>> 4f5e9cf00b763e2e9ad384f8e260c766e1eb0760
   color: rgb(235,236,243);       
   margin-left: 30px;
 }
@@ -868,12 +854,27 @@ div:focus {
   border-radius: 50%;
   width: 70px;
   height: 70px;
-  background: #ebecf3;
+  background: url(../public/kol.png);
   margin-top: 5%;
   position: absolute;
   content: '';
   margin-left: 26px;
   left: 50%;
+  /*border: 2px solid #b0f;*/
+}
+
+
+.column3::before{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background: url(../public/she.jpg);
+  margin-top: 5%;
+  position: absolute;
+  content: '';
+  margin-left: 26px;
+  left: 50%;
+  /*border: 2px solid #b0f;*/
 }
 
 
@@ -881,15 +882,23 @@ div:focus {
   border-radius: 50%;
   width: 70px;
   height: 70px;
-  background: #ebecf3;
+  background: url(../public/bat.jpg);
   margin-top: 5%;
   position: absolute;
   content: '';
   margin-left: 26px;
   left: 50%;
+  /*border: 2px solid #b0f;*/
 }
 
 .columnleft {
+  display: flex;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+
+.column3 {
   display: flex;
   margin-left: 4%;
   margin-right: 4%;
@@ -906,4 +915,23 @@ div:focus {
   margin-left: 4rem;
   margin-right: 4rem;
 
+}
+
+#contact {
+  height: 100px;
+}
+
+.linefooter {
+  width: 100%;
+  height: 2px;
+  background: #ebecf3;
+}
+
+
+.cont {
+  display: flex;
+  color: #ebecf3;
+  align-items: center;
+  height: 100px;
+  justify-content: space-around;
 }

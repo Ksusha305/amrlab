@@ -2,8 +2,20 @@ import React from 'react'
 
 const Contact = () => {
   return (
+    
     <div className='contact'>
-      <div className='contactoz'><h1 className='head-textcon'>Контакты<h3>.</h3></h1></div>  
+      <div className="linefooter">
+        <br></br>
+      </div>
+      <div className='cont'>
+        <div>ООО «АМР Лаб»</div>
+        <div>ИНН 3900016545, КПП 390001001</div>
+        <div>ОГРН 1233900011344</div>
+        <div>E-mail: bocha083@mail.ru</div>
+        <div>Тел: +7 (911) 858 95 63 </div>
+        <div>236029 г. Калининград, ул Горького, дом 69, офис 4</div>
+      </div>
+      {/* <div className='contactoz'><h1 className='head-textcon'>Контакты<h3>.</h3></h1></div>  
       <div className='foter'>
         <div className='cont1'>
           <div>
@@ -19,7 +31,7 @@ const Contact = () => {
           </div>
       </div>
       </div>
-      </div>
+      </div> */}
       </div>
 
   )

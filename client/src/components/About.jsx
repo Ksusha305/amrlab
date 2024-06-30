@@ -96,7 +96,7 @@ const About = () => {
                     </div>
                 </div>
                 </div>
-                <div className='columnleft'>
+                <div className='column3'>
                 <div className='textcolumn'>
                     <div className='treygleft'></div>
                     <div>
