@@ -10,7 +10,8 @@ import {
     return (
         
           <AnimatePresence>
-              <div className='g'>
+            <div className='g'>
+                
               <motion.div {...headTextAnimation}>
                   <h1 className='head-text'>
                       Лаборатория мобильных роботов 

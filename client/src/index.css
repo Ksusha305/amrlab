@@ -48,6 +48,15 @@ html {
   color: rgb(235,236,243);
 
 }
+.ub1 {
+  font-size: 25px;         
+  font-weight: 650;
+  /* margin-right: -40px; */
+  color: rgb(235,236,243);
+  /* margin-top: 60px; */
+  margin-left: 15px;
+  /* margin-bottom: -25px; */
+}
 .home_content1 {
   display: flex;
   height: 1000px;
@@ -71,7 +80,7 @@ html {
 }
 
 .example1 {
-  background-color: rgb(17, 17, 17);
+  background-color: #333;
   border-width: 3px;
   border-color: #b0f;
   width: 310px;
@@ -80,7 +89,7 @@ html {
   border-radius: 8%;
 }
 .example2 {
-  background-color: rgb(17, 17, 17);
+  background-color:#333;
   border-width: 3px;
   border-color: #b0f;
   width: 310px;
@@ -89,7 +98,7 @@ html {
   border-radius: 8%;
 }
 .example3 {
-  background-color: rgb(17, 17, 17);
+  background-color: #333;
   border-width: 3px;
   border-color: #b0f;
   width: 310px; 
@@ -97,7 +106,7 @@ html {
   border-radius: 8%;
 }
 .example4 {
-  background-color: rgb(17, 17, 17);
+  background-color: #333;
   border-width: 3px;
   border-color: #b0f;
   width: 310px;
@@ -155,7 +164,20 @@ html {
   color: rgb(235,236,243);       
   margin-bottom: 40px;
 }
-
+.about1 {
+  @apply xl:leading-[5rem] leading-[10rem] ;
+  margin-left: 400px;
+  font-weight: 650;
+  font-size: 70px;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+   -khtml-user-select: none; 
+     -moz-user-select: none; 
+      -ms-user-select: none; 
+          user-select: none;
+  color: rgb(235,236,243);       
+  margin-top: 40px;
+}
 #about {
   height: 3000px;
 }
@@ -423,6 +445,10 @@ input[type="file"] {
   margin-left: 20px;
   margin-top: 15px;
 }
+.image3 {
+  width: 75px;
+   height: 79px;
+}
 
 .image2 {
   width: 105px;
@@ -438,6 +464,14 @@ input[type="file"] {
   opacity: 1;
   margin-left: 195px;
   margin-top: -1270px;
+<<<<<<< HEAD
+=======
+   width: 75px;
+   height: 79px;
+   display: flex;
+  margin-left: 250px;
+  margin-top: 15px;
+>>>>>>> 0d0c4ec5fdedd01698225bd81344dce232fa7fe5
 }
 
 .headerContent {
@@ -600,7 +634,8 @@ a {
 }
 
 .g {
-  margin-top: 20%;
+  margin-top: 150px;
+  margin-left: 150px;
 }
 
 .fonhead {
@@ -804,8 +839,10 @@ div:focus {
 }
 
 .lnaz {
-  color: #ebecf3;
-  font-size: 30px;
+
+  font-size: xx-large;
+  font-weight: 900;         
+  color: rgb(235,236,243);
   text-align: center;
   margin-bottom: 10%;
 }
@@ -824,7 +861,7 @@ div:focus {
     width: 40%;
     background: #333;
     height: 350px;
-    border-bottom: 6px solid #ebecf3;
+    border-bottom: 6px solid #b0f;
     margin-top: 4%;
 }
 

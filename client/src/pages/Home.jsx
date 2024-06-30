@@ -79,7 +79,7 @@ const Home = () => {
                 behavior: "smooth"
               })
             }}>
-              Команда
+              Алгоритм
             </div>
             <div className='linehead'>
                 <br></br>
@@ -93,7 +93,7 @@ const Home = () => {
                 behavior: "smooth"
               })
             }}>
-              Другие разработки
+              Команда
             </div>
             <div className='linehead'>
                 <br></br>
