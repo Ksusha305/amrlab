@@ -131,6 +131,11 @@ html {
 
 }
 
+.carta {
+  width: 350px;
+
+}
+
 .carta_4 {
   color:#000000;
   font-size:12px;
@@ -168,17 +173,10 @@ html {
 }
 
 .fonrazrab1 {
-  background-image: url(../public/ruca.png);
+  background-image: url(../public/shar.png);
   width: 510px;
   height: 1100px;
 }
-
-.fonrazrab2 {
-  background-image: url(../public/charr.png);
-  width: 226px;
-  height: 216px;
-}
-
 
 .dbbs {
 display: ruby;
@@ -203,14 +201,9 @@ h3 {
 }
 
 .cont1 {
+  text-align: center;
+  width: 400px;
   display: grid;
-
-}
-
-.cont {
-  padding: calc(0px + 16 * (100vw / 1280));
-
-
 }
 
 .linebb {
@@ -333,6 +326,7 @@ input[type="file"] {
    height: 79px;
    display: flex;
   margin-left: 250px;
+  margin-top: 15px;
 }
 
 .headerContent {
@@ -552,10 +546,6 @@ div:focus {
   font-family: Nunito Sans;
 }
 
-.char {
-  width: 400px;
-  height: 430px;
-}
 
 .izolen {
   width: 1260px;
@@ -571,15 +561,32 @@ div:focus {
     width: 780px;
     height: 850px;
 }
-
-.shestaboutt {
-
-
-}
-
+ 
 .head_logo_text {
   @apply xl:text-[10rem] text-[10rem] xl:leading-[10rem] leading-[10rem] font-black;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none;
   font-size: 43px;
   color: rgb(235,236,243);       
   margin-left: 30px;
+
+}
+
+.logof {
+  height: 180px;
+}
+
+.sis {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.OOO {
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 2%;
 }
