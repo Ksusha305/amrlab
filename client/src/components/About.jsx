@@ -30,15 +30,18 @@ const About = () => {
              initial={{x: -200}}
              whileInView={{x: 0}}
              transition={{duration: 1}}
-          className='example1'/>
+          className='example1'>
+            <img className="image2" src='../public/trash.svg'/>
+            <h2 className='ub'>Робот уборщик</h2>
+          </motion.div>
           <motion.div 
           initial={{x: -700}}
           animate={{transitionDelay: 1}}
           whileInView={{x: 0}}
           transition={{duration: 1}}
           className='example2'>
-            <img className="image2" src='../public/threejs.png'/>
-            <h2 className='ub'>Робот уборщик</h2>
+            <img className="image2" src='../public/s.svg'/>
+            <h2 className='ub'>Робот транспортер</h2>
          </motion.div>
           <motion.div 
              initial={{x: 500}}
@@ -46,37 +49,28 @@ const About = () => {
              whileInView={{x: 0}}
              transition={{duration: 1}}
           className='example3'>
+            <img className="image2" src='../public/klad.svg'/>
+            <h2 className='ub'>Робот кладовщик</h2>
           </motion.div>
           <motion.div 
           initial={{x: -600}}
           // animate={{transitionDelay: 1}}
           whileInView={{x: 0}}
           transition={{duration: 1}}
-          className='example4'/>
+          className='example4'>
+            <img className="image2" src='../public/svar.svg'/>
+            <h2 className='ub'>Робот сварщик</h2>  
+          </motion.div>
         </div>
         <motion.p className='opicanie1'>Данный проект решает проблемы автоматизации промышленных комплексов таких как: складские, сельскохозяйственные, производственные и многие другие. С помощью автоматических механизмов (роботов), а в частности AGV тележек, возможно, полностью заменить рабочий труд.
         </motion.p>
-        {/* <motion.img 
-            // \ref={scope}
-            src='ma.png' 
-            alt='logo'
-            className='image1'  
-            initial={{opacity: 0}}
-            whileInView={{opacity: 1, rotate: 90}}
-            animate={{y: 200}}
-            transition={{delay: 2, duration: 1}}
-        /> */}
         <div className='pl'>
           <div className='dxj'>
             <div className='lnaz'>Характеристики</div>
             <div className='lineabo'>
               <motion.div 
-              // initial={{opacity: 0}}
-              // whileInView={{opacity: 1}}
-              // transition={{duration: 1}}
               className='columnleft'
               >
-              {/* <img src="../public/threejs.png"/>   */}
                 <motion.div 
                 initial={{scale: 0}}
                 whileInView={{opacity: 1, scale: 1}}
@@ -128,17 +122,12 @@ const About = () => {
                     </div>
                 </motion.div>
                 </div>
-<<<<<<< HEAD
-                <div className='column3'>
-                <div className='textcolumn'>
-=======
                 <div className='columnleft'>
                 <motion.div 
                 initial={{scale: 0}}
                 whileInView={{opacity: 1, scale: 1}}
                 transition={{duration: 1 }}
                 className='textcolumn'>
->>>>>>> 0d0c4ec5fdedd01698225bd81344dce232fa7fe5
                     <div className='treygleft'></div>
                     <div>
                       <h2 className='ub1'>

@@ -5,8 +5,9 @@ import {
     headTextAnimation,
    } from '../config/motion';
   import { AnimatePresence, motion} from 'framer-motion';
-  
+  import {useRef} from 'react'
   const Homep = () => {
+    const aboutRef =useRef();
     return (
         
           <AnimatePresence>
@@ -25,13 +26,18 @@ import {
                           </strong>{' '} реально супер.
                       </p>
   
-                      <div className='knopka'>
+                      {/* <div className='link' onClick={() => {
+                        aboutRef.current?.scrollIntoView({
+                            behavior: "smooth"
+                        })
+                        }}>знать больше
+{/* 
                           <CustomButton 
                               type='filled'
                               title='Узнать больше'
-                              handleClick={() => state.intro = false}
-                              customStyles=' px-4 py-2.5 font-bold text-sm'/>
-                      </div>
+                            //   handleClick={() => state.intro = false}
+                              customStyles=' px-4 py-2.5 font-bold text-sm'/> */}
+                      {/* </div> */} 
                   </motion.div>
               </div>
               <div className='fsh'>

@@ -2,31 +2,31 @@ import React from 'react'
 import {motion} from "framer-motion"
 const Razrab = () => {
   return (
-<<<<<<< HEAD
-//     <div className='razrab'/>
-//     sss
-//     <div className='razrab'>
-//         <img className='char' src="../public/ruk.png" alt="Facebook Icon"></img>
-//           <div className='fonrazrabgl'>
-//             <div className='fonrazrab1'></div>
-//           </div>
-//     </div>
-//   )
-// }
-<div></div>
-=======
     <div className='razrab'>
-      <motion.img 
-            
+      
+        <img className='char' src="../public/ruk.png" />
+        
+        <motion.img 
+            initial={{x: -100}}
+            whileInView={{x: 1500}}  
+            transition={{duration: 1.3}}
+            // animate={{opacity: 0}}
             src='ma.png'
             alt='logo'
             className='image3'  
         />
-        <img className='char' src="../public/ruk.png" />
-        <h2 className='about1'>Алгоритм<strong className='txcol'>.</strong></h2>
+        
+        <motion.h2 
+        initial={{opacity: 0, scale: 0}}
+        whileInView={{opacity: 1, scale: 1}}
+        transition={{delay: 0.6}}
+        className='about1'>Алгоритм<strong className='txcol'>.</strong>
+        </motion.h2>
+        <div className="alg"><h2 className='opicanie5'>Получая задание на перемещение, система навигации определяет свое начальное положение по локальным и глобальным меткам; делает расчет траектории движения; активирует запуск передвижения AGV по рассчитанной траектории; в процессе движения используя инерционные датчики и сверяя свое положение по локальным и глобальным меткам при необходимости, корректирует расчеты. 
+Разрабатываемая система управления автономным мобильным транспортом основана на возможности задания расписания или запуска вручную через WEB интерфейс с любого устройства, имеющего доступ к сети (смартфон, планшет, ноутбук, персональный компьютер).
+</h2></div>
         
     </div>
->>>>>>> 0d0c4ec5fdedd01698225bd81344dce232fa7fe5
   )
 }
 export default Razrab

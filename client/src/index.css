@@ -177,6 +177,7 @@ html {
           user-select: none;
   color: rgb(235,236,243);       
   margin-top: 40px;
+  height: 150px;
 }
 #about {
   height: 3000px;
@@ -446,8 +447,11 @@ input[type="file"] {
   margin-top: 15px;
 }
 .image3 {
-  width: 75px;
-   height: 79px;
+  width: 85px;
+   height: 89px;
+   margin-top: 35px;
+   margin-right: 250px;
+   margin-left: -315px;
 }
 
 .image2 {
@@ -464,14 +468,11 @@ input[type="file"] {
   opacity: 1;
   margin-left: 195px;
   margin-top: -1270px;
-<<<<<<< HEAD
-=======
    width: 75px;
    height: 79px;
    display: flex;
   margin-left: 250px;
   margin-top: 15px;
->>>>>>> 0d0c4ec5fdedd01698225bd81344dce232fa7fe5
 }
 
 .headerContent {
@@ -569,7 +570,19 @@ input[type="file"] {
 
 }
 
-
+.opicanie5 {
+  font-size: 35px;   
+  color: rgb(210, 210, 210);
+  text-align: center;
+}
+.alg {
+  width: 80%;
+  height: 200px;
+  /* background-color: #8c0000; */
+  margin-top: 250px;
+  margin-left: -800px;
+  align-items: center;
+}
 .item3 {
   font-size: 19px;
   align-content: center;
