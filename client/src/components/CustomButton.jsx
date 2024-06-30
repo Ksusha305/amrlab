@@ -11,6 +11,7 @@ const CustomButton = ({ type, title, customStyles, handleClick }) =>
       return {
         backgroundColor: '#b0f',
         color: (0,0,0),
+        fontSize: 15,
       }  
     }
   }

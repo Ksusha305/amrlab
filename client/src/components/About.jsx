@@ -1,34 +1,73 @@
+import { AnimatePresence, useAnimate } from 'framer-motion'
 import React from 'react'
+import {motion} from 'framer-motion'
+// async function myAnim(){
+//   await animate(scope.current, {rotate: 90}, {delay: 1}, {duration: 0.8})
+//   await animate(scope.current, {y: 310}, {duration: 1.5})
+//   await animate(scope.current, {rotate:0}, {duration: 0.8})
+//   await animate(scope.current, {opacity: 0}, {duration: 1})
+// }
+// const snap = useSnapshot(state);
+//   useEffect(() => {
+//     myAnim();
+//   }, []);
 
 const About = () => {
+
   return (
-      <div className='about'> 
-      <div className='izolen1'>
-        <div className='izolen'>
-          <b className='textbout'>С уходом иностранных компаний с рынка, остро встал вопрос нехватки средств и устройств автоматизации производственных процессов. Автоматически управляемая тележка (AGV) является одной из ключевых направлений в области автоматизации промышленных, сельскохозяйственных, складских и пр. комплексов.</b>
-      </div>
-      </div>
-        <div className='shestabout'>
-          <img className='shestaboutt' src="../public/shect.png" alt="Facebook Icon"></img>
-      </div>
-
-      {/* <div className='dbbs'><h1 className='head-text1'>О нас<h3>.</h3></h1><div className='lineabout'><br></br></div></div>  
-      <div className='kr'>
-        <div className='colomnleft'>
-          <b className='nt'>Проблемы людей</b>
-          <div className='textaboutgl'>C yходом иностранных компаний с рынка, остро встал вопрос нехватки средств и устройств автоматизации производственных процессов. Автоматически управляемая тележка (AGV) является одной из ключевых направлений в области автоматизации промышленных, сельскохозяйственных, складских и пр. комплексов.</div>
-          <div className='textaboutgl'> На многих предприятиях существует деятельность, основанная на монотонном и однообразном труде, которую необходимо выполнять непрерывно 24/7 или строго по графику один раз в сутки. Для этого держать штат сотрудников не всегда целесообразно, а зачастую трудно найти сотрудника готового к такой работе. Так же существуют опасные и вредные производства, где замена человеческого труда снижает риски возникновения вреда для жизни и здоровья.
-          </div>
-
+      <AnimatePresence>
+        {/* <div className='lineabout'/>  */}
         
-</div>
-<div className='colomnleft'>
-<b className='nt'>Решения</b>
-<div className='textaboutgl'>Данный проект решает проблемы автоматизации промышленных комплексов таких как: складские (робот кладовщик, робот уборщик, робот транспортер т.д.), сельскохозяйственные (подталкиватель корма для КРС, робот уборщик и т.д.), производственные (робот транспортер, робот сварщик, и т.д.) и многие другие. С помощью автоматических механизмов (роботов), а в частности AGV тележек, возможно, полностью заменить рабочий труд, тем самым снизить издержки.</div>
-    </div>
-    </div> */}
-    </div>
-  )
+        <motion.div className='a'>
+          <h2 className='about'>
+            Обзор<strong className='txcol'>.</strong>
+          </h2>
+          
+        </motion.div>
+        <motion.p className='opicanie1'>AGV тележка-автоматически управляемое автономное мобильное транспортное средство. Данная тележка может иметь большой спектр задач и применений для разных областей производства, сельского хозяйства, бытовых нужд для автоматизирования производства и минимизирования издержек ручного труда.</motion.p>
+        <div className='nab'>
+          <motion.div 
+             initial={{x: -200}}
+             whileInView={{x: 0}}
+             transition={{duration: 1}}
+          className='example1'/>
+          <motion.div 
+          initial={{x: -700}}
+          animate={{transitionDelay: 1}}
+          whileInView={{x: 0}}
+          transition={{duration: 1}}
+          className='example2'>
+            <img className="image2" src='../public/threejs.png'/>
+            <h2 className='ub'>Робот уборщик</h2>
+         </motion.div>
+          <motion.div 
+             initial={{x: 500}}
+             animate={{transitionDelay: 1}}
+             whileInView={{x: 0}}
+             transition={{duration: 1}}
+          className='example3'>
+          </motion.div>
+          <motion.div 
+          initial={{x: -600}}
+          // animate={{transitionDelay: 1}}
+          whileInView={{x: 0}}
+          transition={{duration: 1}}
+          className='example4'/>
+        </div>
+        <motion.p className='opicanie1'>Данный проект решает проблемы автоматизации промышленных комплексов таких как: складские, сельскохозяйственные, производственные и многие другие. С помощью автоматических механизмов (роботов), а в частности AGV тележек, возможно, полностью заменить рабочий труд.
+        </motion.p>
+        {/* <motion.img 
+            // \ref={scope}
+            src='ma.png' 
+            alt='logo'
+            className='image1'  
+            initial={{opacity: 0}}
+            whileInView={{opacity: 1, rotate: 90}}
+            animate={{y: 200}}
+            transition={{delay: 2, duration: 1}}
+        /> */}
+      </AnimatePresence>
+  )      
 }
 
 export default About
