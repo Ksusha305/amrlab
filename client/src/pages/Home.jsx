@@ -38,7 +38,7 @@ const Home = () => {
         </h2>
         <motion.img 
             //ref={scope}
-            src='ma.png' 
+            src='/ma.png' 
             alt='logo'
             className='image'  
         />
@@ -112,7 +112,7 @@ const Home = () => {
       <div className='section'  id='about' ref={aboutRef}>
         <About></About>             
       </div>
-      <div className='section'  id='razrab' ref={razrabRef}>
+      <div  id='razrab' ref={razrabRef}>
         <Razrab></Razrab>                
       </div> 
       <div className='section'  id='contact' ref={contactRef}>

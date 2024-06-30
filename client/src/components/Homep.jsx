@@ -22,8 +22,8 @@ import {
               <div className='opisan'>  
                   <motion.div {...headContentAnimation} >
                       <p className='opicanie'>
-                          Очень крутые роботы АМР <strong className='txcol'>Супер крутые роботы
-                          </strong>{' '} реально супер.
+                           АМРЛАБ тележка AGV с <strong className='txcol'>Комбинируемоей
+                          </strong>{' '} системой навигации.
                       </p>
   
                       {/* <div className='link' onClick={() => {
@@ -41,28 +41,28 @@ import {
                   </motion.div>
               </div>
               <div className='fsh'>
-                        <img src="../public/fsh.png" />
+                        <img src="/fsh.png" />
               </div>
               </div>
 
               <div className='imghead'>
                 <div className='boltkr'>
                     <div className='kr'>
-                        <img src='../public/kr.png' />
+                        <img src='/kr.png' />
                     </div>
                     <div className='bolt'>
-                        <img  src="../public/bolt.png" /> 
+                        <img  src="/bolt.png" /> 
                     </div>
                 </div>
                 <div className='pr'>
-                    <img src="../public/pr.png" />
+                    <img src="/pr.png" />
                 </div>
                 <div className='zakr'>
                     <div className='zak'>
-                        <img src='../public/zak.png' />
+                        <img src='/zak.png' />
                     </div>
                     <div className='fkr'>
-                        <img src='../public/fkr.png' />
+                        <img src='/fkr.png' />
                     </div>
                 </div>
             </div>

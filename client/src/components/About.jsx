@@ -31,7 +31,7 @@ const About = () => {
              whileInView={{x: 0}}
              transition={{duration: 1}}
           className='example1'>
-            <img className="image2" src='../public/trash.svg'/>
+            <img className="image2" src='/fkr.png'/>
             <h2 className='ub'>Робот уборщик</h2>
           </motion.div>
           <motion.div 
@@ -40,7 +40,7 @@ const About = () => {
           whileInView={{x: 0}}
           transition={{duration: 1}}
           className='example2'>
-            <img className="image2" src='../public/s.svg'/>
+            <img className="image2" src='/pr.png'/>
             <h2 className='ub'>Робот транспортер</h2>
          </motion.div>
           <motion.div 
@@ -49,7 +49,7 @@ const About = () => {
              whileInView={{x: 0}}
              transition={{duration: 1}}
           className='example3'>
-            <img className="image2" src='../public/klad.svg'/>
+            <img className="image2" src='/shect.png'/>
             <h2 className='ub'>Робот кладовщик</h2>
           </motion.div>
           <motion.div 
@@ -58,7 +58,7 @@ const About = () => {
           whileInView={{x: 0}}
           transition={{duration: 1}}
           className='example4'>
-            <img className="image2" src='../public/svar.svg'/>
+            <img className="image2" src='/k.png'/>
             <h2 className='ub'>Робот сварщик</h2>  
           </motion.div>
         </div>

@@ -81,8 +81,8 @@ html {
 
 .example1 {
   background-color: #333;
-  border-width: 3px;
-  border-color: #b0f;
+  border-width: 2px;
+  border-color: rgb(35, 35, 35);
   width: 310px;
   height: 345px;
   margin-left: 380px;
@@ -90,29 +90,32 @@ html {
 }
 .example2 {
   background-color:#333;
-  border-width: 3px;
-  border-color: #b0f;
+  border-width: 2px;
+  border-color: rgb(35, 35, 35);
   width: 310px;
   height: 345px;
   margin-left: 50px;
   border-radius: 8%;
+  margin-right: 50px;
 }
 .example3 {
   background-color: #333;
-  border-width: 3px;
-  border-color: #b0f;
+  border-width: 2px;
+  border-color: rgb(35, 35, 35);
   width: 310px; 
   height: 345px;
   border-radius: 8%;
+  margin-right: 50px;
 }
 .example4 {
   background-color: #333;
-  border-width: 3px;
-  border-color: #b0f;
+  border-width: 2px;
+  border-color: rgb(35, 35, 35);
   width: 310px;
   height: 345px;
   border-radius: 8%;
-  margin-left: -50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }  
 .nab {
   display: grid;
@@ -272,10 +275,10 @@ html {
 }
 
 .razrab {
-  height: 1024px;
+  height: 800px;
   padding: 0;
   display: flex;
-
+  margin-bottom: 125px;
 }
 
 .razrabtext {
@@ -455,9 +458,9 @@ input[type="file"] {
 }
 
 .image2 {
-  width: 105px;
-  height: 109px;
-  margin-left: 105px;
+  width: 135px;
+  height: 129px;
+  margin-left: 90px;
   margin-top: 55px;
   margin-bottom: 55px
 }
@@ -743,7 +746,67 @@ div:focus {
     width: 780px;
     height: 850px;
 }
+
+.komcol{
+  width: 400px;
+  height: 600px;
+  background: #333;
+  margin: 5%;
+  border-radius: 7%;
+  color: #e5e7eb;
+  padding: 2%;
+  text-align: center;
+  border: 3px rgb(35, 35, 35);
+}
+
+.komandcol {
+  display: flex;
+}
  
+.komandcolumn {
+  padding: 0 5%;
+}
+
+.imya {
+  font-size: 26px;
+}
+
+.prof {
+  font-size: 24px;
+}
+
+.opis {
+    margin-top: 30%;
+    font-size: 22px;
+}
+
+.ava {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ava_kar1 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 32% 0;
+}
+.ava_kar2 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 17% 0;
+}
+
+.ava_kar3 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 22% 0;
+}
+
+
 
 .head_logo_text {
   @apply xl:text-[10rem] text-[10rem] xl:leading-[10rem] leading-[10rem] font-black;
@@ -859,6 +922,15 @@ div:focus {
   text-align: center;
   margin-bottom: 10%;
 }
+.lnaz1 {
+
+  font-size: xx-large;
+  font-weight: 900;         
+  color: rgb(235,236,243);
+  text-align: center;
+  margin-bottom:25px;
+}
+
 
 .lineabo::before{
   border-left: 6px solid #ebecf3;
@@ -871,11 +943,11 @@ div:focus {
 }
 
 .textcolumn {
-    width: 40%;
     background: #333;
     height: 350px;
     border-bottom: 6px solid #b0f;
     margin-top: 4%;
+    padding-bottom: 2%;
 }
 
 .treygright {
@@ -943,8 +1015,8 @@ div:focus {
 
 .columnleft {
   display: flex;
-  margin-left: 4%;
   margin-right: 4%;
+  margin-left: 4%;
 }
 
 

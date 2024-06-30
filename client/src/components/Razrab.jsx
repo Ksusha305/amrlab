@@ -4,14 +4,14 @@ const Razrab = () => {
   return (
     <div className='razrab'>
       
-        <img className='char' src="../public/ruk.png" />
+        <img className='char' src="/ruk.png" />
         
         <motion.img 
             initial={{x: -100}}
             whileInView={{x: 1500}}  
             transition={{duration: 1.3}}
             // animate={{opacity: 0}}
-            src='ma.png'
+            src='/ma.png'
             alt='logo'
             className='image3'  
         />
