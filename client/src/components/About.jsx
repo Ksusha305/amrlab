@@ -128,17 +128,12 @@ const About = () => {
                     </div>
                 </motion.div>
                 </div>
-<<<<<<< HEAD
                 <div className='column3'>
-                <div className='textcolumn'>
-=======
-                <div className='columnleft'>
                 <motion.div 
                 initial={{scale: 0}}
                 whileInView={{opacity: 1, scale: 1}}
                 transition={{duration: 1 }}
                 className='textcolumn'>
->>>>>>> 0d0c4ec5fdedd01698225bd81344dce232fa7fe5
                     <div className='treygleft'></div>
                     <div>
                       <h2 className='ub1'>

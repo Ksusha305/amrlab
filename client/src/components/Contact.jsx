@@ -1,9 +1,38 @@
+import { AnimatePresence, useAnimate } from 'framer-motion'
 import React from 'react'
+import {motion} from 'framer-motion'
 
 const Contact = () => {
   return (
-    
+    <AnimatePresence>
     <div className='contact'>
+      <motion.div className='a'>
+          <h2 className='about'>
+            Команда проекта<strong className='txcol'>.</strong>
+          </h2>
+        </motion.div>
+        <div className='komandcolumn'>
+          <div className='komandcol'>
+           <div className='komcol'>
+              <b className="imya">Бочарников Александр Сергеевич</b>
+              <div className='opis'>Руководство проектом</div>
+              <div className='ava'><img className='ava_kar1' src='../public/ma.jpeg' /></div>
+              <b className='prof'><strong className='txcol'>"</strong>Директор<strong className='txcol'>"</strong></b>
+            </div>
+           <div className='komcol'>
+           <b className="imya">Рахимбердин Ян Рашидович</b>
+              <div className='opis'>Разработка программного обеспечения и пользовательского интерфейса</div>
+              <div className='ava'><img className='ava_kar2' src='../public/ma.jpeg' /></div>
+              <b className='prof'><strong className='txcol'>"</strong>Разработчик ПО<strong className='txcol'>"</strong></b>
+            </div>
+           <div className='komcol'>
+           <b className="imya">Цаунит Антон Николаевич</b>
+              <div className='opis'>Разработка системы управления электропривода передвижения тележки</div>
+              <div className='ava'><img className='ava_kar3' src='../public/ma.jpeg' /></div>
+              <b className='prof'><strong className='txcol'>"</strong>Инженер АСУТП<strong className='txcol'>"</strong></b>
+            </div>
+          </div>
+        </div>
       <div className="linefooter">
         <br></br>
       </div>
@@ -33,7 +62,7 @@ const Contact = () => {
       </div>
       </div> */}
       </div>
-
+        </AnimatePresence>
   )
 }
 
