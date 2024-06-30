@@ -29,7 +29,7 @@ const Home = () => {
   useEffect(() => {
     myAnim();
   }, []);
-  
+
   return (
     <AnimatePresence>
       <div animate="animate" initial="initial" className='header'>
@@ -109,7 +109,7 @@ const Home = () => {
         </section>
         
       )}
-      <div className='section1'  id='about' ref={aboutRef}>
+      <div className='section'  id='about' ref={aboutRef}>
         <About></About>             
       </div>
       <div className='section'  id='razrab' ref={razrabRef}>

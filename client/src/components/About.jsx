@@ -66,6 +66,52 @@ const About = () => {
             animate={{y: 200}}
             transition={{delay: 2, duration: 1}}
         /> */}
+        <div className='pl'>
+          <div className='dxj'>
+            <div className='lnaz'>название</div>
+            <div className='lineabo'>
+              <div className='columnleft'>
+                <div className='textcolumn'>
+                    <div className='treygleft'></div>
+                    <div>
+                      <div>
+                        dd
+                      </div>
+                      <div>
+                        ff
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className='columnright'>
+                <div className='textcolumn'>
+                    <div className='treygright'></div>
+                    <div>
+                      <div>
+                        eee
+                      </div>
+                      <div>
+                        eee
+                      </div>
+                    </div>
+                </div>
+                </div>
+                <div className='columnleft'>
+                <div className='textcolumn'>
+                    <div className='treygleft'></div>
+                    <div>
+                      <div>
+                        dd
+                      </div>
+                      <div>
+                        ff
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
       </AnimatePresence>
   )      
 }

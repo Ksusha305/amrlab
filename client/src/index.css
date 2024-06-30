@@ -53,9 +53,10 @@ html {
   height: 1000px;
   margin-left: 50px;
   background-color: rgb(8,8,8);
+  justify-content: center;
 }
 .section {
-  height: 1000px;
+  height: 2000px;
   background-color: rgb(8, 8, 8);
   padding-top: 30px;
   margin-left: 50px;
@@ -69,10 +70,6 @@ html {
   display: block;
 }
 
-.g {
-  margin-top: 12%;
-  margin-left: 20%;
-}
 .example1 {
   background-color: rgb(17, 17, 17);
   border-width: 3px;
@@ -158,6 +155,11 @@ html {
   color: rgb(235,236,243);       
   margin-bottom: 40px;
 }
+
+#about {
+  height: 3000px;
+}
+
 .stick {
     height: 7px;
     width: 80%;
@@ -301,12 +303,6 @@ h3 {
   margin-left: calc(40px + 16 * (100vw / 1280));
 }
 
-.lineabout {
-  height: 3px;
-  background: rgb(113,114,117);
-  width: 800px;
-  margin-left: 59px;
-}
 .a {
   display: flex;
   justify-content:space-around ;
@@ -413,14 +409,8 @@ input[type="file"] {
 .sketch-picker > div:nth-child(3) {
   display: none !important;
 }
+
 .image {
-<<<<<<< HEAD
-   width: 75px;
-   height: 79px;
-   display: flex;
-  margin-left: 250px;
-  margin-top: 15px;
-=======
   width: 75px;
   height: 79px;
   opacity: 1;
@@ -428,6 +418,7 @@ input[type="file"] {
   margin-left: 20px;
   margin-top: 15px;
 }
+
 .image2 {
   width: 105px;
   height: 109px;
@@ -442,7 +433,6 @@ input[type="file"] {
   opacity: 1;
   margin-left: 195px;
   margin-top: -1270px;
->>>>>>> d78596ada9b7c0dbaf9d41804f7a1ef0c2c0350f
 }
 
 .headerContent {
@@ -604,6 +594,10 @@ a {
 
 }
 
+.g {
+  margin-top: 20%;
+}
+
 .fonhead {
   width: calc(84px + 16 * (100vw / 1280));
   height: calc(50px + 16 * (100vw / 1280)); 
@@ -697,22 +691,22 @@ div:focus {
     height: 850px;
 }
  
+
 .head_logo_text {
   @apply xl:text-[10rem] text-[10rem] xl:leading-[10rem] leading-[10rem] font-black;
-<<<<<<< HEAD
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-   -khtml-user-select: none; /* Konqueror HTML */
-     -moz-user-select: none; /* Old versions of Firefox */
-      -ms-user-select: none; /* Internet Explorer/Edge */
-          user-select: none;
-  font-size: 43px;
-=======
   font-size: 30px;
->>>>>>> d78596ada9b7c0dbaf9d41804f7a1ef0c2c0350f
   color: rgb(235,236,243);       
   margin-left: 30px;
+}
 
+.progress {
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  width: 10px;
+  background: #b0f;
+  transform-origin: 0%;
 }
 
 .logof {
@@ -737,4 +731,153 @@ div:focus {
   width: 10px;
   background: #b0f;
   transform-origin: 0%;
+}
+
+.pl {
+  margin-left: 80px;
+  margin-right: 30px;
+
+}
+
+.bolt {
+  width: 280px;
+  height: 190px;
+}
+
+.pr {
+  width: 360px;
+  height: 260px;
+}
+
+.zak {
+  width: 260px;
+  height: 300px;
+}
+
+.imghead {
+  margin-left: 5%;
+
+}
+
+.fsh {
+  width: 200px;
+  height: 200px;
+  float: inline-end;
+  margin-top: 5%;
+}
+
+.fkr {
+  width: 100px;
+  height: 100px;
+}
+
+.zakr {
+  display: flex;
+  align-items: center;
+
+}
+
+.kr {
+  width: 100px;
+  height: 100px;
+}
+
+.boltkr {
+  display: flex;
+  align-items: center;
+}
+
+.dkj {
+  height: 1000px;
+}
+
+.lnaz {
+  color: #ebecf3;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.lineabo::before{
+  border-left: 6px solid #ebecf3;
+  width: 5px;
+  height: 118%;
+  position: absolute;
+  content: '';
+  margin-left: 60px;
+  left: 50%;
+}
+
+.textcolumn {
+    width: 40%;
+    background: #333;
+    height: 350px;
+    border-bottom: 6px solid #ebecf3;
+    margin-top: 4%;
+}
+
+.treygright {
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-left: 20px solid #ebecf3;
+  border-bottom: 12px solid transparent;
+  margin-top: 10%;
+  transform: rotate(180deg);
+  margin-left: -20px;
+}
+
+
+.treygleft {
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-left: 20px solid #ebecf3;
+  border-bottom: 12px solid transparent;
+  margin-top: 10%;
+  margin-left: 100%;
+}
+
+.columnleft::before{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background: #ebecf3;
+  margin-top: 5%;
+  position: absolute;
+  content: '';
+  margin-left: 26px;
+  left: 50%;
+}
+
+
+.columnright::before{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background: #ebecf3;
+  margin-top: 5%;
+  position: absolute;
+  content: '';
+  margin-left: 26px;
+  left: 50%;
+}
+
+.columnleft {
+  display: flex;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.columnright {
+  display: flex;
+  margin-left: 4%;
+  margin-right: 4%;
+  justify-content: flex-end;
+}
+
+.dxj {
+  margin-left: 4rem;
+  margin-right: 4rem;
+
 }
