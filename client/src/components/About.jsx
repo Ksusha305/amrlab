@@ -1,6 +1,9 @@
 import { AnimatePresence, useAnimate } from 'framer-motion'
 import React from 'react'
 import {motion} from 'framer-motion'
+import MediaQuery from 'react-responsive'
+import { useMediaQuery } from 'react-responsive'
+
 // async function myAnim(){
 //   await animate(scope.current, {rotate: 90}, {delay: 1}, {duration: 0.8})
 //   await animate(scope.current, {y: 310}, {duration: 1.5})
@@ -13,14 +16,20 @@ import {motion} from 'framer-motion'
 //   }, []);
 
 const About = () => {
-
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-width: 1224px)'
+  })
+  const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
   return (
       <AnimatePresence>
         {/* <div className='lineabout'/>  */}
         
         <motion.div className='a'>
-          <h2 className='about'>
-            Обзор<strong className='txcol'>.</strong>
+          <h2 className='about_m'>
+          {isDesktopOrLaptop && <p>You are a desktop or laptop</p>}
+          {isBigScreen && <p>You have a huge screen</p>}
+          <strong className='txcol'>.</strong>
           </h2>
           
         </motion.div>
@@ -81,7 +90,7 @@ const About = () => {
                 whileInView={{opacity: 1, scale: 1}}
                 transition={{duration: 1 }}
                 className='textcolumn'>
-                  <div className='treygleft'/>
+                  <div className='treygleft1'/>
                   <div>
                     <div className='ub1'>
                         -Привод: электрический
@@ -133,7 +142,7 @@ const About = () => {
                 whileInView={{opacity: 1, scale: 1}}
                 transition={{duration: 1 }}
                 className='textcolumn'>
-                    <div className='treygleft'></div>
+                    <div className='treygleft2'></div>
                     <div>
                       <h2 className='ub1'>
                         -Автономность: зависит от условий

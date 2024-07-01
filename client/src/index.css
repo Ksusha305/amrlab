@@ -150,7 +150,7 @@ html {
   margin-top:-12px ;
   margin-bottom: 45px;
 }
-.about {
+.about_c {
   @apply xl:leading-[5rem] leading-[10rem] ;
   font-weight: 650;
   font-size: 70px;
@@ -163,6 +163,21 @@ html {
   color: rgb(235,236,243);       
   margin-bottom: 40px;
 }
+
+.about_m {
+  @apply xl:leading-[5rem] leading-[10rem] ;
+  font-weight: 650;
+  font-size: 60px;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+   -khtml-user-select: none; 
+     -moz-user-select: none; 
+      -ms-user-select: none; 
+          user-select: none;
+  color: rgb(235,236,243);       
+  margin-bottom: 40px;
+}
+
 .about1 {
   @apply xl:leading-[5rem] leading-[10rem] ;
   margin-left: 500px;
@@ -968,13 +983,24 @@ div:focus {
 }
 
 
-.treygleft {
+.treygleft1 {
   width: 0;
   height: 0;
   border-top: 12px solid transparent;
   border-left: 20px solid #ebecf3;
   border-bottom: 12px solid transparent;
   margin-top: 10%;
+  margin-left: 100%;
+}
+
+
+.treygleft2 {
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-left: 20px solid #ebecf3;
+  border-bottom: 12px solid transparent;
+  margin-top: 14%;
   margin-left: 100%;
 }
 
