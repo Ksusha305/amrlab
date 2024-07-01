@@ -105,7 +105,7 @@ html {
   width: 310px; 
   height: 345px;
   border-radius: 8%;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 .example4 {
   background-color: #333;
@@ -115,7 +115,6 @@ html {
   height: 345px;
   border-radius: 8%;
   margin-left: 50px;
-  margin-right: 50px;
 }  
 .nab {
   display: grid;
