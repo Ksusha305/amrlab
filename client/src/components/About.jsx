@@ -39,7 +39,7 @@ const About = () => {
           animate={{transitionDelay: 1}}
           whileInView={{x: 0}}
           transition={{duration: 1}}
-          className='example2'>
+          className='example1'>
             <img className="image2" src='/pr.png'/>
             <h2 className='ub'>Робот транспортер</h2>
          </motion.div>
@@ -48,7 +48,7 @@ const About = () => {
              animate={{transitionDelay: 1}}
              whileInView={{x: 0}}
              transition={{duration: 1}}
-          className='example3'>
+          className='example1'>
             <img className="image2" src='/shect.png'/>
             <h2 className='ub'>Робот кладовщик</h2>
           </motion.div>
@@ -57,7 +57,7 @@ const About = () => {
           // animate={{transitionDelay: 1}}
           whileInView={{x: 0}}
           transition={{duration: 1}}
-          className='example4'>
+          className='example1'>
             <img className="image2" src='/k.png'/>
             <h2 className='ub'>Робот сварщик</h2>  
           </motion.div>
@@ -66,7 +66,12 @@ const About = () => {
         </motion.p>
         <div className='pl'>
           <div className='dxj'>
-            <div className='lnaz'>Характеристики</div>
+            <motion.div className='a'>
+            <h2 className='about'>
+              Характеристика<strong className='txcol'>.</strong>
+            </h2>
+          
+            </motion.div>
             <div className='lineabo'>
               <motion.div 
               className='columnleft'

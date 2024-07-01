@@ -6,11 +6,12 @@ const Contact = () => {
   return (
     <AnimatePresence>
     <div className='contact'>
-      <motion.div className='a'>
-          <h2 className='lnaz1'>
-            Команда проекта
-          </h2>
-        </motion.div>
+    <motion.div className='a'>
+          <h2 className='about'>
+            Команда проекта<strong className='txcol'>.</strong>
+            </h2>
+        </motion.div> 
+         
         <div className='komandcolumn'>
           <div className='komandcol'>
            <div className='komcol'>

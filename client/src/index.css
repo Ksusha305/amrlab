@@ -85,42 +85,40 @@ html {
   border-color: rgb(35, 35, 35);
   width: 310px;
   height: 345px;
-  margin-left: 380px;
+  margin-left: 5%;
   border-radius: 8%;
 }
 .example2 {
   background-color:#333;
-  border-width: 2px;
-  border-color: rgb(35, 35, 35);
+  border-width: 3px;
+  border-color: #b0f;
   width: 310px;
   height: 345px;
   margin-left: 50px;
   border-radius: 8%;
-  margin-right: 50px;
 }
 .example3 {
   background-color: #333;
-  border-width: 2px;
-  border-color: rgb(35, 35, 35);
+  border-width: 3px;
+  border-color: #b0f;
   width: 310px; 
   height: 345px;
   border-radius: 8%;
-  /* margin-right: 50px; */
 }
 .example4 {
   background-color: #333;
-  border-width: 2px;
-  border-color: rgb(35, 35, 35);
+  border-width: 3px;
+  border-color: #b0f;
   width: 310px;
   height: 345px;
   border-radius: 8%;
-  margin-left: 50px;
+  margin-left: -50px;
 }  
 .nab {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-bottom: 130px;
-  margin-left: 25px;
+  margin-left: 10%;
 }
 .head-text {
   @apply xl:leading-[5rem] leading-[10rem] ;
@@ -149,12 +147,11 @@ html {
       -ms-user-select: none; 
           user-select: none;
   color: rgba(235, 236, 243); 
-  margin-top:-45px ;
+  margin-top:-12px ;
   margin-bottom: 45px;
 }
 .about {
   @apply xl:leading-[5rem] leading-[10rem] ;
-  margin-right: 47%;
   font-weight: 650;
   font-size: 70px;
   -webkit-touch-callout: none; 
@@ -168,7 +165,7 @@ html {
 }
 .about1 {
   @apply xl:leading-[5rem] leading-[10rem] ;
-  margin-left: 400px;
+  margin-left: 500px;
   font-weight: 650;
   font-size: 70px;
   -webkit-touch-callout: none; 
@@ -181,6 +178,9 @@ html {
   margin-top: 40px;
   height: 150px;
 }
+
+
+
 #about {
   height: 3000px;
 }
@@ -536,7 +536,7 @@ input[type="file"] {
   margin-bottom: 100px;
   transform: rotate(90deg);
   transform-origin: center;
-  font-size: medium;
+  font-size: 21px;
   margin-top: 100px;
 
 }
@@ -565,18 +565,25 @@ input[type="file"] {
       -ms-user-select: none;
           user-select: none;
   font-size: 35px;   
-        
   color: rgb(210, 210, 210);
-  margin-left: 20.5%;
+  margin-left: 10%;
   margin-bottom: 130px;
-
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .opicanie5 {
   font-size: 35px;   
   color: rgb(210, 210, 210);
   text-align: center;
+  margin-right: 20%
+  ;
 }
+
+
+
+
 .alg {
   width: 80%;
   height: 200px;
