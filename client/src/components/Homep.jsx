@@ -19,7 +19,6 @@ import {
                   </h1>
                   {/* <h1 className='head-text2'>AGV тележка</h1> */}
               </motion.div>
-<<<<<<< HEAD
               <div className='opisk'>
                 <div className='opisan'>  
                     <motion.div {...headContentAnimation} >
@@ -33,7 +32,6 @@ import {
                             <img src="/fsh.png" />
                 </div>
               </div>  
-=======
               {/* <div className='opisan'>  
                   <motion.div {...headContentAnimation} >
                       {/* <p className='opicanie'>
@@ -45,7 +43,6 @@ import {
               <div className='fsh'>
                         <img src="/fsh.png" />
               </div>
->>>>>>> 18f91cd72980778df1a43280d6fd1048b528550d
               </div>
 
               <div className='imghead'>
