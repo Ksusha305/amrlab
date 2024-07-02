@@ -34,6 +34,16 @@ const Contact = () => {
             </div>
           </div>
         </div>
+      <div className='podd'>
+        <div  className='pod'>
+        <motion.div className='a'>
+          <h2 className='about'>
+            Финансо<strong className='txcol'>.</strong>
+            </h2>
+        </motion.div>
+        
+        </div>
+      </div>
       <div className="linefooter">
         <br></br>
       </div>

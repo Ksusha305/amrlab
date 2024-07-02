@@ -2,7 +2,6 @@ import { AnimatePresence, useAnimate } from 'framer-motion'
 import React from 'react'
 import {motion} from 'framer-motion'
 import MediaQuery from 'react-responsive'
-import { useMediaQuery } from 'react-responsive'
 
 // async function myAnim(){
 //   await animate(scope.current, {rotate: 90}, {delay: 1}, {duration: 0.8})
@@ -16,22 +15,12 @@ import { useMediaQuery } from 'react-responsive'
 //   }, []);
 
 const About = () => {
-  const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-width: 1224px)'
-  })
-  const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
   return (
       <AnimatePresence>
-        {/* <div className='lineabout'/>  */}
-        
         <motion.div className='a'>
           <h2 className='about_m'>
-          {isDesktopOrLaptop && <p>You are a desktop or laptop</p>}
-          {isBigScreen && <p>You have a huge screen</p>}
-          <strong className='txcol'>.</strong>
+            <p>Обзор</p><strong className='txcol'>.</strong>
           </h2>
-          
         </motion.div>
         <motion.p className='opicanie1'>AGV тележка-автоматически управляемое автономное мобильное транспортное средство. Данная тележка может иметь большой спектр задач и применений для разных областей производства, сельского хозяйства, бытовых нужд для автоматизирования производства и минимизирования издержек ручного труда.</motion.p>
         <div className='nab'>
