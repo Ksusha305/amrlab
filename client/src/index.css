@@ -87,7 +87,11 @@ html {
   height: 345px;
   margin-left: 5%;
   border-radius: 8%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
 }
+
 .example2 {
   background-color:#333;
   border-width: 3px;
@@ -150,8 +154,8 @@ html {
   color: rgba(235, 236, 243); 
   margin-top:-12px ;
   margin-bottom: 45px;
-}
-.about {
+
+}.about {
   @apply xl:leading-[5rem] leading-[10rem] ;
   font-weight: 650;
   font-size: 70px;
@@ -164,9 +168,57 @@ html {
   color: rgb(235,236,243);       
   margin-bottom: 40px;
 }
-.about1 {
+
+
+
+.about_c {
   @apply xl:leading-[5rem] leading-[10rem] ;
-  margin-left: 500px;
+  font-weight: 650;
+  font-size: 70px;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+   -khtml-user-select: none; 
+     -moz-user-select: none; 
+      -ms-user-select: none; 
+          user-select: none;
+  color: rgb(235,236,243);       
+  margin-bottom: 40px;
+}
+
+.about_m {
+  @apply xl:leading-[5rem] leading-[10rem] ;
+  font-weight: 650;
+  font-size: 70px;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+   -khtml-user-select: none; 
+     -moz-user-select: none; 
+      -ms-user-select: none; 
+          user-select: none;
+  color: rgb(235,236,243);       
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.about1_c {
+  @apply xl:leading-[5rem] leading-[10rem] ;
+  margin-left: 400px;
+  font-weight: 650;
+  font-size: 70px;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+   -khtml-user-select: none; 
+     -moz-user-select: none; 
+      -ms-user-select: none; 
+          user-select: none;
+  color: rgb(235,236,243);       
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+.about1_n {
+  @apply xl:leading-[5rem] leading-[10rem] ;
+  margin-left: 200px;
   font-weight: 650;
   font-size: 70px;
   -webkit-touch-callout: none; 
@@ -281,17 +333,16 @@ html {
   margin-bottom: 125px;
 }
 
-.razrabtext {
-  width: 72%;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+.textraz {
+  padding: 7% 14%
 }
 
-.fonrazrab1 {
-  background-image: url(../public/shar.png);
-  width: 510px;
-  height: 1100px;
+.textr {
+  color: #ebecf3;
+  text-align: center;
+  font-size: 30px;
+
+
 }
 
 .dbbs {
@@ -460,9 +511,6 @@ input[type="file"] {
 .image2 {
   width: 135px;
   height: 129px;
-  margin-left: 90px;
-  margin-top: 55px;
-  margin-bottom: 55px
 }
 
 .image1 {
@@ -890,6 +938,13 @@ div:focus {
 
 }
 
+.zagl {
+  display: flex;
+
+}
+
+
+
 .fsh {
   width: 200px;
   height: 200px;
@@ -971,7 +1026,7 @@ div:focus {
 }
 
 
-.treygleft {
+.treygleft1 {
   width: 0;
   height: 0;
   border-top: 12px solid transparent;
@@ -979,6 +1034,17 @@ div:focus {
   border-bottom: 12px solid transparent;
   margin-top: 10%;
   margin-left: 104%;
+}
+
+
+.treygleft2 {
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-left: 20px solid #ebecf3;
+  border-bottom: 12px solid transparent;
+  margin-top: 14%;
+  margin-left: 100%;
 }
 
 .columnleft::before{

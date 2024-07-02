@@ -1,6 +1,8 @@
 import { AnimatePresence, useAnimate } from 'framer-motion'
 import React from 'react'
 import {motion} from 'framer-motion'
+import MediaQuery from 'react-responsive'
+
 // async function myAnim(){
 //   await animate(scope.current, {rotate: 90}, {delay: 1}, {duration: 0.8})
 //   await animate(scope.current, {y: 310}, {duration: 1.5})
@@ -13,16 +15,12 @@ import {motion} from 'framer-motion'
 //   }, []);
 
 const About = () => {
-
   return (
       <AnimatePresence>
-        {/* <div className='lineabout'/>  */}
-        
         <motion.div className='a'>
-          <h2 className='about'>
-            Обзор<strong className='txcol'>.</strong>
+          <h2 className='about_m'>
+            <p>Обзор</p><strong className='txcol'>.</strong>
           </h2>
-          
         </motion.div>
         <motion.p className='opicanie1'>AGV тележка-автоматически управляемое автономное мобильное транспортное средство. Данная тележка может иметь большой спектр задач и применений для разных областей производства, сельского хозяйства, бытовых нужд для автоматизирования производства и минимизирования издержек ручного труда.</motion.p>
         <div className='nab'>
@@ -81,7 +79,7 @@ const About = () => {
                 whileInView={{opacity: 1, scale: 1}}
                 transition={{duration: 1 }}
                 className='textcolumn'>
-                  <div className='treygleft'/>
+                  <div className='treygleft1'/>
                   <div>
                     <div className='ub1'>
                         -Привод: электрический
@@ -133,7 +131,7 @@ const About = () => {
                 whileInView={{opacity: 1, scale: 1}}
                 transition={{duration: 1 }}
                 className='textcolumn'>
-                    <div className='treygleft'></div>
+                    <div className='treygleft2'></div>
                     <div>
                       <h2 className='ub1'>
                         -Автономность: зависит от условий
