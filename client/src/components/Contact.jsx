@@ -63,23 +63,33 @@ const Contact = () => {
           2021 год
          </div>
          <div className='prog'>
-          <div className='progbid'>
-        <b className='pod5'>
-          Програма<strong className='txcol'>:</strong>
-        </b>
-        <div className='pod6'>
-           ФОНД СОДЕЙСТВИЯ ИННОВАЦИЯМ
-         </div>
-         <div className='pod7'>
-          Конкурс "Развитие-ИИ-I"
-         </div>
-         </div>
-         <div className='pod8'>
-          20 000 000₽
+            <div className='progbid'>
+              <b className='pod5'>
+                Програма<strong className='txcol'>:</strong>
+              </b>
+              <div className='pod6'>
+                ФОНД СОДЕЙСТВИЯ ИННОВАЦИЯМ
+              </div>
+              <div className='pod7'>
+                Конкурс "Развитие-ИИ-I"
+              </div>
+              </div>
+              <div className='pod8'>
+                20 000 000₽
+              </div>
+        </div>
+        <div className='bid'>
+          <b className='pod2'>
+              <strong className='txcol'>"</strong>Конкурс 'Студенческий старатап' <strong className='txcol'>"</strong>
+          </b>
+          <div className='pod3'>
+                1 000 000₽
           </div>
-          </div>
-          
-         </div>
+        </div>
+        </div>
+        <div className='pod4'>
+                  2023 - 2024 годы
+        </div>
         </div>
       </div>
       {/* <div className="linefooter">

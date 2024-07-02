@@ -677,7 +677,16 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 60px;
   
+}
+
+.opisk {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15%;
+  /* align-content: space-around; */
+  justify-items: end;
 }
 
 .link:hover {
@@ -949,8 +958,8 @@ div:focus {
 
 
 .fsh {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   float: inline-end;
   margin-top: 5%;
 }
@@ -1162,6 +1171,14 @@ div:focus {
 .pod4 {
   margin-left: 5%;
   color: rgb(210, 210, 210);
+  font-size: 18px;
+}
+
+
+.pod4_2 {
+  margin-left: 15%;
+  color: rgb(210, 210, 210);
+  font-size: 18px;
 }
 
 .prog {
@@ -1171,6 +1188,7 @@ div:focus {
     justify-content: space-between;
     align-items: center;
     margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .pod5 {
@@ -1179,14 +1197,14 @@ div:focus {
 
 .pod6 {
   font-size: 17px;
-  margin-left: 8%;
+  margin-left: 3%;
   padding: 1%;
   width: 360px;
 }
 
 .pod7 {
-  margin-left: 8%;
-  font-size: 17px;
+  margin-left: 3%;
+  font-size: 19px;
 }
 
 .pod8 {
@@ -1195,7 +1213,7 @@ div:focus {
 }
 
 .podd {
-  height: 900px;
+  height: 1500px;
 }
 
 .pod {
