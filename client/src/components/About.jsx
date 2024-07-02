@@ -1,7 +1,7 @@
 import { AnimatePresence, useAnimate } from 'framer-motion'
 import React from 'react'
 import {motion} from 'framer-motion'
-import MediaQuery from 'react-responsive'
+// import MediaQuery from 'react-responsive'
 
 // async function myAnim(){
 //   await animate(scope.current, {rotate: 90}, {delay: 1}, {duration: 0.8})
