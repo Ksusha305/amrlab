@@ -39,6 +39,9 @@ const Home = () => {
         <motion.img 
             //ref={scope}
             src='/ma.png' 
+            // initial={{y: 0}}
+            // whileInView={{delay: 2, y: 300}}
+            // transition={{delay:1, duration: 1}}
             alt='logo'
             className='image'  
         />
