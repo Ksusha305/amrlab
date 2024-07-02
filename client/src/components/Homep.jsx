@@ -19,19 +19,19 @@ import {
                   </h1>
                   {/* <h1 className='head-text2'>AGV тележка</h1> */}
               </motion.div>
-              <div className='opisk'>
+              {/* <div className='opisk'>
                 <div className='opisan'>  
                     <motion.div {...headContentAnimation} >
                         <p className='opicanie'>
                             АМРЛАБ тележка AGV с <strong className='txcol'>Комбинируемоей
                             </strong>{' '} системой навигации.
                         </p>
-                    </motion.div>
-                </div>
+                    </motion.div> */}
+                {/* </div>
                 <div className='fsh'>
                             <img src="/fsh.png" />
                 </div>
-              </div>  
+              </div>   */}
               {/* <div className='opisan'>  
                   <motion.div {...headContentAnimation} >
                       {/* <p className='opicanie'>
