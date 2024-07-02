@@ -16,21 +16,27 @@ const Contact = () => {
           <div className='komandcol'>
            <div className='komcol'>
               <b className="imya">Бочарников Александр Сергеевич</b>
-              <div className='opis'>Руководство проектом</div>
               <div className='ava'><img className='ava_kar1' src='/ma.jpeg' /></div>
-              <b className='prof'><strong className='txcol'>"</strong>Директор<strong className='txcol'>"</strong></b>
+              <div>
+                <div className='opis'>Руководство проектом</div>
+                <b className='prof'><strong className='txcol'>"</strong>Директор<strong className='txcol'>"</strong></b>
+            </div>
             </div>
            <div className='komcol'>
            <b className="imya">Рахимбердин Ян Рашидович</b>
-              <div className='opis'>Разработка программного обеспечения и пользовательского интерфейса</div>
-              <div className='ava'><img className='ava_kar2' src='/ma.jpeg' /></div>
-              <b className='prof'><strong className='txcol'>"</strong>Разработчик ПО<strong className='txcol'>"</strong></b>
+              <div className='ava'><img className='ava_kar1' src='/ma.jpeg' /></div>
+                <div>
+                  <div className='opis'>Разработка программного обеспечения и пользовательского интерфейса</div>
+                  <b className='prof'><strong className='txcol'>"</strong>Разработчик ПО<strong className='txcol'>"</strong></b>
+                </div>
             </div>
            <div className='komcol'>
            <b className="imya">Цаунит Антон Николаевич</b>
-              <div className='opis'>Разработка системы управления электропривода передвижения тележки</div>
-              <div className='ava'><img className='ava_kar3' src='/ma.jpeg' /></div>
-              <b className='prof'><strong className='txcol'>"</strong>Инженер АСУТП<strong className='txcol'>"</strong></b>
+              <div className='ava'><img className='ava_kar1' src='/ma.jpeg' /></div>
+              <div>
+                <div className='opis'>Разработка системы управления электропривода передвижения тележки</div>
+                <b className='prof'><strong className='txcol'>"</strong>Инженер АСУТП<strong className='txcol'>"</strong></b>
+              </div>
             </div>
           </div>
         </div>
@@ -38,15 +44,47 @@ const Contact = () => {
         <div  className='pod'>
         <motion.div className='a'>
           <h2 className='about'>
-            Финансо<strong className='txcol'>.</strong>
+            Финансовая поддержка<strong className='txcol'>.</strong>
             </h2>
         </motion.div>
-        
+        <div className='textc'>
+         <b className='pod1'>
+          Компания поддержана институтами развития<strong className='txcol'>:</strong>
+         </b>
+         <div className='bid'>
+            <b className='pod2'>
+            <strong className='txcol'>"</strong>ФОНД СОДЕЙСТВИЯ ИННОВАЦИЯМ<strong className='txcol'>"</strong>
+            </b>
+            <div className='pod3'>
+              20 000 000₽
+            </div>
+          </div>
+         <div className='pod4'>
+          2021 год
+         </div>
+         <div className='prog'>
+          <div className='progbid'>
+        <b className='pod5'>
+          Програма<strong className='txcol'>:</strong>
+        </b>
+        <div className='pod6'>
+           ФОНД СОДЕЙСТВИЯ ИННОВАЦИЯМ
+         </div>
+         <div className='pod7'>
+          Конкурс "Развитие-ИИ-I"
+         </div>
+         </div>
+         <div className='pod8'>
+          20 000 000₽
+          </div>
+          </div>
+          
+         </div>
         </div>
       </div>
-      <div className="linefooter">
+      {/* <div className="linefooter">
         <br></br>
-      </div>
+      </div> */}
       <div className='cont'>
         <div>ООО «АМР Лаб»</div>
         <div>ИНН 3900016545, КПП 390001001</div>

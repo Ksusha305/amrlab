@@ -125,7 +125,7 @@ const About = () => {
                     </div>
                 </motion.div>
                 </div>
-                <div className='columnleft'>
+                <div className='column3'>
                 <motion.div 
                 initial={{scale: 0}}
                 whileInView={{opacity: 1, scale: 1}}

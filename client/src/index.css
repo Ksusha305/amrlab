@@ -830,8 +830,11 @@ div:focus {
 }
 
 .opis {
-    margin-top: 30%;
     font-size: 22px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ava {
@@ -996,7 +999,7 @@ div:focus {
 .lineabo::before{
   border-left: 6px solid #ebecf3;
   width: 5px;
-  height: 118%;
+  height: 113%;
   position: absolute;
   content: '';
   margin-left: 60px;
@@ -1128,4 +1131,74 @@ div:focus {
   align-items: center;
   height: 100px;
   justify-content: space-around;
+}
+
+
+.pod1 {
+  padding: 3% 0;
+  font-size: 45px;
+}
+
+.pod2 {
+  padding: 1% 2%;
+  font-size: 35px;
+}
+
+
+.pod3 {
+  font-size: 25px;
+}
+
+.bid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.pod4 {
+  margin-left: 5%;
+  color: rgb(210, 210, 210);
+}
+
+.prog {
+  padding: 1% 2%;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.pod5 {
+  font-size: 35px;
+}
+
+.pod6 {
+  font-size: 17px;
+  margin-left: 8%;
+  padding: 1%;
+  width: 360px;
+}
+
+.pod7 {
+  margin-left: 8%;
+  font-size: 17px;
+}
+
+.pod8 {
+  font-size: 20px;
+  color: rgb(210, 210, 210);
+}
+
+.podd {
+  height: 900px;
+}
+
+.pod {
+  padding: 5%;
+}
+
+.textc {
+  color: #ebecf3;
 }
