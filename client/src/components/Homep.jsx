@@ -17,29 +17,16 @@ import {
                   <h1 className='head-text'>
                       Лаборатория мобильных роботов 
                   </h1>
-                  <h1 className='head-text2'>AGV тележка</h1>
+                  {/* <h1 className='head-text2'>AGV тележка</h1> */}
               </motion.div>
-              <div className='opisan'>  
+              {/* <div className='opisan'>  
                   <motion.div {...headContentAnimation} >
-                      <p className='opicanie'>
-                           АМРЛАБ тележка AGV с <strong className='txcol'>Комбинируемоей
+                      {/* <p className='opicanie'>
+                           АМРЛАБ тележка AGV с <strong className='txcol'>Комбинированной 
                           </strong>{' '} системой навигации.
-                      </p>
-  
-                      {/* <div className='link' onClick={() => {
-                        aboutRef.current?.scrollIntoView({
-                            behavior: "smooth"
-                        })
-                        }}>знать больше
-{/* 
-                          <CustomButton 
-                              type='filled'
-                              title='Узнать больше'
-                            //   handleClick={() => state.intro = false}
-                              customStyles=' px-4 py-2.5 font-bold text-sm'/> */}
-                      {/* </div> */} 
-                  </motion.div>
-              </div>
+                      </p> */}
+                  {/* </motion.div
+              </div> */} *
               <div className='fsh'>
                         <img src="/fsh.png" />
               </div>
