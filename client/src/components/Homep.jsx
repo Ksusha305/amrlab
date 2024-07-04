@@ -6,11 +6,65 @@ import {
    } from '../config/motion';
   import { AnimatePresence, motion} from 'framer-motion';
   import {useRef} from 'react'
+  import MediaQuery from 'react-responsive'
   const Homep = () => {
     const aboutRef =useRef();
     return (
         
           <AnimatePresence>
+            <MediaQuery minWidth={300} maxWidth={1200}>
+            <div className='g_t'>
+                
+                <motion.div {...headTextAnimation}>
+                    <h1 className='head-text_t'>
+                        Лаборатория мобильных роботов 
+                    </h1>
+                    {/* <h1 className='head-text2'>AGV тележка</h1> */}
+                </motion.div>
+                {/* <div className='opisan'>  
+                    <motion.div {...headContentAnimation} >
+                        {/* <p className='opicanie'>
+                             АМРЛАБ тележка AGV с <strong className='txcol'>Комбинированной 
+                            </strong>{' '} системой навигации.
+                        </p> */}
+                    {/* </motion.div
+                </div> */}
+                <div className='fsh_t'>
+                          <img src="/fsh.png" />
+                </div>
+                </div>
+  
+                <div className='imghead_t'>
+                  <div className='boltkr'>
+                      <div className='kr_t'>
+                          <img src='/kr.png' />
+                      </div>
+                      <div className='bolt_t'>
+                          <img  src="/bolt.png" /> 
+                      </div>
+                  </div>
+                  <div className='pr_t'>
+                      <img src="/pr.png" />
+                  </div>
+                  <div className='zakr'>
+                      <div className='zak_t'>
+                          <img src='/zak.png' />
+                      </div>
+                      <div className='fkr_t'>
+                          <img src='/fkr.png' />
+                      </div>
+                        <div className='palcol'>
+                        <div className='pal'>
+                            <img src="/pal.png" />
+                        </div>
+                        <div className='col'>
+                            <img src='/col.png' />
+                        </div>
+                    </div>
+                  </div>
+                  </div>
+            </MediaQuery>
+            <MediaQuery minWidth={1200}>
             <div className='g'>
                 
               <motion.div {...headTextAnimation}>
@@ -19,21 +73,6 @@ import {
                   </h1>
                   {/* <h1 className='head-text2'>AGV тележка</h1> */}
               </motion.div>
-<<<<<<< HEAD
-              <div className='opisk'>
-                <div className='opisan'>  
-                    <motion.div {...headContentAnimation} >
-                        <p className='opicanie'>
-                            АМРЛАБ тележка AGV с <strong className='txcol'>Комбинируемоей
-                            </strong>{' '} системой навигации.
-                        </p>
-                    </motion.div>
-                </div>
-                <div className='fsh'>
-                            <img src="/fsh.png" />
-                </div>
-              </div>  
-=======
               {/* <div className='opisan'>  
                   <motion.div {...headContentAnimation} >
                       {/* <p className='opicanie'>
@@ -45,7 +84,6 @@ import {
               <div className='fsh'>
                         <img src="/fsh.png" />
               </div>
->>>>>>> 18f91cd72980778df1a43280d6fd1048b528550d
               </div>
 
               <div className='imghead'>
@@ -69,7 +107,9 @@ import {
                     </div>
                 </div>
             </div>
+            </MediaQuery>
           </AnimatePresence>  
+            
     )
   
   }

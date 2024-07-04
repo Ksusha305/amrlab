@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import MediaQuery from 'react-responsive'
 
 const AnimatedLetter= ({ text }) => {
 // splitting text into letters

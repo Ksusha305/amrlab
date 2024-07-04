@@ -8,6 +8,7 @@ import About from '../components/About';
 import Contact from '../components/Contact';
 import Razrab from '../components/Razrab';
 import AnimatedLetter from '../components/AnimatedLetter';
+import MediaQuery from 'react-responsive'
 
 const Home = () => {
   const [scope, animate] = useAnimate();
@@ -32,6 +33,95 @@ const Home = () => {
 
   return (
     <AnimatePresence>
+      <MediaQuery minWidth={300} maxWidth={1200}>
+      <div animate="animate" initial="initial" className='header_t'>
+        <h2 className='head_logo_text_t'>
+          <AnimatedLetter text="АМР ЛАБ" />
+        </h2>
+        <motion.img 
+            //ref={scope}
+            src='/ma.png' 
+            alt='logo'
+            className='image_t'  
+        />
+      </div>
+      <div className='header2_t'>
+      <div  className='dd_t'>
+        <div className='fonhead_t'>
+          <div className="link" onClick={() => {
+            homeRef.current?.scrollIntoView({
+              behavior: "smooth"
+            })
+          }}>
+            Главная
+            </div>
+              <div className='linehead'>
+                <br></br>
+              </div>  
+          </div>
+        </div>
+        <div  className='dd_t'>
+          <div className='fonhead_t'>
+            <div className="link" onClick={() => {
+              aboutRef.current?.scrollIntoView({
+                behavior: "smooth"
+              })
+            }}>
+              О проекте
+            </div> 
+            <div className='linehead'>
+                <br></br>
+            </div>   
+          </div>
+        </div>
+        <div  className='dd_t'>
+          <div className='fonhead_t'>
+            <div className="link" onClick={() => {
+              razrabRef.current?.scrollIntoView({
+                behavior: "smooth"
+              })
+            }}>
+              Алгоритм
+            </div>
+            <div className='linehead'>
+                <br></br>
+            </div>  
+          </div>
+        </div>    
+        <div  className='dd_t'>
+          <div className='fonhead_t'>
+            <div className="link" onClick={() => {
+              contactRef.current?.scrollIntoView({
+                behavior: "smooth"
+              })
+            }}>
+              Команда
+            </div>
+            <div className='linehead'>
+                <br></br>
+            </div>  
+          </div>
+        </div>
+      </div> 
+      {snap.intro && (
+        <section className='home' >
+          <div className='home_content1_t' id='home_content1' ref={homeRef} >
+            <Homep></Homep>
+          </div>
+        </section>
+        
+      )}
+      <div className='section_t'  id='about' ref={aboutRef}>
+        <About></About>             
+      </div>
+      <div  id='razrab' ref={razrabRef}>
+        <Razrab></Razrab>                
+      </div> 
+      <div className='section_t'  id='contact' ref={contactRef}>
+        <Contact></Contact>                
+      </div>
+      </MediaQuery>
+      <MediaQuery minWidth={1200}>
       <div animate="animate" initial="initial" className='header'>
         <h2 className='head_logo_text'>
           <AnimatedLetter text="АМР ЛАБ" />
@@ -118,6 +208,7 @@ const Home = () => {
       <div className='section'  id='contact' ref={contactRef}>
         <Contact></Contact>                
       </div>
+      </MediaQuery>
     </AnimatePresence>
     
   )
