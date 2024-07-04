@@ -73,6 +73,22 @@ import {
                   </h1>
                   {/* <h1 className='head-text2'>AGV тележка</h1> */}
               </motion.div>
+<<<<<<< HEAD
+=======
+              {/* <div className='opisk'>
+                <div className='opisan'>  
+                    <motion.div {...headContentAnimation} >
+                        <p className='opicanie'>
+                            АМРЛАБ тележка AGV с <strong className='txcol'>Комбинируемоей
+                            </strong>{' '} системой навигации.
+                        </p>
+                    </motion.div> */}
+                {/* </div>
+                <div className='fsh'>
+                            <img src="/fsh.png" />
+                </div>
+              </div>   */}
+>>>>>>> 6285f42d7c123956e5f97691c3875939d7cf2594
               {/* <div className='opisan'>  
                   <motion.div {...headContentAnimation} >
                       {/* <p className='opicanie'>

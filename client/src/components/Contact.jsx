@@ -116,6 +116,7 @@ const Contact = () => {
           <MediaQuery minWidth={1200} maxHeight={3980}>
         <div className='contact'>
         <motion.div className='a'>
+<<<<<<< HEAD
               <h2 className='about'>
                 Команда проекта<strong className='txcol'>.</strong>
                 </h2>
@@ -216,6 +217,30 @@ const Contact = () => {
                 <div className='cont' >ИНН 3900016545, КПП 390001001</div>
                 <div className='cont'>ОГРН 1233900011344</div>
               </div>
+=======
+          <h2 className='about'>
+            Финансовая поддержка<strong className='txcol'>.</strong>
+            </h2>
+        </motion.div>
+        <div className='textc'>
+         <b className='pod1'>
+          Компания поддержана институтами развития<strong className='txcol'>:</strong>
+         </b>
+         <div className='bid'>
+            <b className='pod2'>
+            <strong className='txcol'>"</strong>ФОНД СОДЕЙСТВИЯ ИННОВАЦИЯМ<strong className='txcol'>"</strong>
+            </b>
+            <div className='pod3'>
+              1 000 000₽
+            </div>
+          </div>
+        <div className='bid'>
+          <b className='pod2'>
+              <strong className='txcol'>"</strong>Конкурс 'Студенческий стартап' <strong className='txcol'>"</strong>
+          </b>
+          <div className='pod3'>
+                1 000 000₽
+>>>>>>> 6285f42d7c123956e5f97691c3875939d7cf2594
           </div>
           </div>
           </div> */}
