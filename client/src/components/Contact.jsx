@@ -61,7 +61,7 @@ const Contact = () => {
           </div>
         <div className='bid'>
           <b className='pod2'>
-              <strong className='txcol'>"</strong>Конкурс 'Студенческий старатап' <strong className='txcol'>"</strong>
+              <strong className='txcol'>"</strong>Конкурс 'Студенческий стартап' <strong className='txcol'>"</strong>
           </b>
           <div className='pod3'>
                 1 000 000₽
