@@ -46,16 +46,16 @@ const Contact = () => {
                 Финансовая поддержка<strong className='txcol'>.</strong>
                 </h2>
             </motion.div>
-          <div className='podd'>
+          <div className='podd_t'>
             <div  className='pod'>
-            <div className='finn'>
-                <div className='textc'>
-                <b className='pod1'>
+            <div className='finn_t'>
+                <div className='textc_t'>
+                <b className='pod1_t'>
                   Компания поддержана институтами развития<strong className='txcol'>:</strong>
                 </b>
                 <div className='bid'>
-                  <div className='ioi'>
-                      <b className='pod2'>
+                  <div className='ioi_t'>
+                      <b className='pod2_t'>
                       <strong className='txcol'>"</strong>ФОНД СОДЕЙСТВИЯ ИННОВАЦИЯМ<strong className='txcol'>"</strong>
                       </b>
                     
@@ -63,14 +63,14 @@ const Contact = () => {
                     2023 - 2024 годы
                   </div>
                   </div>
-                  <div className='pod3'>1 000 000₽</div>
+                  <div className='pod3_t'>1 000 000₽</div>
                   </div>
 
                 <div className='bid'>
-                  <b className='pod2'>
+                  <b className='pod2_t'>
                       <strong className='txcol'>"</strong>Конкурс 'Студенческий старатап' <strong className='txcol'>"</strong>
                   </b>
-                  <div className='pod3'>
+                  <div className='pod3_t'>
                         1 000 000₽
                   </div>
                 </div>
@@ -86,14 +86,16 @@ const Contact = () => {
               </div>
             </div>
           </div>  
-          <div className='cont'>
-            <div>ООО «АМР Лаб»</div>
-            <div>ИНН 3900016545, КПП 390001001</div>
-            <div>ОГРН 1233900011344</div>
-            <div>E-mail: bocha083@mail.ru</div>
-            <div>Тел: +7 (911) 858 95 63 </div>
-            <div>236029 г. Калининград, ул Горького, дом 69, офис 4</div>
-          </div>
+          <div className='cont_t'>
+              <div>ООО «АМР Лаб»</div>
+              <div>ИНН 3900016545, КПП 390001001</div>
+              <div>ОГРН 1233900011344</div>
+            </div>
+            <div className='cont_t'>
+              <div>E-mail: bocha083@mail.ru</div>
+              <div>Тел: +7 (911) 858 95 63 </div>
+              <div>236029 г. Калининград, ул Горького, дом 69, офис 4</div>
+            </div>  
           {/* <div className='contactoz'><h1 className='head-textcon'>Контакты<h3>.</h3></h1></div>  
           <div className='foter'>
             <div className='cont1'>
@@ -110,7 +112,7 @@ const Contact = () => {
               </div>
           </div>
           </div>
-          </div> */}
+          </div> */}  
           </div>
           </MediaQuery>
           <MediaQuery minWidth={1200} maxWidth={3980}>
@@ -187,7 +189,7 @@ const Contact = () => {
             </div>
             <div className='fo'>
               <div className='fond'>
-                <img src='../public/fon.png' />
+                <img src='/fon.png' />
               </div>
               <div className='font'>
                 Проект реализован при содействии

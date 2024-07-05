@@ -304,7 +304,10 @@ html {
           user-select: none;
   color: rgb(235,236,243);       
   margin-bottom: 40px;
+  line-height: 50px;
+  text-align: center;
 }
+
 
 .pal {
   width: 80px;
@@ -509,7 +512,6 @@ html {
 .razrab_t {
   height: 500px;
   padding: 0;
-  display: flex;
   margin-bottom: 125px;
 }
 
@@ -518,7 +520,6 @@ html {
 }
 
 .textraz_t {
-  padding: 7% 14%;
   display: flex;
   align-items: flex-end;
 }
@@ -755,8 +756,13 @@ input[type="file"] {
 
 .finn {
   display: flex;
-
 }
+
+.finn {
+  display: flex;
+  width: 110%;
+}
+
 
 
 .header {
@@ -1147,15 +1153,15 @@ div:focus {
 }
 
 .imya {
-  font-size: 26px;
+  font-size: 19px;
 }
 
-.imya {
+.imya_t {
   font-size: 15px;
 }
 
 .prof {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .prof_t {
@@ -1164,15 +1170,15 @@ div:focus {
 
 .opis {
     font-size: 22px;
-    height: 150px;
+    height: 230px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.opis {
+.opis_t {
   font-size: 12px;
-  height: 150px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1336,10 +1342,11 @@ div:focus {
 
 .zagl {
   display: flex;
-
 }
 
-
+.zagl_t {
+  margin-left: 70px;
+}
 
 .fsh {
   width: 150px;
@@ -1438,7 +1445,7 @@ div:focus {
 .lineabo_t::before{
   border-left: 6px solid #ebecf3;
   width: 5px;
-  height: 85%;
+  height: 70%;
   position: absolute;
   content: '';
   left: 20%;
@@ -1750,10 +1757,29 @@ width: 320px;
   justify-content: space-around;
 }
 
+.cont_t {
+  display: flex;
+  color: #ebecf3;
+  align-items: center;
+  height: 40px;
+  justify-content: space-around;
+  font-size: 7px;
+}
 
 .pod1 {
   padding: 3% 0;
   font-size: 45px;
+}
+
+
+.pod1 {
+  padding: 3% 0;
+  font-size: 45px;
+}
+
+.pod1_t {
+  padding: 3% 0;
+  font-size: 20px;
 }
 
 .pod2 {
@@ -1761,9 +1787,19 @@ width: 320px;
   font-size: 35px;
 }
 
+.pod2_t {
+  padding: 1% 2%;
+    font-size: 14px;
+    width: 540px;
+}
 
 .pod3 {
   font-size: 25px;
+}
+
+.pod3_t {
+  font-size: 14px;
+  width: 210px;
 }
 
 .bid {
@@ -1824,6 +1860,10 @@ width: 320px;
   justify-content: space-around;
 }
 
+.podd {
+  height: 1050px;
+}
+
 .pod {
   padding: 5%;
 }
@@ -1832,15 +1872,21 @@ width: 320px;
   color: #ebecf3;
 }
 
+.textc_t {
+  color: #ebecf3;
+}
+
+
 .font {
   color: #ebecf3;
   width: 200px;
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
+  margin-bottom: 100px;
 }
 
 .fo {
-  width: 440px;
+  width: 100%;
   margin-top: 4%;
   display: grid;
   justify-items: center;
@@ -1848,4 +1894,8 @@ width: 320px;
 
 .ioi {
   width: 700px;
+}
+
+.ioi_t {
+  width: 500px;
 }
