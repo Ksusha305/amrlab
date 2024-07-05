@@ -1152,8 +1152,12 @@ div:focus {
   padding: 0 5%;
 }
 
-.imya {
+.imya_n {
   font-size: 19px;
+}
+
+.imya {
+  font-size: 26px;
 }
 
 .imya_t {
@@ -1169,8 +1173,8 @@ div:focus {
 }
 
 .opis {
-    font-size: 22px;
-    height: 230px;
+    font-size: 18px;
+    height: 160px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1596,7 +1600,7 @@ width: 320px;
   border-radius: 50%;
   width: 70px;
   height: 70px;
-  background: url(../public/kolks.png);
+  background: url(../public/kolll.png);
   margin-top: 1%;
   position: absolute;
   content: '';
@@ -1610,7 +1614,7 @@ width: 320px;
   border-radius: 50%;
   width: 70px;
   height: 70px;
-  background: url(../public/kol.png);
+  background: url(../public/kolll.png);
   margin-top: 5%;
   position: absolute;
   content: '';

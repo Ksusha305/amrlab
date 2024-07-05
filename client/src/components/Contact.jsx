@@ -126,7 +126,12 @@ const Contact = () => {
             <div className='komandcolumn'>
               <div className='komandcol'>
               <div className='komcol'>
+                <MediaQuery minWidth={1200} maxWidth={1800}>
+                  <b className="imya_n">Бочарников Александр Сергеевич</b>
+                </MediaQuery>
+                <MediaQuery minWidth={1800} maxWidth={3980}>
                   <b className="imya">Бочарников Александр Сергеевич</b>
+                </MediaQuery>
                   <div className='ava'><img className='ava_kar1' src='/ma.jpeg' /></div>
                   <div>
                     <div className='opis'>Руководство проектом</div>
