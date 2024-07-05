@@ -79,7 +79,7 @@ const Contact = () => {
             </div>
             <div className='fo'>
               <div className='fond'>
-                <img src='../public/fon.png' />
+                <img src='/fon.png' />
               </div>
               <div className='font'>
                 Проект реализован при содействии
