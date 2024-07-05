@@ -217,7 +217,6 @@ const About = () => {
                 
                 className='textcolumnl_n'>
                   <div className='treygleft1_n'/>
-                  <div>
                     <div className='ub1_n'>
                         -Привод: электрический
                     </div>
@@ -227,13 +226,10 @@ const About = () => {
                       <div className='ub1_n'>
                         -Настройка: встроенный интерфейс
                       </div>
-<<<<<<< HEAD
                       <div className='ub1_n'>
                         -Протокол связи: WI-Fi
-=======
                       <div className='ub1'>
                         -Протокол связи: Wi-Fi
->>>>>>> 6285f42d7c123956e5f97691c3875939d7cf2594
                       </div>
                       <div className='ub1_n'>
                         -Скорость: 10м/мин

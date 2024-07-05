@@ -73,8 +73,6 @@ import {
                   </h1>
                   {/* <h1 className='head-text2'>AGV тележка</h1> */}
               </motion.div>
-<<<<<<< HEAD
-=======
               {/* <div className='opisk'>
                 <div className='opisan'>  
                     <motion.div {...headContentAnimation} >
@@ -88,7 +86,6 @@ import {
                             <img src="/fsh.png" />
                 </div>
               </div>   */}
->>>>>>> 6285f42d7c123956e5f97691c3875939d7cf2594
               {/* <div className='opisan'>  
                   <motion.div {...headContentAnimation} >
                       {/* <p className='opicanie'>

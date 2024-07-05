@@ -5,7 +5,7 @@ import MediaQuery from 'react-responsive'
 const Contact = () => {
   return (
     <AnimatePresence>
-      <MediaQuery minWidth={300} maxHeight={1100}>
+      <MediaQuery minWidth={300} maxWidth={1100}>
         <div className='contact'>
         <motion.div className='a'>
               <h2 className='about_t'>
@@ -113,10 +113,9 @@ const Contact = () => {
           </div> */}
           </div>
           </MediaQuery>
-          <MediaQuery minWidth={1200} maxHeight={3980}>
+          <MediaQuery minWidth={1200} maxWidth={3980}>
         <div className='contact'>
         <motion.div className='a'>
-<<<<<<< HEAD
               <h2 className='about'>
                 Команда проекта<strong className='txcol'>.</strong>
                 </h2>
