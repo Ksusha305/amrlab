@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion} from "framer-motion"
 import MediaQuery from 'react-responsive'
-// import MediaQuery from 'react-responsive'
+import MediaQuery from 'react-responsive'
 
 const Razrab = () => {
   var w = window.innerWidth
