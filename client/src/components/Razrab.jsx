@@ -10,9 +10,9 @@ const Razrab = () => {
       <div className='razrab_t'>
           <div className='zagl_t'>
             <motion.h2
-              initial={{ x: w / 2 - 420 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.6 }}
+              // initial={{ x: w / 2 - 420 }}
+              // whileInView={{ opacity: 1, scale: 1 }}
+              // transition={{ delay: 0.6 }}
               className='about1_t'>Алгоритм<strong className='txcol'>.</strong>
             </motion.h2>
             {/* <MediaQuery minWidth={1200} maxWidth={1535}>
@@ -42,9 +42,9 @@ const Razrab = () => {
           <div className='zagl'>
             <div>
               <motion.h2
-                initial={{ x: w / 2 - 420 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.6 }}
+                // initial={{ x: w / 2 - 420 }}
+                // whileInView={{ opacity: 1, scale: 1 }}
+                // transition={{ delay: 0.6 }}
                 className='about1_c'>Алгоритм<strong className='txcol'>.</strong>
               </motion.h2>
             </div>
@@ -57,14 +57,14 @@ const Razrab = () => {
       </motion.h2>
     </MediaQuery>
     <MediaQuery  minWidth={1536} maxWidth={3840}>*/}
-            <motion.img
+            {/* <motion.img
               initial={{ x: -100 }}
               whileInView={{ x: w - 870 }}
               transition={{ duration: 1.3 }}
               // animate={{opacity: 0}}
               src='/ma.png'
               alt='logo'
-              className='image3' />
+              className='image3' /> */}
           </div>
           <div className='textraz'>
             <div className='textr'>
