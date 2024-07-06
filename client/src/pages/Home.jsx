@@ -9,6 +9,7 @@ import Contact from '../components/Contact';
 import Razrab from '../components/Razrab';
 import AnimatedLetter from '../components/AnimatedLetter';
 import MediaQuery from 'react-responsive'
+// import Carousel from '../components/Carousel';
 
 const Home = () => {
   const [scope, animate] = useAnimate();
@@ -16,6 +17,20 @@ const Home = () => {
   const aboutRef =useRef();
   const contactRef = useRef();
   const razrabRef =useRef();
+//   const images = [
+//     {
+//         src: 'машина2.png',
+//         alt: 'img1'
+//     },
+//     {
+//         src: '/машина3.png',
+//         alt: 'img2'
+//     },
+//     {
+//         src: '/машина4.png',
+//         alt: 'img3'
+//     }
+// ]
   const variants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1 }
@@ -45,6 +60,7 @@ const Home = () => {
             className='image_t'  
         />
       </div>
+      {/* <Carousel images={images}/> */}
       <div className='header2_t'>
       <div  className='dd_t'>
         <div className='fonhead_t'>

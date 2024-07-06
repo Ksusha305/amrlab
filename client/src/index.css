@@ -153,6 +153,103 @@ html {
   margin-left: 50px;
   display: block;
 }
+.carousel {
+  max-width: 2500px;
+  width:100%;
+  overflow: hidden;
+  padding: 150px 0;
+  background-color: rgb(8, 8, 8);
+}
+.carousel a {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+/* .carousel .meta {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  bottom: 20px;
+  left: 20px;
+  font-weight: bold;
+  transition: all .6s cubic-bezier(0.4, 0.0, 0.2, 1);
+  transform: translateY(75px);
+  opacity: 0;
+} */
+
+/* .carousel ul li.active .meta {
+  transform: translateY(0);
+  opacity: 1;
+} */
+
+.carousel .cta {
+  background: #FFF;
+  padding: 10px 15px;
+  display: inline-block;
+  color: #222;
+  border-radius: 5px;
+}
+
+.carousel .arrows {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+  user-select: none;
+}
+
+.carousel .arrows span {
+  cursor: pointer;
+  border: solid #FFF;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+.carousel .arrows span.disabled {
+  border-color: #555;
+  cursor: default;
+}
+
+.carousel .arrows .left {
+  transform: rotate(135deg);
+}
+.carousel .arrows .right {
+  transform: rotate(-45deg);
+}
+.carousel ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  justify-content: center;
+  transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.carousel ul.even {
+  transform: translateX(-250px);
+}
+
+.carousel img {
+  width: 800px;
+  height: 250px;
+  object-fit: cover; /* Make sure you set this to avoid streching */
+  display: block;
+  border-radius: 5px;
+}
+/* .carousel::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(17,12,17,0) 30%, rgba(17,12,17,1) 90%);
+} */
 
 .fond {
   width: 340Spx;

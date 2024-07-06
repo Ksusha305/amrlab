@@ -7,33 +7,23 @@ import {
   import { AnimatePresence, motion} from 'framer-motion';
   import {useRef} from 'react'
   import MediaQuery from 'react-responsive'
+  import { Carousel } from "flowbite-react";
   const Homep = () => {
     const aboutRef =useRef();
     return (
-        
           <AnimatePresence>
             <MediaQuery minWidth={300} maxWidth={1200}>
             <div className='g_t'>
-                
                 <motion.div {...headTextAnimation}>
                     <h1 className='head-text_t'>
                         Лаборатория мобильных роботов 
                     </h1>
-                    {/* <h1 className='head-text2'>AGV тележка</h1> */}
                 </motion.div>
-                {/* <div className='opisan'>  
-                    <motion.div {...headContentAnimation} >
-                        {/* <p className='opicanie'>
-                             АМРЛАБ тележка AGV с <strong className='txcol'>Комбинированной 
-                            </strong>{' '} системой навигации.
-                        </p> */}
-                    {/* </motion.div
-                </div> */}
+                
                 <div className='fsh_t'>
                           <img src="/fsh.png" />
                 </div>
                 </div>
-  
                 <div className='imghead_t'>
                   <div className='boltkr'>
                       <div className='kr_t'>
@@ -65,40 +55,27 @@ import {
                   </div>
             </MediaQuery>
             <MediaQuery minWidth={1200}>
+
             <div className='g'>
                 
               <motion.div {...headTextAnimation}>
                   <h1 className='head-text'>
                       Лаборатория мобильных роботов 
                   </h1>
-                  {/* <h1 className='head-text2'>AGV тележка</h1> */}
               </motion.div>
-              {/* <div className='opisk'>
-                <div className='opisan'>  
-                    <motion.div {...headContentAnimation} >
-                        <p className='opicanie'>
-                            АМРЛАБ тележка AGV с <strong className='txcol'>Комбинируемоей
-                            </strong>{' '} системой навигации.
-                        </p>
-                    </motion.div> */}
-                {/* </div>
-                <div className='fsh'>
-                            <img src="/fsh.png" />
+              <div className="h-36 sm:h-36 xl:h-36 2xl:h-96">
+                <Carousel>
+                    <img src="/машина2.png" alt="..." />
+                    <img src="/машина3.png" alt="..." />
+                    <img src="/машина4.png" alt="..."/>
+                </Carousel>
                 </div>
-              </div>   */}
-              {/* <div className='opisan'>  
-                  <motion.div {...headContentAnimation} >
-                      {/* <p className='opicanie'>
-                           АМРЛАБ тележка AGV с <strong className='txcol'>Комбинированной 
-                          </strong>{' '} системой навигации.
-                      </p> */}
-                  {/* </motion.div
-              </div> */} *
               <div className='fsh'>
                         <img src="/fsh.png" />
               </div>
+              
               </div>
-
+                
               <div className='imghead'>
                 <div className='boltkr'>
                     <div className='kr'>
