@@ -100,9 +100,6 @@ const About = () => {
                       <div className='ub1_t'>
                         -Протокол связи: WI-Fi
                       </div>
-                      <div className='ub1_t'>
-                        -Скорость: 10м/мин
-                      </div>
                   </div>
                   </motion.div>
                 </motion.div>
