@@ -63,13 +63,13 @@ import {
                       Лаборатория мобильных роботов 
                   </h1>
               </motion.div>
-              <div className="h-36 sm:h-36 xl:h-36 2xl:h-96">
+              {/* <div className="h-36 sm:h-36 xl:h-36 2xl:h-96">
                 <Carousel>
                     <img src="/машина2.png" alt="..." />
                     <img src="/машина3.png" alt="..." />
                     <img src="/машина4.png" alt="..."/>
                 </Carousel>
-                </div>
+                </div> */}
               <div className='fsh'>
                         <img src="/fsh.png" />
               </div>
