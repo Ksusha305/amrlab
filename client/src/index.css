@@ -105,7 +105,7 @@ html {
 
 
 .ub1_t {
-  font-size: 13px;         
+  font-size: 11px;         
   font-weight: 650;
   /* margin-right: -40px; */
   color: rgb(235,236,243);
@@ -474,7 +474,6 @@ html {
 
 .about1_t {
   @apply xl:leading-[5rem] leading-[10rem] ;
-  margin-left: 260px;
   font-weight: 650;
   font-size: 30px;
   -webkit-touch-callout: none; 
@@ -487,6 +486,7 @@ html {
   display: flex;
   align-items: center;
   height: 150px;
+  justify-content: center;
 }
 
 .about1_n {
