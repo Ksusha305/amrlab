@@ -1443,6 +1443,7 @@ div:focus {
 
 .zagl {
   display: flex;
+  justify-content: center;
 }
 
 .zagl_t {
@@ -1524,7 +1525,7 @@ div:focus {
 .lineabo_c::before{
   border-left: 6px solid #ebecf3;
   width: 5px;
-  height: 113%;
+  height: 110%;
   position: absolute;
   content: '';
   margin-left: 60px;
@@ -1546,7 +1547,7 @@ div:focus {
 .lineabo_t::before{
   border-left: 6px solid #ebecf3;
   width: 5px;
-  height: 70%;
+  height: 80%;
   position: absolute;
   content: '';
   left: 20%;
@@ -1606,12 +1607,12 @@ width: 320px;
 .treygright_t {
   width: 0;
   height: 0;
-  border-top: 12px solid transparent;
-  border-left: 20px solid #ebecf3;
-  border-bottom: 12px solid transparent;
+  border-top: 8px solid transparent;
+  border-left: 12px solid #ebecf3;
+  border-bottom: 8px solid transparent;
   margin-top: 10%;
   transform: rotate(180deg);
-  margin-left: -41px;
+  margin-left: -33px;
 }
 
 .mach1 {
