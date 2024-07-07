@@ -42,7 +42,7 @@ const About = () => {
             whileInView={{x: 0}}
             transition={{duration: 1}}
             className='example1_t'>
-              <img className="image2_t" src='/robotran.png'/>
+              <img className="image2_t" src='/trans.png'/>
               <h2 className='ub_t'>Робот транспортер</h2>
           </motion.div>
           </div>
