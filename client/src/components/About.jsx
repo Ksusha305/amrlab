@@ -53,7 +53,7 @@ const About = () => {
              whileInView={{x: 0}}
              transition={{duration: 1}}
           className='example1_t'>
-            <img className="image2_t" src='/klaod.png'/>
+            <img className="image2_t" src='/kladd.png'/>
             <h2 className='ub_t'>Робот кладовщик</h2>
           </motion.div>
           <motion.div 
@@ -178,7 +178,7 @@ const About = () => {
              whileInView={{x: 0}}
              transition={{duration: 1}}
           className='example1'>
-            <img className="image2" src='/klaod.png'/>
+            <img className="image2" src='/kladd.png'/>
             <h2 className='ub'>Робот кладовщик</h2>
           </motion.div>
           <motion.div 
