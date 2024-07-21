@@ -22,11 +22,11 @@ import {
                 <div className='mach_t'>
               <div className="h-36 sm:h-36 xl:h-36 2xl:h-96">
                 <Carousel>
-                    <img className='mach1t' src="/машина2.png" alt="..." />
-                    <img className='mach1t' src="/машина3.png" alt="..." />
-                    <img className='mach1t' src="/машина4.png" alt="..."/>
-                    <img className='mach1t' src='/машина5.png' alt="..."/>
-                    <img className='mach1t' src='/машина6.png' alt="..."/>
+                    <img className='mach1t' src="/1111111.png" alt="..." />
+                    <img className='mach1t' src="/2222222.png" alt="..." />
+                    <img className='mach1t' src="/3333333.png" alt="..."/>
+                    <img className='mach1t' src='/4444444.png' alt="..."/>
+                    <img className='mach1t' src='/5555.png' alt="..."/>
                 </Carousel>
                 </div>
                 </div>
@@ -76,11 +76,11 @@ import {
               <div className='mach_n'>
               <div className="h-36 sm:h-36 xl:h-36 2xl:h-96">
                 <Carousel>
-                    <img className='mach1' src="/машина2.png" alt="..." />
-                    <img className='mach1' src="/машина3.png" alt="..." />
-                    <img className='mach1' src="/машина4.png" alt="..."/>
-                    <img className='mach1' src='/машина5.png' alt="..."/>
-                    <img className='mach1' src='/машина6.png' alt="..."/>
+                    <img className='mach1' src="/1111111.png" alt="..." />
+                    <img className='mach1' src="/2222222.png" alt="..." />
+                    <img className='mach1' src="/3333333.png" alt="..."/>
+                    <img className='mach1' src='/4444444.png' alt="..."/>
+                    <img className='mach1' src='/5555.png' alt="..."/>
                 </Carousel>
                 </div>
                 </div>
