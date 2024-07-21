@@ -127,7 +127,7 @@ import {
                         <img className='mach1' src="/1111111.png" alt="..." />
                         <img className='mach1' src="/2222222.png" alt="..." />
                         <img className='mach1' src="/3333333.png" alt="..."/>
-                        <img className='mach1' src='/.png' alt="..."/>
+                        <img className='mach1' src='/4444444.png' alt="..."/>
                         <img className='mach1' src='/5555.png' alt="..."/>
                     </Carousel>
                     </div>
