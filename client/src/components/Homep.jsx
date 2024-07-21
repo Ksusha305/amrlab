@@ -40,7 +40,7 @@ import {
                           <img src='/kr.png' />
                       </div>
                       <div className='bolt_t'>
-                          <img  src="/bolt.png" /> 
+                          <img  src="/bolt1.png" /> 
                       </div>
                   </div>
                   <div className='pr_t'>
@@ -96,7 +96,7 @@ import {
                         <img src='/kr.png' />
                     </div>
                     <div className='bolt'>
-                        <img  src="/bolt.png" /> 
+                        <img  src="/bolt1.png" /> 
                     </div>
                 </div>
                 <div className='pr'>
@@ -122,13 +122,13 @@ import {
                     </h1>
                 </motion.div>
                 <div className='mach'>
-                <div className="h-36 sm:h-36 xl:h-36 2xl:h-96">
+                <div className="h-42 sm:h-36 xl:h-36 2xl:h-96">
                     <Carousel>
-                        <img className='mach1' src="/машина2.png" alt="..." />
-                        <img className='mach1' src="/машина3.png" alt="..." />
-                        <img className='mach1' src="/машина4.png" alt="..."/>
-                        <img className='mach1' src='/машина5.png' alt="..."/>
-                        <img className='mach1' src='/машина6.png' alt="..."/>
+                        <img className='mach1' src="/1111111.png" alt="..." />
+                        <img className='mach1' src="/2222222.png" alt="..." />
+                        <img className='mach1' src="/3333333.png" alt="..."/>
+                        <img className='mach1' src='/.png' alt="..."/>
+                        <img className='mach1' src='/5555.png' alt="..."/>
                     </Carousel>
                     </div>
                     </div>
@@ -144,7 +144,7 @@ import {
                             <img src='/kr.png' />
                         </div>
                         <div className='bolt'>
-                            <img  src="/bolt.png" /> 
+                            <img  src="/bolt1.png" /> 
                         </div>
                     </div>
                     <div className='pr'>
