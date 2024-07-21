@@ -16,7 +16,7 @@ const Razrab = () => {
             </motion.h2>
             <motion.img
               initial={{ x: -300}}
-              whileInView={{ x: w - 400}}
+              whileInView={{ x: w - 350}}
               transition={{ duration: 1.3 }}
               //animate={{opacity: 0}}
               src='/ma.png'
