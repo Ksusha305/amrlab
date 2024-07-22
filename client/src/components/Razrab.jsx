@@ -15,7 +15,7 @@ const Razrab = () => {
               className='about1_t'>Алгоритм<strong className='txcol'>.</strong>
             </motion.h2>
             <motion.img
-              initial={{ x: -300}}
+              initial={{ x: -100}}
               whileInView={{ x: w - 350}}
               transition={{ duration: 1.3 }}
               //animate={{opacity: 0}}
