@@ -45,6 +45,10 @@ html {
   }
 }
 
+.p_t {
+  display: flex;
+}
+
 .home {
   @apply w-fit xl:h-full flex xl:justify-between justify-start items-start flex-col xl:py-8 xl:px-36 sm:p-8 p-6 max-xl:gap-7 absolute z-10;
   display: contents;
@@ -105,7 +109,7 @@ html {
 
 
 .ub1_t {
-  font-size: 13px;         
+  font-size: 11px;         
   font-weight: 650;
   /* margin-right: -40px; */
   color: rgb(235,236,243);
@@ -313,6 +317,7 @@ html {
   display: flex;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-bottom: 130px;
+  justify-content: center;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -332,6 +337,23 @@ html {
   @apply xl:leading-[5rem] leading-[10rem] ;
   text-align: center;
   font-weight: 650;
+  font-size: 70px;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+   -khtml-user-select: none; 
+     -moz-user-select: none; 
+      -ms-user-select: none; 
+          user-select: none;
+  color: rgba(235, 236, 243); 
+  filter: blur(0.3);      
+  width: 1300px;
+  margin-left: 3%;
+}
+
+.head-text_n {
+  @apply xl:leading-[5rem] leading-[10rem] ;
+  text-align: center;
+  font-weight: 650;
   font-size: 80px;
   -webkit-touch-callout: none; 
   -webkit-user-select: none; 
@@ -341,7 +363,8 @@ html {
           user-select: none;
   color: rgba(235, 236, 243); 
   filter: blur(0.3);      
-  
+  width: 800px;
+  margin-left: 3%;
 }
 
 .head-text_t {
@@ -474,7 +497,6 @@ html {
 
 .about1_t {
   @apply xl:leading-[5rem] leading-[10rem] ;
-  margin-left: 260px;
   font-weight: 650;
   font-size: 30px;
   -webkit-touch-callout: none; 
@@ -487,6 +509,7 @@ html {
   display: flex;
   align-items: center;
   height: 150px;
+  justify-content: center;
 }
 
 .about1_n {
@@ -602,14 +625,18 @@ html {
 .razrab {
   height: 800px;
   padding: 0;
-  display: flex;
+  /* display: flex; */
   margin-bottom: 125px;
+  margin-left: 80px;
 }
 
 .razrab_t {
   height: 500px;
   padding: 0;
   margin-bottom: 125px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .textraz {
@@ -630,7 +657,7 @@ html {
 .textr_t {
   color: #ebecf3;
   text-align: center;
-  font-size: 11px;
+  font-size: 13px;
   width: 250px;
 }
 
@@ -802,19 +829,21 @@ input[type="file"] {
 }
 
 .image3 {
-  width: 85px;
-   height: 89px;
-   margin-top: 35px;
-   margin-right: 250px;
-   margin-left: -315px;
+  width: 100px;
+   height: 100px;
+  margin-top: 33vh;
+}
+
+.image3_n {
+  width: 100px;
+   height: 100px;
+   margin-top: 53vh;
 }
 
 .image3_t {
   width: 55px;
    height: 59px;
    margin-top: 43px;
-   margin-right: 250px;
-   margin-left: -230px;
 }
 
 .char {
@@ -1238,6 +1267,7 @@ div:focus {
 
 .komandcol {
   display: flex;
+  justify-content: center;
 }
  
 .komandcolumn {
@@ -1431,7 +1461,7 @@ div:focus {
 
 
 .imghead {
-  margin-left: 5%;
+  /* margin-left: 5%; */
   width: 250px;
 }
 
@@ -1443,10 +1473,12 @@ div:focus {
 
 .zagl {
   display: flex;
+  justify-content: center;
 }
 
 .zagl_t {
-  margin-left: 70px;
+  display: flex;
+  justify-content: center;
 }
 
 .fsh {
@@ -1524,7 +1556,7 @@ div:focus {
 .lineabo_c::before{
   border-left: 6px solid #ebecf3;
   width: 5px;
-  height: 113%;
+  height: 105%;
   position: absolute;
   content: '';
   margin-left: 60px;
@@ -1546,7 +1578,7 @@ div:focus {
 .lineabo_t::before{
   border-left: 6px solid #ebecf3;
   width: 5px;
-  height: 70%;
+  height: 80%;
   position: absolute;
   content: '';
   left: 20%;
@@ -1606,13 +1638,40 @@ width: 320px;
 .treygright_t {
   width: 0;
   height: 0;
-  border-top: 12px solid transparent;
-  border-left: 20px solid #ebecf3;
-  border-bottom: 12px solid transparent;
+  border-top: 8px solid transparent;
+  border-left: 12px solid #ebecf3;
+  border-bottom: 8px solid transparent;
   margin-top: 10%;
   transform: rotate(180deg);
-  margin-left: -41px;
+  margin-left: -33px;
 }
+
+.mach1 {
+ width: 600px; 
+ height: 430px;
+}
+
+.mach1t {
+  width: 165px; 
+  height: 140px;
+ }
+
+.mach {
+  margin-top: 10%;
+  margin-left: 19%;
+  width: 900px;
+}
+
+.mach_t {
+  width: 350px;
+}
+
+.mach_n {
+  margin-top: 10%;
+  margin-left: 22%;
+  width: 550px;
+}
+
 
 .treygright_c {
   width: 0;

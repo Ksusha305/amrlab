@@ -28,7 +28,7 @@ const Contact = () => {
                   <div className='ava_t'><img className='ava_kar1_t' src='/ma.jpeg' /></div>
                     <div>
                       <div className='opis_t'>Разработка программного обеспечения и пользовательского интерфейса</div>
-                      <b className='prof_t'><strong className='txcol_t'>"</strong>Разработчик ПО<strong className='txcol'>"</strong></b>
+                      <b className='prof_t'><strong className='txcol'>"</strong>Разработчик ПО<strong className='txcol'>"</strong></b>
                     </div>
                 </div>
               <div className='komcol_t'>

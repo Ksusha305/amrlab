@@ -16,8 +16,9 @@ import {motion} from 'framer-motion'
 //   }, []);
 
 const About = () => {
-      
+var w = window.innerWidth
   return (
+    <div>
       <AnimatePresence>
         <MediaQuery minWidth={300} maxWidth={1199}>
         <motion.div className='a'>
@@ -33,7 +34,7 @@ const About = () => {
               whileInView={{x: 0}}
               transition={{duration: 1}}
             className='example1_t'>
-              <img className="image2_t" src='/ybor.png'/>
+              <img className="image2_t" src='/kat.png'/>
               <h2 className='ub_t'>Робот уборщик</h2>
             </motion.div>
             <motion.div 
@@ -42,7 +43,7 @@ const About = () => {
             whileInView={{x: 0}}
             transition={{duration: 1}}
             className='example1_t'>
-              <img className="image2_t" src='/robotran.png'/>
+              <img className="image2_t" src='/tr.png'/>
               <h2 className='ub_t'>Робот транспортер</h2>
           </motion.div>
           </div>
@@ -53,7 +54,7 @@ const About = () => {
              whileInView={{x: 0}}
              transition={{duration: 1}}
           className='example1_t'>
-            <img className="image2_t" src='/klaod.png'/>
+            <img className="image2_t" src='/kyr.png'/>
             <h2 className='ub_t'>Робот кладовщик</h2>
           </motion.div>
           <motion.div 
@@ -62,7 +63,7 @@ const About = () => {
           whileInView={{x: 0}}
           transition={{duration: 1}}
           className='example1_t'>
-            <img className="image2_t" src='/ma.png'/>
+            <img className="image2_t" src='/kyrr.png'/>
             <h2 className='ub_t'>Робот курьер</h2>  
           </motion.div>
           </div>
@@ -99,9 +100,6 @@ const About = () => {
                       </div>
                       <div className='ub1_t'>
                         -Протокол связи: WI-Fi
-                      </div>
-                      <div className='ub1_t'>
-                        -Скорость: 10м/мин
                       </div>
                   </div>
                   </motion.div>
@@ -163,7 +161,7 @@ const About = () => {
              whileInView={{x: 0}}
              transition={{duration: 1}}
           className='example1'>
-            <img className="image2" src='/ybor.png'/>
+            <img className="image2" src='/kat.png'/>
             <h2 className='ub'>Робот уборщик</h2>
           </motion.div>
           <motion.div 
@@ -172,7 +170,7 @@ const About = () => {
           whileInView={{x: 0}}
           transition={{duration: 1}}
           className='example1'>
-            <img className="image2" src='/trans.png'/>
+            <img className="image2" src='/tr.png'/>
             <h2 className='ub'>Робот транспортер</h2>
          </motion.div>
           <motion.div 
@@ -181,7 +179,7 @@ const About = () => {
              whileInView={{x: 0}}
              transition={{duration: 1}}
           className='example1'>
-            <img className="image2" src='/klaod.png'/>
+            <img className="image2" src='/kyr.png'/>
             <h2 className='ub'>Робот кладовщик</h2>
           </motion.div>
           <motion.div 
@@ -190,7 +188,7 @@ const About = () => {
           whileInView={{x: 0}}
           transition={{duration: 1}}
           className='example1'>
-            <img className="image2" src='/ma.png'/>
+            <img className="image2" src='/kyrr.png'/>
             <h2 className='ub'>Робот курьер</h2>  
           </motion.div>
         </div>
@@ -204,6 +202,7 @@ const About = () => {
             </h2>
           
             </motion.div>
+            
             <MediaQuery minWidth={1200} maxWidth={1750}>
             <div className='lineabo_n'>
             <MediaQuery minWidth={1200} maxWidth={1750} >
@@ -534,15 +533,41 @@ const About = () => {
                       </h2>
                       
                     </div>
+                    
                   </motion.div>
                 </div>
+                
                 </MediaQuery>
               </div>
               </MediaQuery>
             </div>
+            
           </div>
+          
           </MediaQuery>
-      </AnimatePresence>
+          
+      </AnimatePresence>     
+      <MediaQuery minWidth={1200} maxWidth={1899}>
+      <motion.img
+              initial={{ x: 700}}
+              whileInView={{ x: w - 300}}
+              transition={{ duration: 1.3 }}
+              //animate={{opacity: 0}}
+              src='/ma.png'
+              alt='logo'
+              className='image3_n' />
+      </MediaQuery>
+      <MediaQuery minWidth={1900} maxWidth={3890}>
+      <motion.img
+              initial={{ x: 700}}
+              whileInView={{ x: w - 300}}
+              transition={{ duration: 1.3 }}
+              //animate={{opacity: 0}}
+              src='/ma.png'
+              alt='logo'
+              className='image3' />
+      </MediaQuery> 
+      </div>
   )      
 }
 
