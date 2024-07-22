@@ -123,7 +123,7 @@ const Home = () => {
         <div  className='dd_t'>
           <div className='fonhead_t'>
             <div className="link" onClick={() => {
-              razrabRef.current?.scrollIntoView({
+              dopRef.current?.scrollIntoView({
                 behavior: "smooth"
               })
             }}>
@@ -231,7 +231,7 @@ const Home = () => {
         <div  className='dd'>
           <div className='fonhead'>
             <div className="link" onClick={() => {
-              razrabRef.current?.scrollIntoView({
+              dopRef.current?.scrollIntoView({
                 behavior: "smooth"
               })
             }}>
