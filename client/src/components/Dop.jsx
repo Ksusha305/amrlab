@@ -1,21 +1,16 @@
-import { motion, AnimatePresence, useAnimate, useScroll} from 'framer-motion';
-import { useSnapshot } from 'valtio';
-import state from '../store';
-import { useEffect } from 'react';
-import Homep from '../components/Homep'; 
-import { useRef } from 'react';
-import About from '../components/About';
-import Contact from '../components/Contact';
-import Razrab from '../components/Razrab';
-// import Dop from '../components/Dop';
-import AnimatedLetter from '../components/AnimatedLetter';
-import MediaQuery from 'react-responsive'
-
+import { useNavigate } from "react-router-dom";
+import Sois from "./Sois";
+import CustomButton from "./CustomButton";
+import {Link, Routes,Route, useMatch } from 'react-router-dom';
+import { Button } from "flowbite-react";
 const Dop = () => {
     return (
-        <h1 className='head-text'>
-                        Для соискателей 
-                    </h1>
+        <div>
+            <h1 className='head-text'>
+                            Для соискателей 
+                        </h1>
+            <div className="link"><a className='asa' href="/sois">Узнать больше</a></div> 
+        </div>
     )
 }
 export default Dop

@@ -24,7 +24,7 @@ html {
     width: 0.7rem;
     max-height: 2rem;
     &-thumb {
-      background-color:rgba(255, 255, 255, 0.6);
+      background-color:rgba(8,8,8);
     }
   }
 }
@@ -40,7 +40,7 @@ html {
     width: 0.7rem;
     max-height: 2rem;
     &-thumb {
-      background-color:rgba(255, 255, 255, 0.6);
+      background-color:rgba(8,8,8);
     }
   }
 }
@@ -258,6 +258,7 @@ html {
 .fond {
   width: 340Spx;
   margin-top: 4%;
+  background-color: rgb(8,8,8);
 }
 
 .example1 {
@@ -591,7 +592,8 @@ html {
 
 .contcarta {
   text-align: center;
-  
+  background-color: rgb(8,8,8);
+
 
 }
 
@@ -687,6 +689,7 @@ h3 {
   text-align: center;
   width: 400px;
   display: grid;
+  background-color: rgb(8,8,8);
 }
 
 .linebb {
@@ -1898,8 +1901,9 @@ width: 320px;
 
 }
 
-#contact {
+.contact {
   height: 100px;
+  background-color: rgb(8,8,8);
 }
 
 .linefooter {
@@ -1929,37 +1933,44 @@ width: 320px;
 .pod1 {
   padding: 3% 0;
   font-size: 45px;
+  background-color: rgb(8,8,8);
 }
 
 
 .pod1 {
   padding: 3% 0;
   font-size: 45px;
+  background-color: rgb(8,8,8);
 }
 
 .pod1_t {
   padding: 3% 0;
   font-size: 20px;
+  background-color: rgb(8,8,8);
 }
 
 .pod2 {
   padding: 1% 2%;
   font-size: 35px;
+  background-color: rgb(8,8,8);
 }
 
 .pod2_t {
   padding: 1% 2%;
     font-size: 14px;
     width: 540px;
+    background-color: rgb(8,8,8);
 }
 
 .pod3 {
   font-size: 25px;
+  background-color: rgb(8,8,8);
 }
 
 .pod3_t {
   font-size: 14px;
   width: 210px;
+  background-color: rgb(8,8,8);
 }
 
 .bid {
@@ -1973,6 +1984,7 @@ width: 320px;
   margin-left: 5%;
   color: rgb(210, 210, 210);
   font-size: 18px;
+  
 }
 
 
@@ -2018,10 +2030,12 @@ width: 320px;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
+  background-color: rgb(8,8,8);
 }
 
 .podd {
   height: 1050px;
+  background-color: rgb(8,8,8);
 }
 
 .pod {

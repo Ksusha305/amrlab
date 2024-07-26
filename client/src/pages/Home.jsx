@@ -13,40 +13,21 @@ import MediaQuery from 'react-responsive'
 // import Carousel from '../components/Carousel';
 
 const Home = () => {
-  const [scope, animate] = useAnimate();
   const homeRef = useRef();
   const aboutRef =useRef();
   const contactRef = useRef();
   const razrabRef =useRef();
   const dopRef = useRef();
-//   const images = [
-//     {
-//         src: 'машина2.png',
-//         alt: 'img1'
-//     },
-//     {
-//         src: '/машина3.png',
-//         alt: 'img2'
-//     },
-//     {
-//         src: '/машина4.png',
-//         alt: 'img3'
-//     }
-// ]
-  const variants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1 }
-  };
-  async function myAnim(){
-    await animate(scope.current, {rotate: 90}, {delay: 1}, {duration: 0.8})
-    await animate(scope.current, {y: 310}, {duration: 1.5})
-    await animate(scope.current, {rotate:0}, {duration: 0.8})
-    await animate(scope.current, {opacity: 0}, {duration: 1})
-  }
+  // async function myAnim(){
+  //   await animate(scope.current, {rotate: 90}, {delay: 1}, {duration: 0.8})
+  //   await animate(scope.current, {y: 310}, {duration: 1.5})
+  //   await animate(scope.current, {rotate:0}, {duration: 0.8})
+  //   await animate(scope.current, {opacity: 0}, {duration: 1})
+  // }
  const snap = useSnapshot(state);
-  useEffect(() => {
-    myAnim();
-  }, []);
+  // useEffect(() => {
+  //   myAnim();
+  // }, []);
 
   return (
     <AnimatePresence>
