@@ -227,13 +227,14 @@ var w = window.innerWidth
                       </div>
                       <div className='ub1_n'>
                         -Протокол связи: WI-Fi
-                      <div className='ub1'>
+                        </div>
+                      <div className='ub1_n'>
                         -Протокол связи: Wi-Fi
                       </div>
                       <div className='ub1_n'>
                         -Скорость: 10м/мин
                       </div>
-                  </div>
+                  
                   </motion.div>
                 </motion.div>
               </MediaQuery>
@@ -398,7 +399,7 @@ var w = window.innerWidth
                         -Протокол связи: WI-Fi
                       </div>
                       <div className='ub1_n'>
-                        -Скорость: 10м/мин
+                       -Скорость: 10м/мин
                       </div>
                   </div>
                   </motion.div>
@@ -533,7 +534,6 @@ var w = window.innerWidth
                       </h2>
                       
                     </div>
-                    
                   </motion.div>
                 </div>
                 

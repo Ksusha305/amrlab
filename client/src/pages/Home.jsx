@@ -7,6 +7,7 @@ import { useRef } from 'react';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Razrab from '../components/Razrab';
+import Dop from '../components/Dop';
 import AnimatedLetter from '../components/AnimatedLetter';
 import MediaQuery from 'react-responsive'
 // import Carousel from '../components/Carousel';
@@ -17,6 +18,7 @@ const Home = () => {
   const aboutRef =useRef();
   const contactRef = useRef();
   const razrabRef =useRef();
+  const dopRef = useRef();
 //   const images = [
 //     {
 //         src: 'машина2.png',
@@ -118,6 +120,20 @@ const Home = () => {
             </div>  
           </div>
         </div>
+        <div  className='dd_t'>
+          <div className='fonhead_t'>
+            <div className="link" onClick={() => {
+              dopRef.current?.scrollIntoView({
+                behavior: "smooth"
+              })
+            }}>
+              Для соискателей
+            </div>
+            <div className='linehead'>
+                <br></br>
+            </div>  
+          </div>
+        </div>
       </div> 
       {snap.intro && (
         <section className='home' >
@@ -133,6 +149,9 @@ const Home = () => {
       <div  id='razrab' ref={razrabRef}>
         <Razrab></Razrab>                
       </div> 
+      <div className='section_t' id='dop' ref={dopRef}>
+        <Dop></Dop>
+        </div>
       <div className='section_t'  id='contact' ref={contactRef}>
         <Contact></Contact>                
       </div>
@@ -209,6 +228,20 @@ const Home = () => {
             </div>  
           </div>
         </div>
+        <div  className='dd'>
+          <div className='fonhead'>
+            <div className="link" onClick={() => {
+              dopRef.current?.scrollIntoView({
+                behavior: "smooth"
+              })
+            }}>
+              Для соискателей
+            </div>
+            <div className='linehead'>
+                <br></br>
+            </div>  
+          </div>
+        </div>
       </div> 
       {snap.intro && (
         <section className='home' >
@@ -223,7 +256,10 @@ const Home = () => {
       </div>
       <div  id='razrab' ref={razrabRef}>
         <Razrab></Razrab>                
-      </div> 
+        </div> 
+      <div className='section' id='dop' ref={dopRef}>
+        <Dop></Dop>
+        </div>
       <div className='section'  id='contact' ref={contactRef}>
         <Contact></Contact>                
       </div>

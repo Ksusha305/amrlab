@@ -135,10 +135,10 @@ html {
   flex-direction: column-reverse;
 }
 .section {
-  height: 2000px;
+  height: 6500px;
   background-color: rgb(8, 8, 8);
   padding-top: 30px;
-  margin-left: 70px;
+  margin-left: 80px;
   display: block;
 }
 
@@ -972,8 +972,9 @@ input[type="file"] {
   margin-bottom: 100px;
   transform: rotate(90deg);
   transform-origin: center;
-  font-size: 21px;
+  font-size: 20px;
   margin-top: 100px;
+  text-align: center;
 }
 
 .dd_t {
@@ -1070,6 +1071,7 @@ input[type="file"] {
   flex-direction: column-reverse;
   align-items: center;        
   margin: auto;
+  text-align: center;
 }
 
 a {
@@ -1148,7 +1150,7 @@ a {
 }
 
 .fonhead {
-  width: calc(84px + 16 * (100vw / 1280));
+  width: 120px;
   height: calc(50px + 16 * (100vw / 1280)); 
   display: flex;
   justify-content: center;
@@ -1167,7 +1169,7 @@ a {
   transform: rotate(0deg);
   -o-transform-origin: center;
   height: 2px;
-  width: calc(84px + 16 * (100vw / 1280)); 
+  width: 120px; 
   color: rgb(8, 8, 8)
 }
 
@@ -2058,4 +2060,241 @@ width: 320px;
 
 .ioi_t {
   width: 500px;
+}
+
+
+.dopamr {
+  color: #e5e7eb;
+  font-size: 35px;
+  width: 520px;
+  margin-left: 5%;
+  margin-top: 10%;
+  display: block;
+}
+
+.doptext {
+  color: #e5e7eb;
+  font-size: 35px;
+  margin-left: 5%;
+  margin-top: 10%;
+  display: block;
+}  
+
+.doptext2 {
+  color: #e5e7eb;
+  font-size: 30px;
+  margin-left: 8%;
+  margin-top: 10%;
+  display: block;
+  width: 55%;
+}  
+
+
+.doptextr {
+  color: #e5e7eb;
+  font-size: 35px;
+  margin-left: 5%;
+  margin-top: 3%;
+  display: block;
+}  
+
+.dopamr2 {
+  color: #e5e7eb;
+  font-size: 60px;
+  width: 520px;
+  margin-left: 5%;
+  margin-top: 10%;
+  display: block;
+}
+
+.dopgos {
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dop2 {
+  padding: 5%;
+}
+
+.scel {
+  color: #ebecf3;
+    margin-left: 5%;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+.scelpr {
+  color: #ebecf3;
+    margin-left: 15%;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+.cel {
+  font-size: 45px;
+  margin-bottom: 5%;
+}
+
+.linedop {
+  padding: 0 2%;
+    background: #e5e7eb;
+    height: 5px;
+    margin-top: 10%;
+}
+
+
+.linedop2 {
+  padding: 0 2%;
+    background: #e5e7eb;
+    height: 5px;
+    /* position: absolute; */
+    width: 95%;
+    
+}
+
+
+.celp {
+  margin-left: 5%;
+}
+
+
+.dop3 {
+  padding: 0 5%;
+}
+
+.dop4 {
+  padding: 0 5%;
+}
+
+.pod5 {
+  padding: 0 5%;
+}
+
+.zagldop {
+  color: #e5e7eb;
+    font-size: 35px;
+    /* width: 520px; */
+    /* margin-left: 5%; */
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kvad1 {
+  height: 300px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center
+}
+
+.kvad2 {
+  width: 350px;
+  background: #e5e7eb;
+  margin: 0 4%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.textkvad {
+  padding: 3%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.opzpr {
+  color: #e5e7eb;
+    font-size: 25px;
+    /* width: 520px; */
+    /* margin-left: 5%; */
+    margin-top: 5%;
+    /* display: flex;*/
+}
+
+.zpr {
+  color: #e5e7eb;
+    font-size: 35px;
+    /* width: 520px; */
+    /* margin-left: 5%; */
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.poldop {
+  height: 300px;
+  height: 300px;
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10% 0;
+}
+
+ul {
+  list-style-type: none; 
+}
+
+/* .poldop::before {
+  background-color: #e5e7eb;
+  height: 10px;
+  position: absolute;
+  content: '.';
+  color: rgb(8, 8, 8);
+  padding-right: 95%;
+} */
+
+.kru1 {
+  width: 230px;
+  background: #e5e7eb;
+  height: 230px;
+  border-radius: 50%;
+  position: absolute;
+  left: 15%;
+  font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kru2 {
+  width: 230px;
+  background: #e5e7eb;
+  height: 230px;
+  border-radius: 50%;
+  position: absolute;
+  left: 35%;
+  font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kru3 {
+  width: 230px;
+  background: #e5e7eb;
+  height: 230px;
+  border-radius: 50%;
+  position: absolute;
+  left: 55%;
+  font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kru4 {
+  width: 230px;
+  background: #e5e7eb;
+  height: 230px;
+  border-radius: 50%;
+  position: absolute;
+  left: 75%;
+  font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
