@@ -17,7 +17,7 @@ const Contact = () => {
               <div className='komandcol_t'>
               <div className='komcol_t'>
                   <b className="imya_t">Бочарников Александр Сергеевич</b>
-                  <div className='ava_t'><img className='ava_kar1_t' src='/ma.jpeg' /></div>
+                  <div className='ava_t'><img className='ava_kar1_t' src='/ycat.png' /></div>
                   <div>
                     <div className='opis_t'>Руководство проектом</div>
                     <b className='prof_t'><strong className='txcol'>"</strong>Директор<strong className='txcol'>"</strong></b>
@@ -25,7 +25,7 @@ const Contact = () => {
                 </div>
               <div className='komcol_t'>
               <b className="imya_t">Рахимбердин Ян Рашидович</b>
-                  <div className='ava_t'><img className='ava_kar1_t' src='/ma.jpeg' /></div>
+                  <div className='ava_t'><img className='ava_kar1_t' src='/r.png' /></div>
                     <div>
                       <div className='opis_t'>Разработка программного обеспечения и пользовательского интерфейса</div>
                       <b className='prof_t'><strong className='txcol'>"</strong>Разработчик ПО<strong className='txcol'>"</strong></b>
@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
               <div className='komcol_t'>
               <b className="imya_t">Цаунит Антон Николаевич</b>
-                  <div className='ava_t'><img className='ava_kar1_t' src='/ma.jpeg' /></div>
+                  <div className='ava_t'><img className='ava_kar1_t' src='/nn.png' /></div>
                   <div>
                     <div className='opis_t'>Разработка системы управления электропривода передвижения тележки</div>
                     <b className='prof_t'><strong className='txcol'>"</strong>Инженер АСУТП<strong className='txcol'>"</strong></b>
@@ -132,7 +132,7 @@ const Contact = () => {
                 <MediaQuery minWidth={1800} maxWidth={3980}>
                   <b className="imya">Бочарников Александр Сергеевич</b>
                 </MediaQuery>
-                  <div className='ava'><img className='ava_kar1' src='/ma.jpeg' /></div>
+                  <div className='ava'><img className='ava_kar1' src='/ycat.png' /></div>
                   <div>
                     <div className='opis'>Руководство проектом</div>
                     <b className='prof'><strong className='txcol'>"</strong>Директор<strong className='txcol'>"</strong></b>
@@ -140,7 +140,7 @@ const Contact = () => {
                 </div>
               <div className='komcol'>
               <b className="imya">Рахимбердин Ян Рашидович</b>
-                  <div className='ava'><img className='ava_kar1' src='/ma.jpeg' /></div>
+                  <div className='ava'><img className='ava_kar1' src='/r.png' /></div>
                     <div>
                       <div className='opis'>Разработка программного обеспечения и пользовательского интерфейса</div>
                       <b className='prof'><strong className='txcol'>"</strong>Разработчик ПО<strong className='txcol'>"</strong></b>
@@ -148,7 +148,7 @@ const Contact = () => {
                 </div>
               <div className='komcol'>
               <b className="imya">Цаунит Антон Николаевич</b>
-                  <div className='ava'><img className='ava_kar1' src='/ma.jpeg' /></div>
+                  <div className='ava'><img className='ava_kar1' src='/nn.png' /></div>
                   <div>
                     <div className='opis'>Разработка системы управления электропривода передвижения тележки</div>
                     <b className='prof'><strong className='txcol'>"</strong>Инженер АСУТП<strong className='txcol'>"</strong></b>

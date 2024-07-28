@@ -174,7 +174,7 @@ var w = window.innerWidth
             <h2 className='ub'>Робот транспортер</h2>
          </motion.div>
           <motion.div 
-             initial={{x: 500}}
+             initial={{x: 300}}
              animate={{transitionDelay: 1}}
              whileInView={{x: 0}}
              transition={{duration: 1}}

@@ -1,26 +1,17 @@
-import Canvas from "./canvas";
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './pages/Home';
-import Customaizer from "./pages/Customaizer";
 import MediaQuery from 'react-responsive'
-
+import Sois from './components/Sois';
 function App() {
   return (
-    <div>
-      <MediaQuery minWidth={300} maxWidth={1100}>
-      <main className="app_t transition-all ease-in">
-        <Home />
-        <Canvas />
-        <Customaizer />
-      </main>
-      </MediaQuery>
-      <MediaQuery minWidth={1200}>
-      <main className="app transition-all ease-in">
-        <Home />
-        <Canvas />
-        <Customaizer />
-      </main>
-      </MediaQuery>
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route exact path='/' element={<Home/>} />
+          <Route exact path="/sois" element={<Sois/>}/>
+        </Routes>
+      </div>
+    </Router>
   )
 }
 

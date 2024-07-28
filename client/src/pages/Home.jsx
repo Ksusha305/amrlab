@@ -43,10 +43,16 @@ const Home = () => {
     await animate(scope.current, {rotate:0}, {duration: 0.8})
     await animate(scope.current, {opacity: 0}, {duration: 1})
   }
+  // async function myAnim(){
+  //   await animate(scope.current, {rotate: 90}, {delay: 1}, {duration: 0.8})
+  //   await animate(scope.current, {y: 310}, {duration: 1.5})
+  //   await animate(scope.current, {rotate:0}, {duration: 0.8})
+  //   await animate(scope.current, {opacity: 0}, {duration: 1})
+
  const snap = useSnapshot(state);
-  useEffect(() => {
-    myAnim();
-  }, []);
+  // useEffect(() => {
+  //   myAnim();
+  // }, []);
 
   return (
     <AnimatePresence>
@@ -143,7 +149,7 @@ const Home = () => {
         </section>
         
       )}
-      <div className='section_t'  id='about' ref={aboutRef}>
+      <div className='section_t'  id='about_t' ref={aboutRef}>
         <About></About>             
       </div>
       <div  id='razrab' ref={razrabRef}>
@@ -156,7 +162,115 @@ const Home = () => {
         <Contact></Contact>                
       </div>
       </MediaQuery>
-      <MediaQuery minWidth={1200}>
+      <MediaQuery minWidth={1200} maxWidth={1799}>
+      <div animate="animate" initial="initial" className='header'>
+        <h2 className='head_logo_text'>
+          <AnimatedLetter text="АМР ЛАБ" />
+        </h2>
+        <motion.img 
+            //ref={scope}
+            src='/ma.png' 
+            // initial={{y: 0}}
+            // whileInView={{delay: 2, y: 300}}
+            // transition={{delay:1, duration: 1}}
+            alt='logo'
+            className='image'  
+        />
+      </div>
+      <div className='header2'>
+      <div  className='dd_n'>
+        <div className='fonhead'>
+          <div className="link" onClick={() => {
+            homeRef.current?.scrollIntoView({
+              behavior: "smooth"
+            })
+          }}>
+            Главная
+            </div>
+              <div className='linehead'>
+                <br></br>
+              </div>  
+          </div>
+        </div>
+        <div  className='dd_n'>
+          <div className='fonhead'>
+            <div className="link" onClick={() => {
+              aboutRef.current?.scrollIntoView({
+                behavior: "smooth"
+              })
+            }}>
+              О проекте
+            </div> 
+            <div className='linehead'>
+                <br></br>
+            </div>   
+          </div>
+        </div>
+        <div  className='dd_n'>
+          <div className='fonhead'>
+            <div className="link" onClick={() => {
+              razrabRef.current?.scrollIntoView({
+                behavior: "smooth"
+              })
+            }}>
+              Алгоритм
+            </div>
+            <div className='linehead'>
+                <br></br>
+            </div>  
+          </div>
+        </div>    
+        <div  className='dd_n'>
+          <div className='fonhead'>
+            <div className="link" onClick={() => {
+              contactRef.current?.scrollIntoView({
+                behavior: "smooth"
+              })
+            }}>
+              Команда
+            </div>
+            <div className='linehead'>
+                <br></br>
+            </div>  
+          </div>
+        </div>
+        <div  className='dd_n'>
+          <div className='fonhead'>
+            <div className="link" onClick={() => {
+              dopRef.current?.scrollIntoView({
+                behavior: "smooth"
+              })
+            }}>
+              Для соискателей
+            </div>
+            <div className='linehead'>
+                <br></br>
+            </div>  
+          </div>
+        </div>
+      </div> 
+      {snap.intro && (
+        <section className='home' >
+          <div className='home_content1' id='home_content1' ref={homeRef} >
+            <Homep></Homep>
+          </div>
+        </section>
+        
+      )}
+      <div className='section'  id='about' ref={aboutRef}>
+        <About></About>             
+      </div>
+      <div  id='razrab' ref={razrabRef}>
+        <Razrab></Razrab>  
+        </div>              
+      <div className='section' id='dop' ref={dopRef}>
+        <Dop></Dop>
+        </div> 
+      <div className='section'  id='contact' ref={contactRef}>
+        <Contact></Contact>                
+      </div>
+      </MediaQuery>
+      <MediaQuery minWidth={1800} maxWidth={3980}>
       <div animate="animate" initial="initial" className='header'>
         <h2 className='head_logo_text'>
           <AnimatedLetter text="АМР ЛАБ" />
@@ -255,11 +369,11 @@ const Home = () => {
         <About></About>             
       </div>
       <div  id='razrab' ref={razrabRef}>
-        <Razrab></Razrab>                
-        </div> 
+        <Razrab></Razrab>  
+        </div>              
       <div className='section' id='dop' ref={dopRef}>
         <Dop></Dop>
-        </div>
+        </div> 
       <div className='section'  id='contact' ref={contactRef}>
         <Contact></Contact>                
       </div>
