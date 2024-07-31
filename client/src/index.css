@@ -16,11 +16,6 @@ html {
   }
 }
 
-
-.hei {
-  height: 620px
-}
-
 .app {
   @apply relative w-full h-screen overflow-hidden;
   overflow: auto;
@@ -139,7 +134,7 @@ html {
   flex-direction: column-reverse;
 }
 .section {
-  height: 800px;
+  height: 38rem;
   background-color: rgb(8, 8, 8);
   padding-top: 30px;
   margin-left: 80px;
@@ -3162,4 +3157,9 @@ ul {
   position: absolute;
     width: 15%;
     left: 0;
+}
+
+
+.imlsss {
+  padding: 5%;
 }

@@ -176,99 +176,8 @@ const Sois = () => {
                              </div>
                              <div className='hei'>
                              <div className='poldop_t'>
-                                
-                                <MediaQuery minHeight={600} maxHeight={700}>
-                                 <div className='linedop2_t1'>
-                                     <br>
-                                     </br>
-                                 </div>
-                                 </MediaQuery>
-                                 <MediaQuery minHeight={701} maxHeight={800}>
-                                 <div className='linedop2_t2'>
-                                     <br>
-                                     </br>
-                                 </div>
-                                 </MediaQuery>
-                                 <MediaQuery minHeight={801} maxHeight={850}>
-                                 <div className='linedop2_t3'>
-                                     <br>
-                                     </br>
-                                 </div>
-                                 </MediaQuery>
-                                 <MediaQuery minHeight={851} maxHeight={900}>
-                                 <div className='linedop2_t4'>
-                                     <br>
-                                     </br>
-                                 </div>
-                                 </MediaQuery>
-                                 <MediaQuery minHeight={901} maxHeight={1000}>
-                                 <div className='linedop2_t5'>
-                                     <br>
-                                     </br>
-                                 </div>
-                                 </MediaQuery>
-                                 <MediaQuery minWidth={300} maxWidth={350}>
-                                 <div className='kru1_t1'>
-                                     Магистры
-                                 </div>
-                                 </MediaQuery>
-                                 <MediaQuery minWidth={351} maxHeight={900}>
-                                 <div className='kru1_t'>
-                                     Магистры
-                                 </div>
-                                 </MediaQuery>
-                                 <MediaQuery minWidth={351} minHeight={901} maxHeight={1000}>
-                                 <div className='kru1_t2'>
-                                     Магистры
-                                 </div>
-                                 </MediaQuery>
-                                 <MediaQuery minWidth={300} maxWidth={350}>
-                                 <div className='kru2_t1'>
-                                     Аспиранты
-                                 </div>
-                                 </MediaQuery>
-                                 <MediaQuery minWidth={351} maxHeight={900} >
-                                 <div className='kru2_t'>
-                                     Аспиранты
-                                 </div>
-                                 </MediaQuery>
-                                 <MediaQuery minWidth={351} minHeight={901} maxHeight={1001}>
-                                 <div className='kru2_t2'>
-                                     Аспиранты
-                                 </div>
-                                 </MediaQuery>
-                                 </div>
-                                 <div className='poldop_t2'>
-                                 <div className='linedop2_t'>
-                                     <br>
-                                     </br>
-                               </div>
-                               <MediaQuery minWidth={300} maxWidth={350}>
-                                 <div className='kru3_t1'>
-                                     Кандидаты наук
-                                 </div>
-                                 </MediaQuery>
-                                 <MediaQuery minWidth={300} maxWidth={350}>
-                                 <div className='kru3_t1'>
-                                     Кандидаты наук
-                                 </div>
-                                 </MediaQuery>
-                                 <MediaQuery minWidth={351}>
-                                 <div className='kru3_t'>
-                                     Кандидаты наук
-                                 </div>
-                                 </MediaQuery>
-                                 <MediaQuery minWidth={300} maxWidth={350}>
-                                 <div className='kru4_t1'>
-                                 Люди, нацеленные на результат
-                                 </div>
-                                 </MediaQuery>
-                                 <MediaQuery minWidth={351}>
-                                 <div className='kru4_t'>
-                                 Люди, нацеленные на результат
-                                 </div>
-                                 </MediaQuery>
-                             </div>
+                                <img src='image.png' className='imlsss'></img>
+                                </div>
                              </div>
                              <div className='kmmm_t'>
                                 <div className='kvadd_t'> 
@@ -347,7 +256,7 @@ const Sois = () => {
                 <b className='cel'>
                     Цели
                 </b>
-                <img className='flag' src="flag.png"></img>
+                <img className='flag' src="/flag.png"></img>
             </div>
              <li className='celp'>
              Минимизация влияния человеческого фактора
@@ -379,14 +288,14 @@ const Sois = () => {
              </div>
              <MediaQuery minWidth={1200} maxWidth={1700}>
              <div className="ka1ka2">
-                <img src="c.PNG" className="ka1_n" />
-                <img src="xx.jpg" className="ka2_n" />           
+                <img src="/c.PNG" className="ka1_n" />
+                <img src="/xx.jpg" className="ka2_n" />           
             </div>
             </MediaQuery>
             <MediaQuery minWidth={1701} maxWidth={3980}>
              <div className="ka1ka2">
-                <img src="c.PNG" className="ka1" />
-                <img src="xx.jpg" className="ka2" />           
+                <img src="/c.PNG" className="ka1" />
+                <img src="/xx.jpg" className="ka2" />           
             </div>
             </MediaQuery>
          </div>
@@ -397,7 +306,7 @@ const Sois = () => {
              <b className='cel'>
                 ЦЕННОСТЬ
              </b>
-             <img className='flag' src="zved.png"></img>
+             <img className='flag' src="/zved.png"></img>
             </div>
             <div className="flex">
                 <div>
@@ -414,7 +323,7 @@ const Sois = () => {
         промышленность, медицина, образование и т. д.
                     </li>
                 </div>
-                <img src="rob.JPG" className="robbb"></img>
+                <img src="/rob.JPG" className="robbb"></img>
             </div>
          </div>
         <div className='scel'>
@@ -422,7 +331,7 @@ const Sois = () => {
                 <b className='cel'>
                     ПЕРСПЕКТИВЫ           
                 </b>
-                <img src="les.png" className="flag"></img>
+                <img src="/les.png" className="flag"></img>
             </div>
              <li className='celp1'>
              Возможность карьерного роста в научно-иследовательской среде
@@ -431,9 +340,9 @@ const Sois = () => {
              Повышение профессиональной квалификации и уровня образования
              </li>
              <div className="katrb">
-                <img className='t' src='t.png'></img>
-                <img className="kat" src="kat.JPG"></img>
-                <img className="rb" src="rb.jpg"></img>
+                <img className='t' src='/t.png'></img>
+                <img className="kat" src="/kat.JPG"></img>
+                <img className="rb" src="/rb.jpg"></img>
              </div>
          </div>
          </div>
@@ -444,19 +353,19 @@ const Sois = () => {
              <div className='dop2'>
                  <div className='kvad1'>
                      <div className='kvad2'>
-                     <img src='b.png' className='rer'></img>
+                     <img src='/b.png' className='rer'></img>
                          <div className='textkvad'>
                          БАЗВЫЕ ЗНАНИЯ ПРОГРАММИРОВАНИЯ
                          </div>
                      </div>
                     <div className='kvad2'>
-                        <img src='d.png' className='rer'></img>
+                        <img src='/d.png' className='rer'></img>
                          <div className='textkvad'>
                          УМЕНИЕ РАБОТАТЬ В КОМАНДЕ
                         </div>
                      </div>
                      <div className='kvad2'>
-                     <img src='cc.png' className='rer'></img>
+                     <img src='/cc.png' className='rer'></img>
                          <div className='textkvad'>
                          УМЕНИЕ НАХОДИТЬ НУЖНУЮ ИНФОРМАЦИЮ
                          </div>
@@ -464,18 +373,18 @@ const Sois = () => {
                  </div>
                  <div className='kvad1'>
                      <div className='kvad2'>
-                     <img src='a.png' className='rer'></img>
+                     <img src='/a.png' className='rer'></img>
                         <div className='textkvad'>
                          УПОРСТВО В ДОСТИЖЕНИИ РЕЗУЛЬТАТА
                          </div>
                          </div>
                      <div className='kvad2'>
-                     <img src='e.png' className='rer'></img>
+                     <img src='/e.png' className='rer'></img>
                         <div className='textkvad'>
                              ЖЕЛАНИЕ УЧИТЬСЯ ЧЕМУ-ТО НОВОМУ
                          </div>
                          </div>
-                         <img className='tt' src='tt.png'></img>
+                         <img className='tt' src='/tt.png'></img>
                          </div>
                          <div className='scelpr'>
                             <div className='cel'>
@@ -495,7 +404,7 @@ const Sois = () => {
                             </div>
                              <div className='opzpr'>
                                  Обговариваются на собеседовании (все зависит от уровня соискателя)
-                                 <img src='gol.png' className='gol'></img>
+                                 <img src='/gol.png' className='gol'></img>
                              </div>
                              <div className='zpr'>
                                  КОМАНДА
@@ -519,10 +428,10 @@ const Sois = () => {
                                  </div>
                              </div>
                              <div className='kmmm'>
-                                <img src='goll.png' className='goll'></img>
+                                <img src='/goll.png' className='goll'></img>
                                 <div className='kvadd'> 
                                     <div>
-                                        <img src='fgf.jpg' className='km'></img>
+                                        <img src='/fgf.jpg' className='km'></img>
                                     </div>
                                     <div>
                                         <li className='kmm'>Магистры</li>
@@ -532,13 +441,13 @@ const Sois = () => {
                                 </div>
                                 <div className='textkm'>
                                     <div className='stt'>
-                                        <img className='st' src='st.png'></img>
+                                        <img className='st' src='/st.png'></img>
                                     </div>
                                     <div>
                                         Нацеленные на результат
                                     </div>
                                     <div className='kubb'>
-                                    <img className='kub' src='kub.png'></img>
+                                    <img className='kub' src='/kub.png'></img>
                                     </div>
                                 </div>
                              </div>

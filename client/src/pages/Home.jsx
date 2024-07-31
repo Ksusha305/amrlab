@@ -115,11 +115,11 @@ const Home = () => {
         <div  className='dd_t'>
           <div className='fonhead_t'>
             <div className="link" onClick={() => {
-              contactRef.current?.scrollIntoView({
+              dopRef.current?.scrollIntoView({
                 behavior: "smooth"
               })
             }}>
-              Команда
+              Для соискателей
             </div>
             <div className='linehead'>
                 <br></br>
@@ -129,11 +129,11 @@ const Home = () => {
         <div  className='dd_t'>
           <div className='fonhead_t'>
             <div className="link" onClick={() => {
-              dopRef.current?.scrollIntoView({
+              contactRef.current?.scrollIntoView({
                 behavior: "smooth"
               })
             }}>
-              Для соискателей
+              Команда
             </div>
             <div className='linehead'>
                 <br></br>
@@ -223,11 +223,11 @@ const Home = () => {
         <div  className='dd_n'>
           <div className='fonhead'>
             <div className="link" onClick={() => {
-              contactRef.current?.scrollIntoView({
+              dopRef.current?.scrollIntoView({
                 behavior: "smooth"
               })
             }}>
-              Команда
+              Для соискателей
             </div>
             <div className='linehead'>
                 <br></br>
@@ -237,11 +237,11 @@ const Home = () => {
         <div  className='dd_n'>
           <div className='fonhead'>
             <div className="link" onClick={() => {
-              dopRef.current?.scrollIntoView({
+              contactRef.current?.scrollIntoView({
                 behavior: "smooth"
               })
             }}>
-              Для соискателей
+              Команда
             </div>
             <div className='linehead'>
                 <br></br>
@@ -327,21 +327,7 @@ const Home = () => {
                 <br></br>
             </div>  
           </div>
-        </div>    
-        <div  className='dd'>
-          <div className='fonhead'>
-            <div className="link" onClick={() => {
-              contactRef.current?.scrollIntoView({
-                behavior: "smooth"
-              })
-            }}>
-              Команда
-            </div>
-            <div className='linehead'>
-                <br></br>
-            </div>  
-          </div>
-        </div>
+        </div>  
         <div  className='dd'>
           <div className='fonhead'>
             <div className="link" onClick={() => {
@@ -350,6 +336,20 @@ const Home = () => {
               })
             }}>
               Для соискателей
+            </div>
+            <div className='linehead'>
+                <br></br>
+            </div>  
+          </div>
+        </div>  
+        <div  className='dd'>
+          <div className='fonhead'>
+            <div className="link" onClick={() => {
+              contactRef.current?.scrollIntoView({
+                behavior: "smooth"
+              })
+            }}>
+              Команда
             </div>
             <div className='linehead'>
                 <br></br>
