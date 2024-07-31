@@ -20,7 +20,7 @@ const Dop = () => {
             <h2 className='head-textsois'>
                             Для соискателей 
                         </h2>
-            <div className="link"><a className='asar' href="main--amrlab.netlify.app/sois">Узнать больше</a></div> 
+            <div className="link"><a className='asar' href="amrlab.netlify.app/sois">Узнать больше</a></div> 
         </div>
         </MediaQuery>
         </div>
