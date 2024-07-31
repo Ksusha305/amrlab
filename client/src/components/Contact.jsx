@@ -55,7 +55,7 @@ const Contact = () => {
                 </b>
                 <div className='bid'>
                   <div className='ioi_t'>
-                      <b className='pod2_t'>
+                      <b className='pod21_t'>
                       <strong className='txcol'>"</strong>ФОНД СОДЕЙСТВИЯ ИННОВАЦИЯМ<strong className='txcol'>"</strong>
                       </b>
                     
@@ -67,7 +67,7 @@ const Contact = () => {
                   </div>
 
                 <div className='bid'>
-                  <b className='pod2_t'>
+                  <b className='pod21_t'>
                       <strong className='txcol'>"</strong>Конкурс 'Студенческий старатап' <strong className='txcol'>"</strong>
                   </b>
                   <div className='pod3_t'>
@@ -134,7 +134,12 @@ const Contact = () => {
                 </MediaQuery>
                   <div className='ava'><img className='ava_kar1' src='/ycat.png' /></div>
                   <div>
-                    <div className='opis'>Руководство проектом</div>
+                    <MediaQuery minWidth={1200} maxWidth={1800}>
+                      <div className='opis_n'>Руководство проектом</div>
+                    </MediaQuery>
+                    <MediaQuery minWidth={1801} maxWidth={3980}>
+                      <div className='opis'>Руководство проектом</div>
+                    </MediaQuery>
                     <b className='prof'><strong className='txcol'>"</strong>Директор<strong className='txcol'>"</strong></b>
                 </div>
                 </div>
@@ -142,7 +147,12 @@ const Contact = () => {
               <b className="imya">Рахимбердин Ян Рашидович</b>
                   <div className='ava'><img className='ava_kar1' src='/r.png' /></div>
                     <div>
-                      <div className='opis'>Разработка программного обеспечения и пользовательского интерфейса</div>
+                      <MediaQuery minWidth={1200} maxWidth={1800}>
+                        <div className='opis_n1'>Разработка программного обеспечения</div>
+                      </MediaQuery>
+                      <MediaQuery minWidth={1801} maxWidth={3980}>
+                        <div className='opis'>Разработка программного обеспечения</div>
+                      </MediaQuery>
                       <b className='prof'><strong className='txcol'>"</strong>Разработчик ПО<strong className='txcol'>"</strong></b>
                     </div>
                 </div>
@@ -150,7 +160,12 @@ const Contact = () => {
               <b className="imya">Цаунит Антон Николаевич</b>
                   <div className='ava'><img className='ava_kar1' src='/nn.png' /></div>
                   <div>
-                    <div className='opis'>Разработка системы управления электропривода передвижения тележки</div>
+                    <MediaQuery minWidth={1200} maxWidth={1800}>
+                    <div className='opis_n'>Разработка системы управления</div>
+                    </MediaQuery>
+                    <MediaQuery minWidth={1801} maxWidth={3980}>
+                    <div className='opis'>Разработка системы управления</div>
+                    </MediaQuery>
                     <b className='prof'><strong className='txcol'>"</strong>Инженер АСУТП<strong className='txcol'>"</strong></b>
                   </div>
                 </div>

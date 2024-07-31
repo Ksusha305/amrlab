@@ -3,7 +3,7 @@ const Sois = () => {
     return (
         <div>
         <MediaQuery minWidth={300} maxWidth={1199}>
-        <div className="soiid">
+        <div className="soiid_t">
             <div>
                 <h2 className='head-textsois_t'>
                                 <div className="yyay_t">Для соискателей </div>
@@ -117,45 +117,39 @@ const Sois = () => {
                   ТРЕБОВАНИЯ К СОИСКАТЕЛЮ
              </b>
              <div className='dop2_t'>
-                 <div>
+                 <div className='tel'>
+                    <div className='kvad1_t'>
                      <div className='kvad2_t'>
-                         <div>
-
-                         </div>
+                     <img src='b.png' className='rer_t'></img>
                          <div className='textkvad_t'>
-                         БАЗВЫЕ ЗНАНИЯ ПРОГРАММИРОВАНИЯ
+                         БАЗOВЫЕ ЗНАНИЯ ПРОГРАММИРОВАНИЯ
                          </div>
                      </div>
                     <div className='kvad2_t'>
-                         <div>
-
-                         </div>
+                    <img src='d.png' className='rer_t'></img>
                          <div className='textkvad_t'>
                          УМЕНИЕ РАБОТАТЬ В КОМАНДЕ
                         </div>
                      </div>
+                     </div>
                      <div className='kvad2_t'>
-                         <div>
-
-                         </div>
+                     <img src='cc.png' className='rer_t'></img>
                          <div className='textkvad_t'>
                          УМЕНИЕ НАХОДИТЬ НУЖНУЮ ИНФОРМАЦИЮ
                          </div>
                          </div>
+                         <div className='kvad1_t'>
                      <div className='kvad2_t'>
-                         <div>
-
-                         </div>
+                     <img src='a.png' className='rer_t'></img>
                         <div className='textkvad_t'>
                          УПОРСТВО В ДОСТИЖЕНИИ РЕЗУЛЬТАТА
                          </div>
                          </div>
                      <div className='kvad2_t'>
-                         <div>
-
-                         </div>
+                     <img src='e.png' className='rer_t'></img>
                         <div className='textkvad_t'>
                              ЖЕЛАНИЕ УЧИТЬСЯ ЧЕМУ-ТО НОВОМУ
+                         </div>
                          </div>
                          </div>
                          </div>
@@ -164,39 +158,117 @@ const Sois = () => {
                                  ПРИВЕТСТВУЮТСЯ
                              </div>
                              <li className='celp_t'>Hавыки работы с ОС Linux, ROS/ROS2</li>
-                            <li className='celp_t'>Знания языков руthon, c++, json</li>
+                            <li className='celp_t'>Знания языков руthon, c++, js</li>
                              <li className='celp_t'>Hавыки пайки и электромонтажа</li>
                              <li className='celp_t'>Знания в области ИИ, распознавания
                              речи и машинного зрения</li> 
                          </div>
                          </div>
-                         <div className='pod2'>
+                         <div className='pod2_t'>
                              <div className='zpr_t'>
                                  ГРАФИК РАБОТЫ И ГРАФИК ТРУДА
                             </div>
                              <div className='opzpr_t'>
-                                 Обговариваются на собеседовании (все зависит от уравня соискателя)
+                                 Обговариваются на собеседовании (все зависит от уровня соискателя)
                              </div>
                              <div className='zpr_t'>
                                  КОМАНДА
                              </div>
+                             <div className='hei'>
                              <div className='poldop_t'>
+                                
+                                <MediaQuery minHeight={600} maxHeight={700}>
+                                 <div className='linedop2_t1'>
+                                     <br>
+                                     </br>
+                                 </div>
+                                 </MediaQuery>
+                                 <MediaQuery minHeight={701} maxHeight={800}>
+                                 <div className='linedop2_t2'>
+                                     <br>
+                                     </br>
+                                 </div>
+                                 </MediaQuery>
+                                 <MediaQuery minHeight={801} maxHeight={850}>
+                                 <div className='linedop2_t3'>
+                                     <br>
+                                     </br>
+                                 </div>
+                                 </MediaQuery>
+                                 <MediaQuery minHeight={851} maxHeight={900}>
+                                 <div className='linedop2_t4'>
+                                     <br>
+                                     </br>
+                                 </div>
+                                 </MediaQuery>
+                                 <MediaQuery minHeight={901} maxHeight={1000}>
+                                 <div className='linedop2_t5'>
+                                     <br>
+                                     </br>
+                                 </div>
+                                 </MediaQuery>
+                                 <MediaQuery minWidth={300} maxWidth={350}>
+                                 <div className='kru1_t1'>
+                                     Магистры
+                                 </div>
+                                 </MediaQuery>
+                                 <MediaQuery minWidth={351} maxHeight={900}>
+                                 <div className='kru1_t'>
+                                     Магистры
+                                 </div>
+                                 </MediaQuery>
+                                 <MediaQuery minWidth={351} minHeight={901} maxHeight={1000}>
+                                 <div className='kru1_t2'>
+                                     Магистры
+                                 </div>
+                                 </MediaQuery>
+                                 <MediaQuery minWidth={300} maxWidth={350}>
+                                 <div className='kru2_t1'>
+                                     Аспиранты
+                                 </div>
+                                 </MediaQuery>
+                                 <MediaQuery minWidth={351} maxHeight={900} >
+                                 <div className='kru2_t'>
+                                     Аспиранты
+                                 </div>
+                                 </MediaQuery>
+                                 <MediaQuery minWidth={351} minHeight={901} maxHeight={1001}>
+                                 <div className='kru2_t2'>
+                                     Аспиранты
+                                 </div>
+                                 </MediaQuery>
+                                 </div>
+                                 <div className='poldop_t2'>
                                  <div className='linedop2_t'>
                                      <br>
                                      </br>
                                </div>
-                                 <div className='kru1_t'>
-                                     Магистры
+                               <MediaQuery minWidth={300} maxWidth={350}>
+                                 <div className='kru3_t1'>
+                                     Кандидаты наук
                                  </div>
-                                 <div className='kru2_t'>
-                                     Аспиранты
+                                 </MediaQuery>
+                                 <MediaQuery minWidth={300} maxWidth={350}>
+                                 <div className='kru3_t1'>
+                                     Кандидаты наук
                                  </div>
+                                 </MediaQuery>
+                                 <MediaQuery minWidth={351}>
                                  <div className='kru3_t'>
                                      Кандидаты наук
                                  </div>
+                                 </MediaQuery>
+                                 <MediaQuery minWidth={300} maxWidth={350}>
+                                 <div className='kru4_t1'>
+                                 Люди, нацеленные на результат
+                                 </div>
+                                 </MediaQuery>
+                                 <MediaQuery minWidth={351}>
                                  <div className='kru4_t'>
                                  Люди, нацеленные на результат
                                  </div>
+                                 </MediaQuery>
+                             </div>
                              </div>
                              <div className='kmmm_t'>
                                 <div className='kvadd_t'> 
@@ -209,11 +281,11 @@ const Sois = () => {
                                         <li className='kmm'>Кандидаты наук</li>
                                     </div>
                                 </div>
-                                <div className='textkm_t'>
+                                {/* <div className='textkm_t'>
                                     <div>
                                         Нацеленные на результат
                                     </div>
-                                </div>
+                                </div> */}
                              </div>
                              <div className="center">
                                 <img className="paz_t" src="paz.png"></img>
@@ -359,6 +431,7 @@ const Sois = () => {
              Повышение профессиональной квалификации и уровня образования
              </li>
              <div className="katrb">
+                <img className='t' src='t.png'></img>
                 <img className="kat" src="kat.JPG"></img>
                 <img className="rb" src="rb.jpg"></img>
              </div>
@@ -371,25 +444,19 @@ const Sois = () => {
              <div className='dop2'>
                  <div className='kvad1'>
                      <div className='kvad2'>
-                         <div>
-
-                         </div>
+                     <img src='b.png' className='rer'></img>
                          <div className='textkvad'>
                          БАЗВЫЕ ЗНАНИЯ ПРОГРАММИРОВАНИЯ
                          </div>
                      </div>
                     <div className='kvad2'>
-                         <div>
-
-                         </div>
+                        <img src='d.png' className='rer'></img>
                          <div className='textkvad'>
                          УМЕНИЕ РАБОТАТЬ В КОМАНДЕ
                         </div>
                      </div>
                      <div className='kvad2'>
-                         <div>
-
-                         </div>
+                     <img src='cc.png' className='rer'></img>
                          <div className='textkvad'>
                          УМЕНИЕ НАХОДИТЬ НУЖНУЮ ИНФОРМАЦИЮ
                          </div>
@@ -397,28 +464,25 @@ const Sois = () => {
                  </div>
                  <div className='kvad1'>
                      <div className='kvad2'>
-                         <div>
-
-                         </div>
+                     <img src='a.png' className='rer'></img>
                         <div className='textkvad'>
                          УПОРСТВО В ДОСТИЖЕНИИ РЕЗУЛЬТАТА
                          </div>
                          </div>
                      <div className='kvad2'>
-                         <div>
-
-                         </div>
+                     <img src='e.png' className='rer'></img>
                         <div className='textkvad'>
                              ЖЕЛАНИЕ УЧИТЬСЯ ЧЕМУ-ТО НОВОМУ
                          </div>
                          </div>
+                         <img className='tt' src='tt.png'></img>
                          </div>
                          <div className='scelpr'>
                             <div className='cel'>
                                  ПРИВЕТСТВУЮТСЯ
                              </div>
                              <li className='celp'>Hавыки работы с ОС Linux, ROS/ROS2</li>
-                            <li className='celp'>знания языков руthon, c++, json</li>
+                            <li className='celp'>знания языков руthon, c++, js</li>
                              <li className='celp'>Hавыки пайки и электромонтажа</li>
                              <li className='celp'>Знания в области ИИ, распознавания
                              речи и машинного зрения</li> 
@@ -427,9 +491,11 @@ const Sois = () => {
                          <div className='pod2'>
                              <div className='zpr'>
                                  ГРАФИК РАБОТЫ И ГРАФИК ТРУДА
+                                 
                             </div>
                              <div className='opzpr'>
-                                 Обговариваются на собеседовании (все зависит от уравня соискателя)
+                                 Обговариваются на собеседовании (все зависит от уровня соискателя)
+                                 <img src='gol.png' className='gol'></img>
                              </div>
                              <div className='zpr'>
                                  КОМАНДА
@@ -453,6 +519,7 @@ const Sois = () => {
                                  </div>
                              </div>
                              <div className='kmmm'>
+                                <img src='goll.png' className='goll'></img>
                                 <div className='kvadd'> 
                                     <div>
                                         <img src='fgf.jpg' className='km'></img>
@@ -470,34 +537,32 @@ const Sois = () => {
                                     <div>
                                         Нацеленные на результат
                                     </div>
+                                    <div className='kubb'>
+                                    <img className='kub' src='kub.png'></img>
+                                    </div>
                                 </div>
                              </div>
-                             <div className="center">
-                                <img className="paz" src="paz.png"></img>
-                            </div>
                          </div>
                          <div className="pod2">
                             <div className="zpr">
                             Становись частью нашей команды. 
                             Создавай будущее!
                             </div>
-                            <div className="margin">
-                                <div className="contc">
-                                    <img className="ikonnn" src="/po.png"></img>
-                                    <div className="op">bocha083@mail.ru</div>
+                            <div className='display'> 
+                                <div className="margin">
+                                    <div className="contc">
+                                        <img className="ikonnn" src="/po.png"></img>
+                                        <div className="op">bocha083@mail.ru</div>
+                                    </div>
+                                    <div className="contc">
+                                        <img className="ikonnn" src="/tel.png"></img>
+                                        <div className="op">89118589563</div>
+                                    </div>
+                                    <div className="contc">
+                                        <img className="ikonnn" src="/tg.png"></img>
+                                        <div className="op">@bocha_kms</div>
+                                    </div>
                                 </div>
-                                <div className="contc">
-                                    <img className="ikonnn" src="/tel.png"></img>
-                                    <div className="op">89118589563</div>
-                                </div>
-                                <div className="contc">
-                                    <img className="ikonnn" src="/tg.png"></img>
-                                    <div className="op">@bocha_kms</div>
-                                </div>
-
-                            </div>
-                            <div>
-
                             </div>
                          </div>
 
