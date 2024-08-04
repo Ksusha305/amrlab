@@ -1336,7 +1336,7 @@ div:focus {
 
 .komandcol_t {
   display: grid;
-  justify-content: center;
+  justify-items: center;
 }
 .imya_n {
   font-size: 18px;
@@ -1389,10 +1389,10 @@ div:focus {
 
 
 .ava_kar1 {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  margin: 32% 0;
+  margin: 16% 0;
 }
 
 .ava_kar1_t {
@@ -2865,7 +2865,7 @@ ul {
   width: 350px;
   position: absolute;
   /* left: 10%; */
-  top: 115rem;
+  top: 120rem;
   border-radius: 30px;
   margin-top: 4rem;
 }
