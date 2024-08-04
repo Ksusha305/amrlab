@@ -62,9 +62,9 @@ const Sois = () => {
      НОСИЛЬЩИК БАГАЖА И Т.Д.).
              </div>
              <div className="ka1ka2">
-                <img src="c.PNG" className="ka1_t" />
-                <img src="xx.jpg" className="ka2_t" />           
+                <img src="c.PNG" className="ka1_t" />          
             </div>
+            <img src="xx.jpg" className="ka2_t" /> 
          </div>
          </div>
          <div className='dop2'>
@@ -288,17 +288,18 @@ const Sois = () => {
              </div>
              <MediaQuery minWidth={1200} maxWidth={1700}>
              <div className="ka1ka2">
-                <img src="/c.PNG" className="ka1_n" />
-                <img src="/xx.jpg" className="ka2_n" />           
+                <img src="/c.PNG" className="ka1_n" />    
+                <img src="/xx.jpg" className="ka2_n" />     
             </div>
             </MediaQuery>
             <MediaQuery minWidth={1701} maxWidth={3980}>
              <div className="ka1ka2">
-                <img src="/c.PNG" className="ka1" />
-                <img src="/xx.jpg" className="ka2" />           
+                <img src="/c.PNG" className="ka1" />  
+                <img src="/xx.jpg" className="ka2" />        
             </div>
             </MediaQuery>
          </div>
+         {/* <div><img src="/xx.jpg" className="ka2" /> </div> */}
          </div>
          <div className='dop2'>
          <div className='scel'>

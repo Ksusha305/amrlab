@@ -266,7 +266,6 @@ html {
   border-color: rgb(35, 35, 35);
   width: 310px;
   height: 345px;
-  margin-left: 5%;
   border-radius: 8%;
   display: grid;
   justify-items: center;
@@ -317,7 +316,7 @@ html {
   display: flex;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-bottom: 130px;
-  justify-content: center;
+  justify-content: space-around;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -1335,6 +1334,10 @@ div:focus {
   direction: rtl;
 }
 
+.komandcol_t {
+  display: grid;
+  justify-content: center;
+}
 .imya_n {
   font-size: 18px;
 }
@@ -2462,7 +2465,6 @@ width: 320px;
   color: #e5e7eb;
   font-size: 30px;
   /* width: 520px; */
-  margin-left: 5%;
   margin-top: 5%;
   display: flex;
   justify-content: center;
@@ -2854,17 +2856,18 @@ ul {
   margin-bottom: 2%;
 }
 .ka1 {
-  width: 400px;
+  width: 450px;
   margin-left: 35%;
   border-radius: 20px;
 }
 
 .ka2 {
-  width: 300px;
+  width: 350px;
   position: absolute;
   /* left: 10%; */
-  top: 104rem;
+  top: 115rem;
   border-radius: 30px;
+  margin-top: 4rem;
 }
 
 .ka1_t {
@@ -2892,7 +2895,7 @@ ul {
   width: 300px;
   position: absolute;
   /* left: 10%; */
-  top: 100rem;
+  top: 115rem;
   border-radius: 30px;
 }
 
