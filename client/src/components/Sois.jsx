@@ -421,12 +421,13 @@ const Sois = () => {
                     whileInView={{ opacity: 1}}
                     transition={{duration: 0.5, delay:0.25}}
                     className="katrb">
-                    <img className='t' src='/t.png'></img>
+                    
                     <img className="kat" src="/kat.JPG"></img>
                     <img className="rb" src="/rb.jpg"></img>
                 </motion.div>
             </motion.div>
             </motion.div>
+            <img className='t' src='/t.png'></img>
             <div>
                 <b className='zagldop'>
                     ТРЕБОВАНИЯ К СОИСКАТЕЛЮ
