@@ -194,7 +194,7 @@ const Sois = () => {
                              </div>
                              <div className='hei'>
                              <div className='poldop_t'>
-                                <img src='image.png' className='imlsss'></img>
+                                <img src='juj.png' className='imlsss'></img>
                                 </div>
                              </div>
                              <div className='kmmm_t'>
@@ -421,13 +421,11 @@ const Sois = () => {
                     whileInView={{ opacity: 1}}
                     transition={{duration: 0.5, delay:0.25}}
                     className="katrb">
-                    
                     <img className="kat" src="/kat.JPG"></img>
                     <img className="rb" src="/rb.jpg"></img>
                 </motion.div>
             </motion.div>
             </motion.div>
-            <img className='t' src='/t.png'></img>
             <div>
                 <b className='zagldop'>
                     ТРЕБОВАНИЯ К СОИСКАТЕЛЮ

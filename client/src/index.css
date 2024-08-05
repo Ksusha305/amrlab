@@ -3186,3 +3186,17 @@ ul {
   width: 10%;
   left: 90%;
 }
+
+.asaq {
+  width: 20%;
+  position: absolute;
+  left: 80%;
+  top: 230rem;
+}
+
+.asad {
+  left: 4%;
+  width: 11rem;
+  top: 375rem;
+  position: absolute;
+}

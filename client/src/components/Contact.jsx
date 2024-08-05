@@ -174,6 +174,7 @@ const Contact = () => {
             </div>
             <motion.div className='a'>
               <h2 className='about'>
+              <img src='aa.png' className='asad'></img>
                 Финансовая поддержка<strong className='txcol'>.</strong>
                 </h2>
             </motion.div>
