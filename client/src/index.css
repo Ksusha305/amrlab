@@ -1125,6 +1125,21 @@ input[type="file"] {
   text-align: center;
 }
 
+.link_t{
+  color: #e5e7eb;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none;
+  display: flex;
+  flex-direction: column-reverse;
+      
+  margin: auto;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
 }

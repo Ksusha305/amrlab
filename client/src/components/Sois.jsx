@@ -24,9 +24,12 @@ const Sois = () => {
         <div className="soiid_t">
             <div>
                 <h2 className='head-textsois_t'>
+                <motion.div {...headTextAnimation}>
                                 <div className="yyay_t">Для соискателей </div>
+                                </motion.div>
                             </h2>
-                <div className="link"><a className='asas_t' href="/">Назад</a></div> 
+                            
+                <div className="link_t"><motion.div {...headTextAnimation}><a className='asas_t' href="/">Назад</a></motion.div></div> 
             </div>
                    <div className='dop1'>
          <b className='dopamr_t'>
