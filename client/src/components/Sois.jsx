@@ -80,9 +80,9 @@ const Sois = () => {
      НОСИЛЬЩИК БАГАЖА И Т.Д.).
              </div>
              <div className="ka1ka2">
-                <img src="c.PNG" className="ka1_t" />
-                <img src="xx.jpg" className="ka2_t" />           
+                <img src="c.PNG" className="ka1_t" />          
             </div>
+            <img src="xx.jpg" className="ka2_t" /> 
          </div>
          </div>
          <div className='dop2'>
