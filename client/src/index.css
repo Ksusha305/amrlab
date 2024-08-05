@@ -1343,7 +1343,7 @@ div:focus {
 }
 
 .imya {
-  font-size: 19px;
+  font-size: 26px;
 }
 
 .imya_t {
@@ -1351,7 +1351,7 @@ div:focus {
 }
 
 .prof {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .prof_t {
@@ -1359,7 +1359,7 @@ div:focus {
 }
 
 .opis {
-    font-size: 18px;
+    font-size: 24px;
     height: 110px;
     display: flex;
     align-items: center;
@@ -2084,7 +2084,7 @@ width: 320px;
 }
 
 .podd {
-  height: 1050px;
+  height: 750px;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
@@ -2092,7 +2092,7 @@ width: 320px;
 }
 
 .podd {
-  height: 1050px;
+  height: 750px;
   background-color: rgb(8,8,8);
 }
 
@@ -3092,7 +3092,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 
@@ -3102,7 +3102,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .tel {
@@ -3148,6 +3148,7 @@ ul {
   position: absolute;
   width: 150px;
   left: 0;
+  top: 190rem;
 }
 
 .gol {
@@ -3165,4 +3166,23 @@ ul {
 
 .imlsss {
   padding: 5%;
+}
+
+.traz{
+  position: absolute;
+  width: 200px;
+  left: 4%;
+}
+
+.tta {
+  position: absolute;
+  width: 10%;
+  left: 90%;
+  top: 320rem;
+}
+
+.abtt {
+  position: absolute;
+  width: 10%;
+  left: 90%;
 }

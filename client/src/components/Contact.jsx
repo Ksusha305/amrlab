@@ -118,6 +118,7 @@ const Contact = () => {
           <MediaQuery minWidth={1200} maxWidth={3980}>
         <div className='contact'>
         <motion.div className='a'>
+            <img src='tt.png' className='tta'></img>
               <h2 className='about'>
                 Команда проекта<strong className='txcol'>.</strong>
                 </h2>
@@ -161,7 +162,7 @@ const Contact = () => {
                   <div className='ava'><img className='ava_kar1' src='/nn.png' /></div>
                   <div>
                     <MediaQuery minWidth={1200} maxWidth={1800}>
-                    <div className='opis_n'>Разработка системы управления</div>
+                    <div className='opis_n1'>Разработка системы управления</div>
                     </MediaQuery>
                     <MediaQuery minWidth={1801} maxWidth={3980}>
                     <div className='opis'>Разработка системы управления</div>

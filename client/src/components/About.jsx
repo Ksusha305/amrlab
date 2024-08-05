@@ -200,6 +200,7 @@ var w = window.innerWidth
             <h2 className='about'>
               Характеристика<strong className='txcol'>.</strong>
             </h2>
+            <img src='tt.png' className='abtt'></img>
           
             </motion.div>
             
@@ -343,6 +344,7 @@ var w = window.innerWidth
                 </MediaQuery>
                 <MediaQuery minWidth={1751} maxWidth={3890}>
                 <div className='column3'>
+                
                 <motion.div 
                 initial={{scale: 0}}
                 whileInView={{opacity: 1, scale: 1}}
@@ -365,7 +367,6 @@ var w = window.innerWidth
                       <h2 className='ub1_c'>
                           -Режимы: ручной, автоматический 
                       </h2>
-                      
                     </div>
                   </motion.div>
                 </div>
