@@ -475,89 +475,144 @@ const Sois = () => {
             </motion.div>
             </motion.div>
             <div>
-                <b className='zagldop'>
+                <motion.b initial={{opacity:0, y:75}}
+                whileInView={{ opacity: 1, y: 0}}
+                transition={{duration: 0.5, delay:0.25}}
+                className='zagldop'>
                     ТРЕБОВАНИЯ К СОИСКАТЕЛЮ
-                </b>
+                </motion.b>
                 <div className='dop2'>
                     <div className='kvad1'>
-                        <div className='kvad2'>
-                        <img src='/b.png' className='rer'></img>
-                            <div className='textkvad'>
-                            БАЗВЫЕ ЗНАНИЯ ПРОГРАММИРОВАНИЯ
-                            </div>
-                        </div>
-                        <div className='kvad2'>
+                        <motion.div initial={{x: -200}}
+                                whileInView={{x: 0}}
+                                transition={{duration: 0.7}}
+                                className='kvad2'>
+                            <img src='/b.png' className='rer'/>
+                            <div className='textkvad'>БАЗОВЫЕ ЗНАНИЯ ПРОГРАММИРОВАНИЯ</div>
+                        </motion.div>
+                        <motion.div initial={{y: 200}}
+                                whileInView={{y: 0}}
+                                transition={{duration: 0.7}}
+                                className='kvad2'>
                             <img src='/d.png' className='rer'></img>
                             <div className='textkvad'>
                             УМЕНИЕ РАБОТАТЬ В КОМАНДЕ
                             </div>
-                        </div>
-                        <div className='kvad2'>
+                        </motion.div>
+                        <motion.div initial={{x: 200}}
+                                whileInView={{x: 0}}
+                                transition={{duration: 0.7}}
+                                className='kvad2'>
                         <img src='/cc.png' className='rer'></img>
                             <div className='textkvad'>
                             УМЕНИЕ НАХОДИТЬ НУЖНУЮ ИНФОРМАЦИЮ
                             </div>
-                            </div>
+                        </motion.div>
                     </div>
                     <div className='kvad1'>
-                        <div className='kvad2'>
+                        <motion.div initial={{x: -200}}
+                                whileInView={{x: 0}}
+                                transition={{duration: 0.7}} className='kvad2'>
                         <img src='/a.png' className='rer'></img>
                             <div className='textkvad'>
                             УПОРСТВО В ДОСТИЖЕНИИ РЕЗУЛЬТАТА
                             </div>
-                            </div>
-                        <div className='kvad2'>
+                        </motion.div>
+                        <motion.div initial={{x: 200}}
+                                whileInView={{x: 0}}
+                                transition={{duration: 0.7}} className='kvad2'>
                         <img src='/e.png' className='rer'></img>
                             <div className='textkvad'>
                                 ЖЕЛАНИЕ УЧИТЬСЯ ЧЕМУ-ТО НОВОМУ
                             </div>
-                            </div>
+                        </motion.div>
                             <img className='tt' src='/tt.png'></img>
                             </div>
-                            <div className='scelpr'>
-                                <div className='cel'>
+                            <div
+                                    className='scelpr'>
+                                <motion.div initial={{opacity:0, y:75}}
+                                    whileInView={{ opacity: 1, y: 0}}
+                                    transition={{duration: 0.5, delay:0.25}}
+                                    className='cel'>
                                     ПРИВЕТСТВУЮТСЯ
-                                </div>
-                                <li className='celp'>Hавыки работы с ОС Linux, ROS/ROS2</li>
-                                <li className='celp'>знания языков руthon, c++, js</li>
-                                <li className='celp'>Hавыки пайки и электромонтажа</li>
-                                <li className='celp'>Знания в области ИИ, распознавания
-                                речи и машинного зрения</li> 
+                                </motion.div>
+                                <motion.li  initial={{opacity:0, y:75}}
+                                    whileInView={{ opacity: 1, y: 0}}
+                                    transition={{duration: 0.5, delay:0.25}}
+                                    className='celp'>Hавыки работы с ОС Linux, ROS/ROS2</motion.li>
+                                <motion.li  initial={{opacity:0, y:75}}
+                                    whileInView={{ opacity: 1, y: 0}}
+                                    transition={{duration: 0.5, delay:0.25}}
+                                    className='celp'>знания языков руthon, c++, js</motion.li>
+                                <motion.li  initial={{opacity:0, y:75}}
+                                    whileInView={{ opacity: 1, y: 0}}
+                                    transition={{duration: 0.5, delay:0.25}}
+                                    className='celp'>Hавыки пайки и электромонтажа</motion.li>
+                                <motion.li  initial={{opacity:0, y:75}}
+                                    whileInView={{ opacity: 1, y: 0}}
+                                    transition={{duration: 0.5, delay:0.25}}
+                                    className='celp'>Знания в области ИИ, распознавания
+                                речи и машинного зрения</motion.li>
                             </div>
                             </div>
                             <div className='pod2'>
-                                <div className='zpr'>
+                                <motion.div  initial={{opacity:0, y:75}}
+                                    whileInView={{ opacity: 1, y: 0}}
+                                    transition={{duration: 0.5, delay:0.25}}
+                                    className='zpr'>
                                     ГРАФИК РАБОТЫ И ГРАФИК ТРУДА
                                     
-                                </div>
-                                <div className='opzpr'>
-                                    Обговариваются на собеседовании (все зависит от уровня соискателя)
-                                    <img src='/gol.png' className='gol'></img>
-                                </div>
-                                <div className='zpr'>
+                                </motion.div>
+                                <motion.div  initial={{opacity:0, y:75}}
+                                    whileInView={{ opacity: 1, y: 0}}
+                                    transition={{duration: 0.5, delay:0.25}}
+                                    className='opzpr'>
+                                    Обговариваются на собеседовании (все зависит от уровня соискателя) 
+                                </motion.div>
+                                <img src='/gol.png' className='gol'></img>
+                                <motion.div initial={{opacity:0, y:75}}
+                                    whileInView={{ opacity: 1, y: 0}}
+                                    transition={{duration: 0.5, delay:0.25}}
+                                    className='zpr'>
                                     КОМАНДА
-                                </div>
+                                </motion.div>
                                 <div className='poldop'>
                                     <div className='linedop2'>
                                         <br>
                                         </br>
                                 </div>
-                                    <div className='kru1'>
+                                    <motion.div initial={{x: 100}}
+                                    whileInView={{x: 0}}
+                                    transition={{duration: 0.9}}
+                                    className='kru1'>
                                         Магистры
-                                    </div>
-                                    <div className='kru2'>
+                                    </motion.div>
+                                    <motion.div initial={{x: 300}}
+                                    whileInView={{x: 0}}
+                                    transition={{duration: 0.8}}
+                                    className='kru2'>
                                         Аспиранты
-                                    </div>
-                                    <div className='kru3'>
+                                    </motion.div>
+                                    <motion.div initial={{x: 500}}
+                                    whileInView={{x: 0}}
+                                    transition={{duration: 0.7}}
+                                    className='kru3'>
                                         Кандидаты наук
-                                    </div>
-                                    <div className='kru4'>
+                                    </motion.div>
+                                    <motion.div initial={{x: 150}}
+                                    whileInView={{x: 0}}
+                                    transition={{duration: 0.6}}
+                                    className='kru4'>
                                     Люди, нацеленные на результат
-                                    </div>
+                                    </motion.div>
                                 </div>
                                 <div className='kmmm'>
                                     <img src='/goll.png' className='goll'></img>
-                                    <div className='kvadd'> 
+                                    <motion.div 
+                                        initial={{opacity:0, rotate: 180}}
+                                        whileInView={{opacity:1, scale:1, rotate: 0}}
+                                        transition={{duration: 0.8}}
+                                        className='kvadd'> 
                                         <div>
                                             <img src='/fgf.jpg' className='km'></img>
                                         </div>
@@ -566,39 +621,59 @@ const Sois = () => {
                                             <li className='kmm'>Аспиранты</li>
                                             <li className='kmm'>Кандидаты наук</li>
                                         </div>
-                                    </div>
+                                    </motion.div>
                                     <div className='textkm'>
-                                        <div className='stt'>
+                                        <motion.div 
+                                            // initial={{x:200}}
+                                            // whileInView={{x:-100}}
+                                            // animate={{x:0}}
+                                            // transition={{duration: 0.8}}
+                                            className='stt'>
                                             <img className='st' src='/st.png'></img>
-                                        </div>
-                                        <div>
+                                        </motion.div>
+                                        <motion.div initial={{opacity:0, y:75}}
+                                            whileInView={{ opacity: 1, y: 0}}>
                                             Нацеленные на результат
-                                        </div>
-                                        <div className='kubb'>
+                                        </motion.div>
+                                        <motion.div initial={{y: 100}}
+                                            whileInView={{y: 0}}
+                                            className='kubb'>
                                         <img className='kub' src='/kub.png'></img>
-                                        </div>
+                                        </motion.div>
                                     </div>
                                 </div>
                             </div>
                             <div className="pod2">
-                                <div className="zpr">
+                                <motion.div initial={{opacity:0, y:75}}
+                                    whileInView={{ opacity: 1, y: 0}}
+                                    transition={{duration: 0.5, delay:0.25}}
+                                    className="zpr">
                                 Становись частью нашей команды. 
                                 Создавай будущее!
-                                </div>
+                                </motion.div>
                                 <div className='display'> 
                                     <div className="margin">
-                                        <div className="contc">
+                                        <motion.div initial={{x:-100}}
+                                            whileInView={{x:0}}
+                                            transition={{duration: 0.7}}
+                                            className="contc">
                                             <img className="ikonnn" src="/po.png"></img>
                                             <div className="op">bocha083@mail.ru</div>
-                                        </div>
-                                        <div className="contc">
+                                        </motion.div>
+                                        <motion.div initial={{x:100}}
+                                            whileInView={{x:0}}
+                                            transition={{duration: 0.7}}
+                                            className="contc">
                                             <img className="ikonnn" src="/tel.png"></img>
                                             <div className="op">89118589563</div>
-                                        </div>
-                                        <div className="contc">
+                                        </motion.div>
+                                        <motion.div initial={{x:-100}}
+                                            whileInView={{x:0}}
+                                            transition={{duration: 0.7}}
+                                            className="contc">
                                             <img className="ikonnn" src="/tg.png"></img>
                                             <div className="op">@bocha_kms</div>
-                                        </div>
+                                        </motion.div>
                                     </div>
                                 </div>
                             </div>
