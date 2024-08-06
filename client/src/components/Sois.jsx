@@ -337,7 +337,10 @@ const Sois = () => {
                     transition={{duration: 0.5, delay:0.25}}
                     className="ka1ka2">
                     <img src="/c.PNG" className="ka1_n" />
-                    <img src="/xx.jpg" className="ka2_n" />           
+                    <motion.img initial={{opacity:0, y:75}}
+                    whileInView={{ opacity: 1, y: 0}}
+                    transition={{duration: 0.5}}
+                    src="/xx.jpg" className="ka2_n" />           
                 </motion.div>
                 </MediaQuery>
                 <MediaQuery minWidth={1701} maxWidth={3980}>
