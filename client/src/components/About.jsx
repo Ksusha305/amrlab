@@ -199,11 +199,10 @@ var w = window.innerWidth
             <motion.div className='a'>
             <h2 className='about'>
               Характеристика<strong className='txcol'>.</strong>
-            </h2>
-            <img src='tt.png' className='abtt'></img>
-          
+            </h2>       
             </motion.div>
-            
+            <img src='tt.png' className='abtt'></img>
+            <img src='asa.png' className='asaq'></img>
             <MediaQuery minWidth={1200} maxWidth={1750}>
             <div className='lineabo_n'>
             <MediaQuery minWidth={1200} maxWidth={1750} >

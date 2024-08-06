@@ -24,9 +24,12 @@ const Sois = () => {
         <div className="soiid_t">
             <div>
                 <h2 className='head-textsois_t'>
+                <motion.div {...headTextAnimation}>
                                 <div className="yyay_t">Для соискателей </div>
+                                </motion.div>
                             </h2>
-                <div className="link"><a className='asas_t' href="/">Назад</a></div> 
+                            
+                <div className="link_t"><motion.div {...headTextAnimation}><a className='asas_t' href="/">Назад</a></motion.div></div> 
             </div>
                    <div className='dop1'>
          <b className='dopamr_t'>
@@ -36,15 +39,35 @@ const Sois = () => {
        <div className='dop2'>
          <div>
             <div className='xix'>
+            <motion.div className='naz'
+                    initial={{opacity:0, y:75}}
+                    whileInView={{ opacity: 1, y: 0}}
+                    transition={{duration: 0.5, delay:0.25}}
+                    >
                 <b className='dopamr2_t'>Деятельность</b>
                 <img className='chel_t' src="/chel.png"></img>
+                </motion.div>
             </div>
-            <div className='doptext_t'>*ВВЕДЕТСЯ ПРИ ПОДЕРЖКИ ГОСУДАРСТВА МИНИСТЕРСТВА ОБРАЗОВАНИЯ</div>
+            <div className='doptext_t'> 
+            <motion.div
+                    initial={{opacity:0, y:75}}
+                    whileInView={{ opacity: 1, y: 0}}
+                    transition={{duration: 0.5, delay:0.25}}
+                    >*ВВЕДЕТСЯ ПРИ ПОДЕРЖКИ ГОСУДАРСТВА МИНИСТЕРСТВА ОБРАЗОВАНИЯ</motion.div></div>
          </div>
-             <div className='doptextr_t'>Разработка и внедрение мобильных роботов в разные сферы быта и
- производства для замены человеческого труда
+             <div className='doptextr_t'>            <motion.div
+                    initial={{opacity:0, y:75}}
+                    whileInView={{ opacity: 1, y: 0}}
+                    transition={{duration: 0.5, delay:0.25}}
+                    >Разработка и внедрение мобильных роботов в разные сферы быта и
+ производства для замены человеческого труда</motion.div>
  </div>
          <div className='scel_t'>
+         <motion.div className='dopu'
+                    initial={{opacity:0, y:75}}
+                    whileInView={{ opacity: 1, y: 0}}
+                    transition={{duration: 0.5, delay:0.25}}
+                    >
             <div className="celflag">
                 <b className='cel_t'>
                     Цели
@@ -62,6 +85,7 @@ const Sois = () => {
              Замена человеческого труда на вредных и опасных
              производствах
              </li>
+             </motion.div>
          </div>
         
          <div className='linedop'>
@@ -71,6 +95,10 @@ const Sois = () => {
          </div>
         <div>
              <div className='doptext2_t'>
+             <motion.div
+                    initial={{opacity:0, y:75}}
+                    whileInView={{ opacity: 1, y: 0}}
+                    transition={{duration: 0.5, delay:0.25}}>
              В НАСТОЯЩИЙ МОМЕНТ РАЗРАБАТЫВАЕТСЯ
      ПРОТОТИП УНИВЕРСАЛЬНОГО РОБОТА. В
      БУДУЩЕМ ЕГО МОЖНО БУДЕТ ОСНАЩАТЬ ПОД
@@ -78,9 +106,10 @@ const Sois = () => {
      РОБОТ ПОЛОМОЙЩИК, РОБОТ КУРЬЕР, РОБОТ
 
      НОСИЛЬЩИК БАГАЖА И Т.Д.).
+     </motion.div>
              </div>
              <div className="ka1ka2">
-                <img src="c.PNG" className="ka1_t" />          
+                <img src="c.PNG" className="ka1_t" />    
             </div>
             <img src="xx.jpg" className="ka2_t" /> 
          </div>
@@ -89,13 +118,23 @@ const Sois = () => {
          <div className='scel_t'>
             <div className="celflag2">
              <b className='cel_t'>
+             <motion.div
+                    initial={{opacity:0, y:75}}
+                    whileInView={{ opacity: 1, y: 0}}
+                    transition={{duration: 0.5, delay:0.25}}>
                 ЦЕННОСТЬ
+                </motion.div>
              </b>
              <img className='flag_t2' src="zved.png"></img>
             </div>
             <div>
                 <div>
+                <motion.div
+                    initial={{opacity:0, y:75}}
+                    whileInView={{ opacity: 1, y: 0}}
+                    transition={{duration: 0.5, delay:0.25}}>
                     <li className='celp_t'>
+                        
                     Развитие отечественных исследований и
         разработок в области искусственного интеллекта,
         робототехники, машинного обучения и других
@@ -107,11 +146,16 @@ const Sois = () => {
         процессов в различных отраслях, таких как 
         промышленность, медицина, образование и т. д.
                     </li>
+                    </motion.div>
                 </div>
                 <img src="rob.JPG" className="robbb_t"></img>
             </div>
          </div>
         <div className='scel'>
+        <motion.div
+                    initial={{opacity:0, y:75}}
+                    whileInView={{ opacity: 1, y: 0}}
+                    transition={{duration: 0.5, delay:0.25}}>
             <div className="celflag">
                 <b className='cel_t'>
                     ПЕРСПЕКТИВЫ           
@@ -128,6 +172,7 @@ const Sois = () => {
                 <img className="kat_t" src="kat.JPG"></img>
                 <img className="rb_t" src="rb.jpg"></img>
              </div>
+             </motion.div>
          </div>
          </div>
          <div>
@@ -194,7 +239,7 @@ const Sois = () => {
                              </div>
                              <div className='hei'>
                              <div className='poldop_t'>
-                                <img src='image.png' className='imlsss'></img>
+                                <img src='juj.png' className='imlsss'></img>
                                 </div>
                              </div>
                              <div className='kmmm_t'>
@@ -424,13 +469,11 @@ const Sois = () => {
                     whileInView={{ opacity: 1}}
                     transition={{duration: 0.5, delay:0.25}}
                     className="katrb">
-                    
                     <img className="kat" src="/kat.JPG"></img>
                     <img className="rb" src="/rb.jpg"></img>
                 </motion.div>
             </motion.div>
             </motion.div>
-            <img className='t' src='/t.png'></img>
             <div>
                 <b className='zagldop'>
                     ТРЕБОВАНИЯ К СОИСКАТЕЛЮ
