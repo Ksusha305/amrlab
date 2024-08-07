@@ -2430,10 +2430,11 @@ width: 320px;
 
 .kvad1_t {
   height: 150px;
-    margin-top: 10%;
+    margin-top: 5%;
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-bottom: 5%;
 }
 
 .kvad2 {
