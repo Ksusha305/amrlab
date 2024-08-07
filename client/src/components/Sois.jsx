@@ -184,7 +184,7 @@ const Sois = () => {
              <div className='dop2_t'>
                  <div className='tel'>
                     <div className='kvad1_t'>
-                     <motion.div className='kvad2_t' initial={{x: 180}}
+                     <motion.div className='kvad2_t' initial={{x: 130}}
                                 whileInView={{x: 0}}
                                 transition={{duration: 0.7}}>
                      <img src='b.png' className='rer_t'></img>
@@ -192,7 +192,7 @@ const Sois = () => {
                          БАЗOВЫЕ ЗНАНИЯ ПРОГРАММИРОВАНИЯ
                          </div>
                      </motion.div>
-                    <motion.div className='kvad2_t ' initial={{x: -180}}
+                    <motion.div className='kvad2_t ' initial={{x: -130}}
                                 whileInView={{x: 0}}
                                 transition={{duration: 0.7}}>
                     <img src='d.png' className='rer_t'></img>
@@ -210,7 +210,7 @@ const Sois = () => {
                          </div>
                          </motion.div>
                          <div className='kvad1_t'>
-                     <motion.div className='kvad2_t' initial={{x: 200}}
+                     <motion.div className='kvad2_t' initial={{x: 150}}
                                 whileInView={{x: 0}}
                                 transition={{duration: 0.7}}>
                      <img src='a.png' className='rer_t'></img>
@@ -218,7 +218,7 @@ const Sois = () => {
                          УПОРСТВО В ДОСТИЖЕНИИ РЕЗУЛЬТАТА
                          </div>
                          </motion.div>
-                     <motion.div className='kvad2_t' initial={{x: -200}}
+                     <motion.div className='kvad2_t' initial={{x: -150}}
                                 whileInView={{x: 0}}
                                 transition={{duration: 0.7}}>
                      <img src='e.png' className='rer_t'></img>
