@@ -271,9 +271,9 @@ const Sois = () => {
                                 </div>
                              </div>
                              <div className='kmmm_t'>
-                                <motion.div className='kvadd_t' initial={{opacity:0, rotate: 180}}
-                                        whileInView={{opacity:1, scale:1, rotate: 0}}
-                                        transition={{duration: 0.8}}> 
+                                <motion.div className='kvadd_t' initial={{x: -150}}
+                                whileInView={{x: 0}}
+                                transition={{duration: 0.4}}>
                                     <div>
                                         <img src='fgf.jpg' className='km_t'></img>
                                     </div>
