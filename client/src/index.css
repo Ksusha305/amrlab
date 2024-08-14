@@ -263,7 +263,7 @@ html {
 .example1 {
   background-color: #333;
   border-width: 2px;
-  border-color: rgb(35, 35, 35);
+  /*border-color: rgb(35, 35, 35);*/
   width: 310px;
   height: 345px;
   border-radius: 8%;
@@ -274,8 +274,8 @@ html {
 
 .example1_t {
   background-color: #333;
-  border-width: 2px;
-  border-color: rgb(35, 35, 35);
+  border-width: 1px;
+  /*border-color: rgb(35, 35, 35);*/
   width: 138px;
   height: 116px;
   margin-left: 5%;
